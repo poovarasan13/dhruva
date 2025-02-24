@@ -4,7 +4,6 @@ import "../../assets/fonts/arapey.css";
 import EventShowOff from "./EventShowOff";
 import "../../assets/fonts/dmserif.css";
 import "../../assets/fonts/dmsans.css";
-import CoordinatorCard from "@/components/page-components/CoordinatorCard";
 import { useLocation } from "react-router-dom";
 import TestCard from "@/components/page-components/TestCard";
 import "../../assets/fonts/powergrotesk.css";

@@ -203,7 +203,7 @@ const SportsPage = () => {
   return (
     <>
       <motion.div
-        className="mt-10 container mx-auto px-4 text-center mt-24"
+        className=" container mx-auto px-4 text-center mt-24"
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}

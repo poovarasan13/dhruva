@@ -26,11 +26,7 @@ function EventBanner({
       className="relative z-30 py-12 text-center overflow-hidden"
       style={{ backgroundColor: bgColor }}
     >
-
-
-
       <div className="container mx-auto px-6 relative z-10">
-
         <motion.h2
           variants={fadeInUp}
           initial="hidden"
@@ -65,21 +61,10 @@ function EventBanner({
           {description}
         </motion.p>
 
-        {/* Button */}
-        <motion.button
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          className={`font-extrabold py-3 px-12 rounded-full transition-transform focus:outline-none focus:ring-2 focus:ring-offset-2 ${highlightColor} hover:bg-opacity-80`}
-        >
-          <div className="flex items-center justify-center">
-            {/* {buttonText}{" "}
-            <span className="ml-2">
-              <Rocket />
-            </span> */}
-        <Button link="/registration" text={buttonText} />
-          </div>
-        </motion.button>
+        {/* ✅ Fixed Button - Removed motion.button */}
+        <div className="flex items-center justify-center">
+          <Button link="/registration" text={buttonText} />
+        </div>
 
         {/* Venue and Date */}
         <motion.div
