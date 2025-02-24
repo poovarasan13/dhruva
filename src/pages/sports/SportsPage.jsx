@@ -2,19 +2,9 @@ import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import {
-  FaUserAlt,
-  FaEnvelope,
-  FaPhoneAlt,
-  FaFileAlt,
-  FaCalendarAlt,
-  FaBuilding,
-  FaMale,
-  FaFemale,
-} from "react-icons/fa";
+import { FaMale, FaFemale } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
 import SportsAssests from "@/assets/images/sports/SportAssets";
-import { Card, CardContent } from "@/components/ui/card";
 import Queries from "../SportsInfo/Queries";
 
 const sportsData = [
@@ -99,7 +89,15 @@ const coordinatorData = {
   venue: "KCE GROUND",
 };
 
-import { User, Mail, Phone, FileText, Calendar, MapPin } from "lucide-react";
+import {
+  User,
+  Mail,
+  Phone,
+  FileText,
+  Calendar,
+  MapPin,
+  Volleyball,
+} from "lucide-react";
 
 const CoordinatorCard = () => {
   return (
@@ -304,10 +302,13 @@ const SportCard = ({ sport }) => {
         <p className="text-md  dm-sans text-center ">{sport.description}</p>
         <div className="flex justify-center md:justify-center">
           <Button
-            className="p-4 border-b-gray-200  justify-center"
+            className="p-4 border-b-gray-200  rounded-full w-40 dm-sans justify-center"
             onClick={handleExploreClick}
           >
-            Explore
+            <span className="flex gap-x-2 ">
+              Explore
+              <Volleyball />
+            </span>
           </Button>
         </div>
       </div>
