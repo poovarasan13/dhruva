@@ -2,10 +2,8 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { Button } from "@/components/ui/button";
 import { Rocket } from "lucide-react";
 import {
-  Calendar,
   Clock,
   MapPin,
   Users,

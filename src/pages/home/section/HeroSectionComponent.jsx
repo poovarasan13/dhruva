@@ -9,7 +9,6 @@ import React from "react";
 import "../../../assets/fonts/allfonts.css";
 import "../../../assets/fonts/dmsans.css";
 import Button from "@/components/page-components/Button";
-import { Rocket } from "lucide-react";
 import HeroSection from "@/assets/images/HomePage/HeroSection";
 
 const images = Object.values(HeroSection);

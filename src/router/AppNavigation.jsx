@@ -1,5 +1,4 @@
 import Navbar from "@/components/page-components/Navbar";
-import PassCard from "@/components/page-components/PassCard";
 import FooterSection from "@/components/sections/footer/FooterSection";
 import CulturalFestPage from "@/pages/CulturalFest/CulturalFestPage";
 import EventShowPage from "@/pages/EventDisplay/EventShowPage";

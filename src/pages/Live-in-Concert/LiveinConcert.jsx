@@ -1,7 +1,4 @@
 import ConcertEvent from "@/components/page-components/ConcertEvent";
-import EventBanner from "@/components/page-components/EventBanner";
-import Navbar from "@/components/page-components/Navbar";
-import FooterSection from "@/components/sections/footer/FooterSection";
 import "../../assets/fonts/josefin.css";
 import React, { useEffect } from "react";
 import "../../assets/fonts/pacifico.css";

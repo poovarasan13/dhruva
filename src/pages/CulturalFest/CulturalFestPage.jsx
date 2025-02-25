@@ -1,8 +1,4 @@
-import Navbar from "@/components/page-components/Navbar";
-import FooterSection from "@/components/sections/footer/FooterSection";
-import { Button } from "@/components/ui/button";
 import React, { useEffect } from "react";
-import { motion } from "framer-motion";
 import RulesAndRegulation from "./section/RulesAndRegulation";
 import HeroSection from "./section/HeroSection";
 import Banners from "@/components/page-components/Banners";
