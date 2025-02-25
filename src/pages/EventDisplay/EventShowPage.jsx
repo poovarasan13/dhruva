@@ -6,6 +6,7 @@ import "../../assets/fonts/opensans.css";
 import "../../assets/fonts/sourcesans.css";
 import { useLocation, useNavigate } from "react-router-dom";
 import CoordinatorCard from "@/components/page-components/CoordinatorCard";
+import backgroundGif  from "@/assets/gif/card-background.webp";
 
 
 function EventShowPage() {

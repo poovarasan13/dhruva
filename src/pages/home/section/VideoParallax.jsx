@@ -26,9 +26,9 @@ const VideoParallax = () => {
 
       <div className="relative md:mt-[400px] mt-[600px] z-10 text-center text-white px-6 md:px-12">
         <h1 className="text-2xl md:text-6xl font-bold dm-sans">
-          Create your{" "}
+        <strong>Create your{" "}</strong>
           <span className="text-orange-600">
-            own <span className="text-sky-800">Destiny</span>
+            <strong>own </strong><span className="text-sky-800"><strong>Destiny</strong></span>
           </span>
         </h1>
         <p className="text-sm md:text-lg mt-2">
