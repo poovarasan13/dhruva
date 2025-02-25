@@ -401,7 +401,7 @@ const ad = {
       eventSubType: "Technical",
       eventTime: "11.00AM - 03.00PM",
       eventDescription:
-        "The Virtual Treasure Hunt is an online adventure where participants solve puzzles, follow clues, and complete challenges to uncover hidden treasures. Players navigate through a series of virtual environments, racing against time and competitors. It’s an engaging,",
+        "The Virtual Treasure Hunt is an online adventure where participants solve puzzles, follow clues, and complete challenges to uncover hidden treasures. Players navigate through a series of virtual environments, racing against time and competitors. It’s an engaging, interactive experience designed to test problem-solving skills, teamwork, and creativity strategically, and enjoy the thrill of uncovering hidden spots! ",
       eventVenue: "E507",
       eventRounds: ["Single Round: If there is a tie, a hidden challenge will decide the winner."],
       eventPrize: [
