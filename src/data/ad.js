@@ -103,8 +103,10 @@ const ad = {
       eventSubType: "Technical",
       eventTime: "9:00 AM to 3:00 PM",
       eventDescription:
-        "Hackrithm 2025:\nWe invite you to participate in a dynamic Codeathon-Hackathon fusion, where problem-solving meets innovation. The event kicks off with a Codeathon, where participants will tackle real-world DSA challenges presented on the spot, requiring them to debug, decode, and solve within a limited timeframe. Top performers will advance to the Hackathon phase, where they will develop AI-driven solutions for public sector challenges.\nIn the Hackathon, participants will be encouraged to create unique and impactful solutions, with judging based on solution viability, working demo, development pipeline, and relevance to real-world problems. While existing problem solutions will be considered, priority will be given to innovative approaches. The event will conclude with evaluations, and cash prizes will be awarded to winners and runner-ups.\n\nHackathon Themes:\n- AI for Disaster Prediction & Management\n- AI-Powered Precision Agriculture\n- AI for Mental Health\n- AI in Fake News & Misinformation Detection\n- AI in Personalized Learning & Education\n- AI-Powered Healthcare Diagnostics",
+        "We invite you to participate in a dynamic Codeathon-Hackathon fusion, where problem-solving meets innovation. The event kicks off with a Codeathon, where participants will tackle real-world DSA challenges presented on the spot, requiring them to debug, decode, and solve within a limited timeframe. Top performers will advance to the Hackathon phase, where they will develop AI-driven solutions for public sector challenges.\nIn the Hackathon, participants will be encouraged to create unique and impactful solutions, with judging based on solution viability, working demo, development pipeline, and relevance to real-world problems. While existing problem solutions will be considered, priority will be given to innovative approaches. The event will conclude with evaluations, and cash prizes will be awarded to winners and runner-ups.",
       eventRules: [
+        "Participants should bring a valid id proof (college ID)",
+        "Team size for the hackathon can be between 2-4, a team can have any ratio of boys and girls. But it shouldn't Exide 4 members",
         "Phase 1 Rules: Codeathon",
         "Time Limit: A fixed time 1 hour to solve a set of DSA problems.",
         "Scoring: Points will be awarded based on accuracy, efficiency, and execution time of the solutions",
@@ -115,8 +117,14 @@ const ad = {
         "Time Limit: Hackathon duration will be for 5 hours, within which participants must develop their project.",
         "Working Demo Required: Submissions must include a working prototype/demo showcasing functionality.",
         "Tech Stack Flexibility: AI, ML, Web/Cloud, Mobile Apps – any technology stack is allowed, as long as it aligns with the problem.",
-        "Hackathon Theme:",
-        "AI for Disaster Prediction & Management, AI-Powered Precision Agriculture, AI for Mental, AI in Fake News & Misinformation Detection, AI in Personalized Learning & Education, AI-Powered Healthcare Diagnostics",
+      ],
+      eventTopics:[
+        "AI for Disaster Prediction & Management",
+        "AI-Powered Precision Agriculture",
+        "AI for Mental Health",
+        "AI in Fake News & Misinformation Detection",
+        "AI in Personalized Learning & Education",
+        "AI-Powered Healthcare Diagnostics",
       ],
       eventVenue: "Data Sciences and Analytics Center Lab/ C Block",
       eventRounds: [
@@ -130,7 +138,7 @@ const ad = {
       ],
       eventStaffCoordinator:
       {
-          name: "Dr. R. Keerthika/ AP/AD ",
+          name: "Dr. R. Keerthika AP/AD ",
           contact: "",
       },
       studentCoordinator: [
@@ -168,17 +176,17 @@ const ad = {
       ],
       eventStaffCoordinator:
         {
-          name: "Ms. K. Vishnupriya",
-          contact: "6383486701",
+          name: "Mr. M. Navaneethakrishnan AP/AD",
+          contact: "98659 68068",
         },
       studentCoordinator: [
         {
-          name: "Mr. Athithya Balu S",
-          contact: "8098789025",
+          name: "Ms. Madhu Rithika R K ",
+          contact: "9025966647",
         },
         {
-          name: "Ms. Sahana S",
-          contact: "6385679005",
+          name: "Ms. Kripasree M ",
+          contact: "88702 70887",
         },
       ],
     },
@@ -190,7 +198,7 @@ const ad = {
       eventSubType: "Technical",
       eventTime: "09:00 AM to 12:00 PM",
       eventDescription:
-        "Step into a world of innovation and limitless possibilities at TechAI Expo. This is where ideas turn into reality, and technology meets imagination. This dynamic event allows participants to present their innovative solutions, engage with like-minded enthusiasts, and take pride in their hard work. Students can use this opportunity to let their creativity shine while gaining valuable insights, building networks, and staying ahead in the rapidly evolving world of AI. The event is all about teamwork, innovation, and inspiration. Don’t miss your chance to be part of this transformative experience!",
+        "Step into a world of innovation and limitless possibilities at TechAI Expo. This is where ideas turn into reality, and technology meets imagination. This dynamic event allows participants to present their innovative solutions, engage with like-minded enthusiasts, and take pride in their hard work. Students can use this opportunity to let their creativity shine while gaining valuable insights, building networks, and staying ahead in the rapidly evolving world of AI. The event is all about teamwork, innovation, and inspiration. Don’t miss your chance to be part of this transformative experience! Kindly also fill the below form: https://forms.gle/Zt9kFYviFcycMu9w9",
       eventVenue: "Veranda / E-Block",
       eventRounds: [],
       eventPrize: [
@@ -366,7 +374,7 @@ const ad = {
       eventSubType: "NonTechnical",
       eventTime: "12 PM – 3 PM",
       eventDescription:
-        "The competition challenges participants to showcase their creativity in a specific field, with prizes for originality and execution. Entries will be judged on impact, innovation, and skill. Winners gain recognition and the opportunity for exposure in a prominent event or platform.",
+        "The competition challenges participants to showcase their creativity in a specific field, with prizes for originality and execution. Entries will be judged on impact, innovation, and skill. Winners gain recognition and the opportunity for exposure in a prominent event or platform. Kindly fill the below form https://forms.gle/C8cRrBJubPXhpW9u5",
       eventRules: [
         "Duration of the film: Minimum 5 minutes, Maximum 16 minutes.",
         "No Adult Content.",
@@ -420,8 +428,8 @@ const ad = {
       ],
       eventStaffCoordinator:
         {
-          name: "Ms.Vishnu Priya K, Mr. Surenther I AP/AD",
-          contact: "6383486701, 7418104178",
+          name: "Ms. Saranya N AP/AD",
+          contact: "9629277577",
         },
       studentCoordinator: [
         {

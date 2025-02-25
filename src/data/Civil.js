@@ -15,8 +15,8 @@ const civil = {
     {
       posterUrl: "",
       eventThumbnail: "",
-      eventName: "Paper Fusion",
-      eventType: "Technical Event - Paper Presentation",
+      eventName: "Paper Fusion - Paper Presentation",
+      eventType: "Technical Event",
       eventSubType: "Technical",
       eventTime: "11:00 AM - 1:00 PM",
       eventDescription:
@@ -26,7 +26,9 @@ const civil = {
         "Each participant or team is allocated 8 to 12 minutes for their presentation, followed by a 2 to 3-minutes Q&A session.",
         "Submission (PPT / PDF) deadline is 10.03.2025. No extensions will be granted. On-spot registrations will also be accepted.",
         "Participants must be present 15 minutes before their scheduled time.",
-      "TOPICS - Kindly refer to the below topics for Paper Presentation",
+        
+      ],
+      eventTopics:[
         "Traffic Management Solutions for Smart Cities",
         "Green Building Practices and Carbon Footprint Reduction in Construction",
         "Impact of Climate Change on Water Treatment Processes",
@@ -69,16 +71,8 @@ const civil = {
       ],
       eventVenue: "CADD Laboratory",
       eventRounds: [
-        {
-          name: "Preliminary Round",
-          description:
-            "Plan (or) Elevation (or) Sectional view of a building will be given to the participants. The participant must finish the drawing with complete details within 45 minutes.",
-        },
-        {
-          name: "Main Round",
-          description:
-            "Participants shortlisted from the preliminary round are eligible for the main round. They must create a plan, elevation, and sectional view of a building based on the given plot size with their own perspective.",
-        },
+        "Preliminary Round : Plan (or) Elevation (or) Sectional view of a building will be given to the participants. The participant must finish the drawing with complete details within 45 minutes.",
+        "Main Round : Participants shortlisted from the preliminary round are eligible for the main round. They must create a plan, elevation, and sectional view of a building based on the given plot size with their own perspective.",
       ],
       eventPrize: [
         "As per the norms all the candidates will be given participation certificates.",
@@ -95,45 +89,6 @@ const civil = {
         {
           name: "Ms. A. Elakiya (III Year)",
           contact: "6374755424",
-        },
-      ],
-    },
-    {
-      posterUrl: "",
-      eventThumbnail: "",
-      eventName: "Sparkstorm - Ideathon",
-      eventType: "Technical Event",
-      eventSubType: "Technical",
-      eventTime: "11:00 AM - 1:00 PM",
-      eventDescription:
-        "Our Civil Engineering Ideathon offers a unique platform for individuals to collaborate and develop innovative solutions to build the environment. These intensive brainstorming events bring together participants with diverse backgrounds and skill sets, fostering cross-disciplinary thinking. Focusing on key areas within civil engineering, these Ideathons encourage the development of business ideas, startup concepts, and product innovations. Participants will have the opportunity to present their work to a panel of experts and peers.",
-      eventRules: [
-        "Participation is open to individuals or teams, with each team consisting of not more than two members.",
-        "Each participant or team is allocated 8 to 12 minutes for their presentation, followed by a 2 to 3 minutes Q&A session.",
-        "Submission (PPT/PDF) deadline is 10.03.2025. No extensions will be granted. On-spot registration will also be accepted.",
-        "Participants must be present 15 minutes before their scheduled time.",
-      "TOPICS - Kindly refer to the below topics for Paper Presentation",
-        "Development of business ideas",
-        "Startup concepts",
-        "Product innovations",
-      ],
-      eventVenue: "D404",
-      eventRounds: ["Single round"],
-      eventPrize: [
-        "As per the norms, all the candidates will be given participation certificates.",
-      ],
-      eventStaffCoordinator: {
-        name: "Mr. C. Pradeep Kumar, AP/Civil",
-        contact: "77083508265",
-      },
-      studentCoordinator: [
-        {
-          name: "Mr. A. Vinoth (III Year)",
-          contact: "8610912102",
-        },
-        {
-          name: "Ms. R. T. Amritha (III Year)",
-          contact: "8015266481",
         },
       ],
     },
@@ -175,6 +130,47 @@ const civil = {
         {
           name: "Ms. M. Anusree (III Year)",
           contact: "7639109802",
+        },
+      ],
+    },
+    {
+      posterUrl: "",
+      eventThumbnail: "",
+      eventName: "Sparkstorm - Ideathon",
+      eventType: "Technical Event",
+      eventSubType: "Technical",
+      eventTime: "11:00 AM - 1:00 PM",
+      eventDescription:
+        "Our Civil Engineering Ideathon offers a unique platform for individuals to collaborate and develop innovative solutions to build the environment. These intensive brainstorming events bring together participants with diverse backgrounds and skill sets, fostering cross-disciplinary thinking. Focusing on key areas within civil engineering, these Ideathons encourage the development of business ideas, startup concepts, and product innovations. Participants will have the opportunity to present their work to a panel of experts and peers.",
+      eventRules: [
+        "Participation is open to individuals or teams, with each team consisting of not more than two members.",
+        "Each participant or team is allocated 8 to 12 minutes for their presentation, followed by a 2 to 3 minutes Q&A session.",
+        "Submission (PPT/PDF) deadline is 10.03.2025. No extensions will be granted. On-spot registration will also be accepted.",
+        "Participants must be present 15 minutes before their scheduled time.",
+      
+      ],
+      eventTopics :[
+        "Development of business ideas",
+        "Startup concepts",
+        "Product innovations",
+      ],
+      eventVenue: "D404",
+      eventRounds: ["Single round"],
+      eventPrize: [
+        "As per the norms, all the candidates will be given participation certificates.",
+      ],
+      eventStaffCoordinator: {
+        name: "Mr. C. Pradeep Kumar, AP/Civil",
+        contact: "77083508265",
+      },
+      studentCoordinator: [
+        {
+          name: "Mr. A. Vinoth (III Year)",
+          contact: "8610912102",
+        },
+        {
+          name: "Ms. R. T. Amritha (III Year)",
+          contact: "8015266481",
         },
       ],
     },

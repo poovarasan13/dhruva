@@ -9,9 +9,9 @@ const it = {
 
   departmentDescription:
     "Our department is committed to fostering innovation, creativity, and excellence through dynamic and engaging events. From technical workshops and competitions to collaborative hackathons and research symposiums, we provide platforms for students to explore their potential, sharpen their skills, and showcase their talents. Our events are designed to inspire learning, teamwork, and problem-solving, equipping participants to tackle real-world challenges and drive future advancements in their fields.",
-  coordinatorName: "Ms. K. Ananthi, AP / IT",
-  coordinatorContactPhone: "7373142630",
-  coordinatorEmail: "ananthi.k@kce.ac.in",
+  coordinatorName: "Ms. A. Suganya, AP / IT",
+  coordinatorContactPhone: "9047797814",
+  coordinatorEmail: "suganya.a@kce.ac.in",
   events: [
     {
       posterUrl: "",
@@ -196,8 +196,8 @@ const it = {
         "As per the norms all the candidates will be given participation certificates.",
       ],
       eventStaffCoordinator: {
-        name: "Ms. A. Suganya, AP / IT",
-        contact: "",
+        name: "Mr. Varatharajan N",
+        contact: "+91 9789496799",
       },
       studentCoordinator: [
         {
@@ -205,7 +205,7 @@ const it = {
           contact: "6379130757",
         },
         {
-          name: "Tharu raj",
+          name: "Tharun raj",
           contact: "9342233810",
         },
       ],

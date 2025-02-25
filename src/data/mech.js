@@ -1,7 +1,7 @@
 const mech = {
   id: 5,
   shortName: "MECH",
-  technicalEventCount: 5,
+  technicalEventCount: 6,
   nonTechnicalEventCount: 0,
   workshop: 4,
   departmentName: "Department Of Mechnical Engineering",
@@ -77,7 +77,7 @@ const mech = {
       eventDescription:
         "WORKSHOP ON “ROBOMIRACLE”: This workshop targets UG and PG students of any discipline. This workshop focuses on imparting knowledge on the fundamentals of robotics hardware, software, and troubleshooting.",
       eventRules: ["-"],
-      eventVenue: "Automobile Chassis Laboratory",
+      eventVenue: "M303",
       eventRounds: ["-"],
       eventPrize: ["-"],
       eventStaffCoordinator: {
@@ -178,7 +178,7 @@ const mech = {
         "6. It is a group event.",
       ],
       eventVenue: "Thermal Lab",
-      eventRounds: ["3"],
+      eventRounds: ["3 Rounds"],
       eventPrize: [
         "The winner will receive a prize of Rs. 1000, while the runner-up will receive a prize of Rs. 750.",
         "All the candidates will be given participation certificates.",
@@ -198,7 +198,40 @@ const mech = {
         },
       ],
     },
-
+    {
+      posterUrl: "",
+      eventThumbnail: "",
+      eventName: "Sky-Rush: The FPV Challenge",
+      eventType: "Technical",
+      eventSubType: "Technical",
+      eventTime: "Starts from 10:00 AM",
+      eventDescription:
+        "Race, innovate, and dominate in the ultimate drone showdown! Sky-Rush features two epic categories - FPV and Non-FPV, but with a twist: choose your path! Compete with ready-made drones or go all in with a self-made creation. Want to earn that top spot? The fastest time to complete the trail wins, but there’s more. Teams must submit a detailed report on their drone's components before the race. Innovation meets speed in this high stakes aerial challenge. Ready to soar?",
+      eventRules: [
+        "Taking help of any kind will result in immediate disqualification.",
+        "Decision of event coordinators and judges is final.",
+      ],
+      eventVenue: "KCE – Kabaddi  Ground",
+      eventRounds: ["2 Rounds"],
+      eventPrize: [
+        "The winner will receive a prize of Rs. 1000, while the runner-up will receive a prize of Rs. 750.",
+        "All the candidates will be given participation certificates.",
+      ],
+      eventStaffCoordinator: {
+        name: "Dr .M. Goudilyan",
+        contact: "+917418518384",
+      },
+      studentCoordinator: [
+        {
+          name: "Giri Prasanna S ",
+          contact: "9597263797",
+        },
+        {
+          name: "Ragavendra S",
+          contact: "9500905566",
+        },
+      ],
+    },
     {
       posterUrl: "",
       eventName: "SPARKER",
@@ -251,7 +284,7 @@ const mech = {
         "3. Judging will be based on time of completion and accuracy in identifying the tools.",
         "4. No claims will be entertained against the announced result.",
       ],
-      eventVenue: "M303",
+      eventVenue: "M402",
       eventRounds: ["1"],
       eventPrize: [
         "The winner will receive a prize of Rs. 1000, while the runner-up will receive a prize of Rs. 750.",
