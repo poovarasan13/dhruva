@@ -2,7 +2,7 @@ const ad = {
   id: 9,
   shortName: "AD",
   technicalEventCount: 6,
-  workshop: 1,
+  workshop: 2,
   nonTechnicalEventCount: 3,
   departmentName: "Department of Artificial Intelligence and Data Science",
   cardName: "Artificial Intelligence and Data Science",

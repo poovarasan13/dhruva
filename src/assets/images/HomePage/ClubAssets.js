@@ -13,7 +13,7 @@
         MusicAndDanceClub : "https://res.cloudinary.com/dzpkbej9y/image/upload/v1739969206/MusicAndDanceClub_j7c61h.png",
         MyCampusClub : "https://res.cloudinary.com/dzpkbej9y/image/upload/v1739969205/MyCampusClub_va2bez.png",
         Rotary : "https://res.cloudinary.com/dzpkbej9y/image/upload/v1739969202/RotaryClub_ame6ez.png",
-        ieee: "src/assets/images/IEEE.jpg",
+        ieee: "https://res.cloudinary.com/dl2wibcfp/image/upload/v1740485406/IEEE_cmbphs.png",
         
     };
     export default ClubAssets

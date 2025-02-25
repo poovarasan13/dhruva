@@ -16,8 +16,8 @@ const ct = {
       posterUrl: "",
       eventThumbnail: "",
       eventName: "Workshop on “BIG DATA ANALYSTICS IN INDUSTRIAL IOT”",
-      eventSubType: "workshop",
-      eventType: "One day Workshop",
+      eventType: "WorkShop",
+      eventSubType: "WorkShop",
       eventTime: "10:00 AM to 2:00 PM",
       eventDescription:
         "In this one-day workshop on Big Data Analytics will help you learn how to discover these hidden patterns in your data, to analyze them, and leverage the results to help transform your business.",
@@ -26,15 +26,9 @@ const ct = {
       eventRounds: [],
       eventPrize: [],
       eventStaffCoordinator: {
-        name: "Mr N.Vijayakumar / Assistant Professor",
-        contact: "9566332636",
+        name: "Ms M Velammal /AP",
+        contact: "9865776613",
       },
-      eventCoordinators: [
-        {
-          name: "Ms M Velammal /AP",
-          contact: "9865776613",
-        },
-      ],
       studentCoordinator: [
         {
           name: "SAKTHIVELU.S /2nd Year",
@@ -64,15 +58,9 @@ const ct = {
         "All participants will be given participation certificates.",
       ],
       eventStaffCoordinator: {
-        name: "Mr. N. Vijayakumar / AP",
-        contact: "9566332636",
+        name: "Ms. M. Pushpalatha / AP",
+        contact: "8056478228",
       },
-      eventCoordinators: [
-        {
-          name: "Ms. M. Pushpalatha / AP",
-          contact: "8056478228",
-        },
-      ],
       studentCoordinator: [
         {
           name: "ABISHEK B / 2nd Year",
@@ -101,12 +89,10 @@ const ct = {
         name: "Mr. N. Vijayakumar / AP",
         contact: "9566332636",
       },
-      eventCoordinators: [
-        {
+      eventCoordinators:{
           name: "Mr. N. Vijayakumar / AP",
           contact: "9566332636",
         },
-      ],
       studentCoordinator: [
         {
           name: "JERENI SWETHA S. / 2nd Year",
@@ -115,10 +101,6 @@ const ct = {
         {
           name: "CHARUKESH M / 2nd Year",
           contact: "9597681004",
-        },
-        {
-          name: "GOWTHAM K / 2nd Year",
-          contact: "9487428892",
         },
       ],
     },
@@ -140,15 +122,10 @@ const ct = {
         "All participants will receive participation certificates.",
       ],
       eventStaffCoordinator: {
-        name: "Mr. N. Vijayakumar / AP",
-        contact: "9566332636",
+        name: "Ms. M Velammal / AP",
+        contact: "9865776613",
       },
-      eventCoordinators: [
-        {
-          name: "Ms. M Velammal / AP",
-          contact: "9865776613",
-        },
-      ],
+      
       studentCoordinator: [
         {
           name: "LINGESWARAN / 2nd Year",
@@ -178,15 +155,9 @@ const ct = {
         "All participants will receive participation certificates.",
       ],
       eventStaffCoordinator: {
-        name: "Mr. N. Vijayakumar / AP",
-        contact: "9566332636",
+        name: "Dr. V. Rajeswari HOD / CT",
+        contact: "8122158009",
       },
-      eventCoordinators: [
-        {
-          name: "Dr. V. Rajeswari HOD / CT",
-          contact: "8122158009",
-        },
-      ],
       studentCoordinator: [
         {
           name: "DHARANYA D / 2nd Year",
