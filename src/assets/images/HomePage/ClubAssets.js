@@ -12,7 +12,8 @@
         NatureAndYogaClub : "https://res.cloudinary.com/dzpkbej9y/image/upload/v1739969200/NatureAndYogaClub_lhvjus.png",
         MusicAndDanceClub : "https://res.cloudinary.com/dzpkbej9y/image/upload/v1739969206/MusicAndDanceClub_j7c61h.png",
         MyCampusClub : "https://res.cloudinary.com/dzpkbej9y/image/upload/v1739969205/MyCampusClub_va2bez.png",
-        Rotary : "https://res.cloudinary.com/dzpkbej9y/image/upload/v1739969202/RotaryClub_ame6ez.png"
+        Rotary : "https://res.cloudinary.com/dzpkbej9y/image/upload/v1739969202/RotaryClub_ame6ez.png",
+        ieee: "src/assets/images/IEEE.jpg",
         
     };
     export default ClubAssets

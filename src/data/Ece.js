@@ -377,7 +377,7 @@ const ece = {
       eventName: "Workshop on “RF and Antenna Engineering: A CST Studio Suite Approach”",
       eventType: "Workshop",
       eventSubType: "WorkShop",
-      eventTime: "2:00 PM to 4.00 PM",
+      eventTime: "10:00 AM - 12:00 PM",
       eventDescription:
         "Participants will learn about the CST Studio Suite software which is a high-performance 3D EM analysis software package for designing, analyzing and optimizing electromagnetic (EM) components and systems like antennas. Electromagnetic field solvers for applications across the EM spectrum are contained within a single user interface in CST Studio Suite. The solvers can be coupled to perform hybrid simulations, giving engineers the flexibility to analyze whole systems made up of multiple components in an efficient and straightforward way. Sessions will be handled by eminent resource persons from Industries / Institutions.",
       eventVenue: "E-block / DSP LAB",
@@ -453,7 +453,7 @@ const ece = {
       eventName: "Workshop on “3D Bioprinting”",
       eventType: "Workshop",
       eventSubType: "WorkShop",
-      eventTime: "10:00 AM to 12:00 NOON",
+      eventTime: "02:00PM - 04:00 PM",
       eventDescription:
         "Join us for an exciting workshop on 3D Bioprinting, where you’ll explore the cutting-edge technology transforming healthcare and biotechnology. 3D bioprinting creates living tissues and organs by printing with bioinks made of cells and biomaterials. This workshop will introduce you to the principles of bioprinting, including techniques, bioinks, and applications in tissue engineering, organ printing, and drug testing. Learn from experts through real-world case studies, demonstrations, and discussions on challenges like cellular viability and vascularization. Whether you're a researcher, engineer, or student, this workshop will provide valuable insights into the future of 3D bioprinting and its impact on healthcare.",
       eventVenue: "E-block / DSP LAB",

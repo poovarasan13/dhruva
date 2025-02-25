@@ -114,7 +114,9 @@ const ad = {
         "Problem Statement Selection: Teams must choose any one of the predefined themes or any problem to participant’s choosing and work on a real-world problem.",
         "Time Limit: Hackathon duration will be for 5 hours, within which participants must develop their project.",
         "Working Demo Required: Submissions must include a working prototype/demo showcasing functionality.",
-        "Tech Stack Flexibility: AI, ML, Web/Cloud, Mobile Apps – any technology stack is allowed, as long as it aligns with the problem."
+        "Tech Stack Flexibility: AI, ML, Web/Cloud, Mobile Apps – any technology stack is allowed, as long as it aligns with the problem.",
+        "Hackathon Theme:",
+        "AI for Disaster Prediction & Management, AI-Powered Precision Agriculture, AI for Mental, AI in Fake News & Misinformation Detection, AI in Personalized Learning & Education, AI-Powered Healthcare Diagnostics",
       ],
       eventVenue: "Data Sciences and Analytics Center Lab/ C Block",
       eventRounds: [
@@ -127,10 +129,10 @@ const ad = {
         "All participants will receive a participation certificate.",
       ],
       eventStaffCoordinator:
-        {
+      {
           name: "Dr. R. Keerthika/ AP/AD ",
           contact: "",
-        },
+      },
       studentCoordinator: [
         {
           name: "Mr. Ashwin T",
@@ -206,7 +208,7 @@ const ad = {
       eventStaffCoordinator:
         {
           name: "Mr. Surenther I AP/AD",
-          contact: "",
+          contact: "7418104178",
         },
       studentCoordinator: [
         {
@@ -418,8 +420,8 @@ const ad = {
       ],
       eventStaffCoordinator:
         {
-          name: "Ms.Vishnu Priya K",
-          contact: "6383486701",
+          name: "Ms.Vishnu Priya K, Mr. Surenther I AP/AD",
+          contact: "6383486701, 7418104178",
         },
       studentCoordinator: [
         {
