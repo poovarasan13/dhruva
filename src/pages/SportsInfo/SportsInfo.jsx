@@ -11,6 +11,7 @@ import {
   List,
   Phone,
   AlertCircle,
+  IndianRupee,
 } from "lucide-react";
 import SportsAssests from "@/assets/images/sports/SportAssets";
 
@@ -24,6 +25,7 @@ const sportsData = [
     phone: "+91 93422 83487",
     venue: "KCE",
     time: "13th March 2025, 09.00 AM",
+    cost: "500/team",
     rules: [
       "Teams should report at least 30 minutes before the commencement of the match",
       "Player must produce the college identity card at the time of registration and will be returned only after the tournament. Without Identity card, the players will not be permitted to participate.",
@@ -46,6 +48,7 @@ const sportsData = [
     phone: "+91 70920 88003",
     venue: "KCE",
     time: "13th March 2025, 09.00 AM",
+    cost: "500/team",
     rules: [
       "Teams should report at least 30 minutes before the commencement of the match",
       "Player must produce the college identity card at the time of registration and will be returned only after the tournament. Without Identity card, the players will not be permitted to participate.",
@@ -69,6 +72,7 @@ const sportsData = [
     phone: "+91 9497037603",
     venue: "KCE",
     time: "13th March 2025, 09.00 AM",
+    cost: "1000/team",
     rules: [
       "Teams should report at least 30 minutes before the commencement of the match",
       "Player must produce the college identity card at the time of registration and will be returned only after the tournament. Without Identity card, the players will not be permitted to participate.",
@@ -91,6 +95,7 @@ const sportsData = [
     phone: "+916383104393",
     venue: "KCe",
     time: "13th March 2025, 09.00 AM",
+    cost: "500/team",
     rules: [
       "Teams should report at least 30 minutes before the commencement of the match",
       "Player must produce the college identity card at the time of registration and will be returned only after the tournament. Without Identity card, the players will not be permitted to participate.",
@@ -114,6 +119,7 @@ const sportsData = [
     phone: "+91 82202 93437",
     venue: "KCE",
     time: "13th March 2025, 09.00 AM",
+    cost: "1000/team",
     rules: [
       "Teams should report at least 30 minutes before the commencement of the match",
       "Player must produce the college identity card at the time of registration and will be returned only after the tournament. Without Identity card, the players will not be permitted to participate.",
@@ -136,6 +142,7 @@ const sportsData = [
     phone: "+91 63790 40788",
     venue: "KCE",
     time: "13th March 2025, 09.00 AM",
+    cost: "500/team",
     rules: [
       "Teams should report at least 30 minutes before the commencement of the match",
       "Player must produce the college identity card at the time of registration and will be returned only after the tournament. Without Identity card, the players will not be permitted to participate.",
@@ -159,6 +166,7 @@ const sportsData = [
     phone: "+91 7639381389",
     venue: "KCE",
     time: "13th March 2025, 09.00 AM",
+    cost: "500/team",
     rules: [
       "Teams should report at least 30 minutes before the commencement of the match",
       "Player must produce the college identity card at the time of registration and will be returned only after the tournament. Without Identity card, the players will not be permitted to participate.",
@@ -265,6 +273,13 @@ const SportsInfo = () => {
               <span>
                 {/* Time:  */}
                 <span className="text-gray-900">{sport.time}</span>
+              </span>
+            </p>
+            <p className="text-gray-700 font-medium flex items-center gap-2">
+              <IndianRupee className="w-5 h-5 text-purple-500" />
+              <span>
+                {/* Entry fee  */}
+                <span className="text-gray-900">{sport.cost}</span>
               </span>
             </p>
             <h3 className="text-xl font-semibold text-gray-800 flex items-center gap-2">
