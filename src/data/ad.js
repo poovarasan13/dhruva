@@ -28,10 +28,7 @@ const ad = {
         "A collaborative environment to share knowledge and foster new ideas.",
         "Opportunities to connect with fellow students and faculty members."
       ],
-      eventLink : "https://bit.ly/kce-ai",
-      eventRounds: [        
-        "Final round : The offline event will held on March 14th  for the final judgement ",
-      ],
+      
       eventPrize: [
         "The winner will receive a prize of Rs. 1000",
         " while the runner-up will receive a prize of Rs. 750. ",
@@ -109,19 +106,16 @@ const ad = {
       eventSubType: "Technical",
       eventTime: "9:00 AM to 3:00 PM",
       eventDescription:
-        "We invite you to participate in a dynamic Codeathon-Hackathon fusion, where problem-solving meets innovation. The event kicks off with a Codeathon, where participants will tackle real-world DSA challenges presented on the spot, requiring them to debug, decode, and solve within a limited timeframe. Top performers will advance to the Hackathon phase, where they will develop AI-driven solutions for public sector challenges.\nIn the Hackathon, participants will be encouraged to create unique and impactful solutions, with judging based on solution viability, working demo, development pipeline, and relevance to real-world problems. While existing problem solutions will be considered, priority will be given to innovative approaches. The event will conclude with evaluations, and cash prizes will be awarded to winners and runner-ups.",
+        "Join our Codeathon-Hackathon fusion event! Start with solving real-world DSA challenges in the Codeathon, then advance to the Hackathon phase to develop AI-driven solutions for public sector problems. Judging will focus on innovation, viability, and functionality. Cash prizes will be awarded to winners and runner-ups. ",
       eventRules: [
-        "Team size for the hackathon can be between 2-4, a team can have any ratio of boys and girls. But it shouldn't Exide 4 members",
-        "Round 1: Codeathon",
-        "Time Limit: A fixed time 1 hour to solve a set of DSA problems.",
-        "Scoring: Points will be awarded based on accuracy, efficiency, and execution time of the solutions",
-        "Language Restriction: Solutions can be written in any standard programming language (C++, Java, Python, etc.).",
+        "Phase 1 Rules: Codeathon",
+        "Time Limit:  1 hour",
+        "Scoring: Points will be awarded based on accuracy, efficiency, and execution time of the solutions.",
+        "Language :Any programing language can be used."    ,
         "Submission Format: Participants must submit their solutions through the designated online platform.",
-        "Round 2: Hackathon",
+        "Phase 2 Rules: Hackathon",
         "Problem Statement Selection: Teams must choose any one of the predefined themes or any problem to participant’s choosing and work on a real-world problem.",
-        "Time Limit: Hackathon duration will be for 5 hours, within which participants must develop their project.",
-        "Working Demo Required: Submissions must include a working prototype/demo showcasing functionality.",
-        "Tech Stack Flexibility: AI, ML, Web/Cloud, Mobile Apps – any technology stack is allowed, as long as it aligns with the problem.",
+        "Time Limit:  5 hours",
       ],
       eventTopics:[
         "AI for Disaster Prediction & Management",
@@ -205,12 +199,14 @@ const ad = {
       eventDescription:
         "Step into a world of innovation and limitless possibilities at TechAI Expo. This is where ideas turn into reality, and technology meets imagination. This dynamic event allows participants to present their innovative solutions, engage with like-minded enthusiasts, and take pride in their hard work. Students can use this opportunity to let their creativity shine while gaining valuable insights, building networks, and staying ahead in the rapidly evolving world of AI. The event is all about teamwork, innovation, and inspiration. Don’t miss your chance to be part of this transformative experience!",
       eventVenue: "Veranda / E-Block",
-      eventRounds: [],
-      eventLink :"https://forms.gle/Zt9kFYviFcycMu9w9",
+      eventLink :"https://bit.ly/kce-ai",
       eventPrize: [
         "The winner will receive a prize of Rs. 1000",
         " while the runner-up will receive a prize of Rs. 750. ",
         "All participants will receive a participation certificate.",
+      ],
+      eventRounds: [        
+        "Final round : The offline event will held on March 14th  for the final judgement ",
       ],
       eventRules: [
         "Team size 2-4 members.",

@@ -97,17 +97,17 @@ function EventShowPage() {
               <span>{data.eventVenue}</span>
             </div>
           </div>
-          {eventLink && (
+          {eventLink && eventLink.length > 0 ? (
               <>
                 <h4 className="text-yellow-400"></h4>
                 <ul className="list-disc list-inside mt-2">
-                <div className="flex justify-center items-center gap-2">
-                  <Link className=" w-5 h-5 text-green-500" />
-                  <a className="underline" href={eventLink} target="_blank" rel="noreferrer">{eventLink}</a>
-                </div>
+                  <div className="flex justify-center items-center gap-2">
+                    <Link className="w-5 h-5 text-green-500" />
+                    <a className="underline" href={eventLink} target="_blank" rel="noreferrer">{eventLink}</a>
+                  </div>
                 </ul>
               </>
-            )}
+            ) : null}
         </div>
         
         <div className="p-4 dm-sans lg:ms-7 text-gray-800 text-lg">
