@@ -5,6 +5,8 @@ import React, { useEffect } from "react";
 import RegistrationPage from "../Registration/RegistrationPage";
 import "../../assets/fonts/powergrotesk.css";
 import "../../assets/fonts/dmsans.css";
+import AnimatedCard from "@/components/page-components/AnimatedCard";
+import passes from "../../data/passCardData.js";
 
 const PassPage = () => {
   useEffect(() => {
@@ -12,7 +14,7 @@ const PassPage = () => {
   }, []);
   return (
     <div className=" dm-sans">
-      {/* <motion.div
+      <motion.div
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
@@ -25,14 +27,15 @@ const PassPage = () => {
       </motion.div>
 
       <div className="flex flex-col items-center  mt-2  px-6  mb-6">
-        <div className="flex flex-wrap justify-center gap-12 mt-20 px-6 relative z-10">
-          <AnimatedCard />
-          <AnimatedCard />
-          <AnimatedCard />
-          <AnimatedCard />
+        <div className="flex flex-wrap justify-center gap-12 mt-20 ms-4 relative z-10">
+          {passes.map((pass, index) => (
+            <>
+              <AnimatedCard passDetails={pass} key={index} />
+            </>
+          ))}
         </div>
-      </div> */}
-      <RegistrationPage />
+      </div>
+      {/* <RegistrationPage /> */}
     </div>
   );
 };

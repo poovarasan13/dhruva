@@ -181,12 +181,12 @@ const it = {
       posterUrl: "",
       eventName: "Paper quest",
       eventSubType: "Technical",
-      eventType: "Paper presentation – Technical event",
+      eventType: "Paper presentation – Technical event, Please mail your papers to paperquest2k25@gmail.com after registration",
       eventTime: "10.30 AM",
       eventDescription: "Paper presentation",
       eventRules: [
         "1. Eligibility & Registration Each team can have a maximum of 2 members (or specify if individual participation is allowed).Participants must register before the deadline. Late entries will not be entertained.Papers should be original, plagiarism-free, and relevant to the event theme or selected domains.",
-        "2. Paper Submission Guidelines.Papers must follow the standard IEEE format.The document should not exceed [e.g., 6 pages], including references and appendices.Papers must be submitted in PDF format via [mention submission link or email].The submission deadline is 128.02.2025. No extensions will be granted.Presentation Guidelines.Each team will have [e.g., 8-10 minutes] for the presentation, followed by [e.g., 2-5 minutes] of Q&A.Presentations must be in PPT format and submitted at least before the event starts. Participants must use only the provided equipment (or specify if personal laptops are allowed). Exceeding the time limit may lead to point deductions.",
+        "2. Paper Submission Guidelines.Papers must follow the standard IEEE format.The document should not exceed [e.g., 6 pages], including references and appendices.Papers must be submitted in PDF format via [mention submission link or email].The submission deadline is 12.03.2025. No extensions will be granted.Presentation Guidelines.Each team will have [e.g., 8-10 minutes] for the presentation, followed by [e.g., 2-5 minutes] of Q&A.Presentations must be in PPT format and submitted at least before the event starts. Participants must use only the provided equipment (or specify if personal laptops are allowed). Exceeding the time limit may lead to point deductions.",
 
         "General Rules:Participants must be present 15 minutes before their scheduled time.Misconduct, use of offensive language, or violating academic integrity will lead to disqualification.The judges' decision will be final and binding. No disputes will be entertained.In case of a tie, additional questions or a rapid presentation round may be conducted",
       ],

@@ -1,7 +1,7 @@
 .card {
   position: relative;
-  width: 260px;
-  height: 310px;
+  width: 300px;
+  height: 370px;
   border-radius: 14px;
   z-index: 1111;
   overflow: hidden;
@@ -16,8 +16,8 @@
   position: absolute;
   top: 5px;
   left: 5px;
-  width: 250px;
-  height: 300px;
+  width: 290px;
+  height: 360px;
   z-index: 2;
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(24px);
@@ -35,20 +35,21 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background-color: orange;
+  background-color: var(--blob-color);
   opacity: 1;
-  filter: blur(12px) drop-shadow(0 0 20px rgba(255, 165, 0, 0.9));
-  box-shadow: 0 0 40px 20px rgba(255, 165, 0, 1);
-  animation: blob-bounce 3s infinite ease-in-out, blob-glow 2s infinite alternate ease-in-out;
+  background-color: var(--blob-color);
+  box-shadow: 0 0 40px 20px var(--blob-color);
+  animation: blob-bounce 3s infinite ease-in-out,
+    blob-glow 2s infinite alternate ease-in-out;
 }
 
 /* Smooth Glowing Effect */
 @keyframes blob-glow {
   0% {
-    box-shadow: 0 0 20px 10px rgba(255, 165, 0, 0.6);
+    box-shadow: 0 0 20px 10px rgba(--blob-color);
   }
   100% {
-    box-shadow: 0 0 60px 30px rgba(255, 165, 0, 1);
+    box-shadow: 0 0 60px 30px rgba(--blob-color);
   }
 }
 
@@ -68,5 +69,16 @@
   }
   100% {
     transform: translate(-50%, -50%) translate3d(0, 0, 0);
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 250px;
+    height: 360px;
+  }
+  .bg {
+    width: 240px;
+    height: 350px;
   }
 }

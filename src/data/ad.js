@@ -7,9 +7,9 @@ const ad = {
   departmentName: "Department of Artificial Intelligence and Data Science",
   cardName: "Artificial Intelligence and Data Science",
   departmentDescription:
-    "The Department of Artificial Intelligence and Data Science is delighted to reveal its esteemed roster of events for the forthcoming academic year. Featuring 7 technical events, 3  non-technical events, and  enriching workshops, Whether you are a student, faculty member, or industry professional, our meticulously curated events are designed to inform, engage, and inspire.",
+    "The Department of Artificial Intelligence and Data Science is delighted to reveal its esteemed roster of events for the forthcoming academic   year. Featuring 5 technical events, 3  non-technical events, 2 enriching workshops and a challenging hackathon, Whether you are a student, faculty member, or industry professional, our meticulously curated events are designed to inform, engage, and inspire.",
   coordinatorName: "Ms. K. Vishnupriya – Prof./AD",
-  coordinatorContactPhone: "6383486701",
+  coordinatorContactPhone: "63808042526",
   coordinatorEmail: "vishnupriya.k@kce.ac.in",
   events: [
     {
@@ -23,8 +23,8 @@ const ad = {
         "Join us for our College Paper Presentation event, where students can showcase their research and innovative solutions to real-world challenges through impactful PowerPoint presentations. Participants will present their problem statements, methodologies, and potential impacts, followed by interactive Q&A sessions for valuable feedback and discussions.\n\nEvent Highlights:\n- Student-driven presentations on diverse, impactful topics\n- Engaging Q&A sessions\n- Collaborative environment for knowledge sharing\n- Networking opportunities with peers and faculty\n\nThemes:\n- AI Solutions for a Greener Planet\n- Smart Cities and Infrastructure\n- AI in Banking and Financial Services\n- Advancements in Modern Healthcare\n- Personalized Learning Through AI\n- AI in Sustainable Agriculture\n\nThis event fosters creativity, collaboration, and critical thinking, promoting innovative problem-solving across various fields. Don’t miss the chance to share your work and contribute to our college community!",
       eventVenue: "E_Block-E203",
       eventRounds: [
-        "Phase 01: Submit your PowerPoint presentation through the provided link. (link will be provided before the event date through TL’s mail and intimated via whatsapp group)",
-        "Phase 02: Present your work in front of the jury panel (14.03.2025)",
+        "Idea submission : The team must submit their idea on the given Google form(https://bit.ly/kce-ai)",
+        "Final round : The offline event will held on March 14th  for the final judgement ",
       ],
       eventPrize: [
         "The winner will receive a prize of Rs. 1000",
@@ -33,11 +33,11 @@ const ad = {
       ],
 
       eventRules: [
-        "Team Size: 1-3 members.",
-        "Every participant must carry proof of ID.",
-        "Papers must be submitted in the prescribed format before the deadline.",
-        "Presentations should be within 10 minutes.",
-        "Judges' decision will be final in case of disputes.",
+        "Team Size: 1-4 members.",
+        "Participant can choose any technical idea or innovation.",
+        "Participant should include clear introduction,methodology, result, and conclusion of their idea.",
+        "Each team will get 10 min for a presentation +2min for Q & A.",
+        "Judges' decision will be final in case of disputes"
       ],
       eventStaffCoordinator: {
         name: "Dr. C. N. Vanitha, Prof./AD",
@@ -82,7 +82,7 @@ const ad = {
       eventStaffCoordinator:
         {
           name: "Dr. G. Karthikeyan, Mr. M. NavaneethaKrishnan",
-          contact: "9344372393, 9865968068",
+          contact: "9344372393",
         },
       studentCoordinator: [
         {
@@ -105,14 +105,13 @@ const ad = {
       eventDescription:
         "We invite you to participate in a dynamic Codeathon-Hackathon fusion, where problem-solving meets innovation. The event kicks off with a Codeathon, where participants will tackle real-world DSA challenges presented on the spot, requiring them to debug, decode, and solve within a limited timeframe. Top performers will advance to the Hackathon phase, where they will develop AI-driven solutions for public sector challenges.\nIn the Hackathon, participants will be encouraged to create unique and impactful solutions, with judging based on solution viability, working demo, development pipeline, and relevance to real-world problems. While existing problem solutions will be considered, priority will be given to innovative approaches. The event will conclude with evaluations, and cash prizes will be awarded to winners and runner-ups.",
       eventRules: [
-        "Participants should bring a valid id proof (college ID)",
         "Team size for the hackathon can be between 2-4, a team can have any ratio of boys and girls. But it shouldn't Exide 4 members",
-        "Phase 1 Rules: Codeathon",
+        "Round 1: Codeathon",
         "Time Limit: A fixed time 1 hour to solve a set of DSA problems.",
         "Scoring: Points will be awarded based on accuracy, efficiency, and execution time of the solutions",
         "Language Restriction: Solutions can be written in any standard programming language (C++, Java, Python, etc.).",
         "Submission Format: Participants must submit their solutions through the designated online platform.",
-        "Phase 2 Rules: Hackathon",
+        "Round 2: Hackathon",
         "Problem Statement Selection: Teams must choose any one of the predefined themes or any problem to participant’s choosing and work on a real-world problem.",
         "Time Limit: Hackathon duration will be for 5 hours, within which participants must develop their project.",
         "Working Demo Required: Submissions must include a working prototype/demo showcasing functionality.",
@@ -128,8 +127,8 @@ const ad = {
       ],
       eventVenue: "Data Sciences and Analytics Center Lab/ C Block",
       eventRounds: [
-        "Phase 1: Codeathon - Solve DSA challenges with speed and precision in a high-stakes coding sprint.",
-        "Phase 2: Hackathon - Build AI/ML/DL-powered solutions that push the limits of innovation.",
+        "Round 1 : Codeathon",
+        "Round 2 : Hackathon",
       ],
       eventPrize: [
         "The winner will receive a prize of Rs. 3000",
@@ -138,8 +137,8 @@ const ad = {
       ],
       eventStaffCoordinator:
       {
-          name: "Dr. R. Keerthika AP/AD ",
-          contact: "",
+          name: "Dr. R. Keerthika ASP/AD ",
+          contact: "9952765070",
       },
       studentCoordinator: [
         {
@@ -161,23 +160,23 @@ const ad = {
       eventTime: "9:00 AM to 12:00 PM",
       eventDescription:
         "In this Competition, participants have to use prompt engineering techniques to generate an image through advanced AI models based on a given theme. This enables the participants to learn more about prompt engineering, which is one of the most demand-creating fields in the industry. The prompts used to generate the image are limited. Through this event, participants can learn a lot about prompt engineering techniques and apply them in diverse fields.",
-      eventVenue: "E-block / Room No: E-508",
+      eventVenue: "D block / MCA Lab 1",
       eventRounds: ["One Round"],
       eventPrize: [
+        "The winner will receive a prize of Rs. 1000",
+        " while the runner-up will receive a prize of Rs. 750. ",
         "All participants will receive a participation certificate.",
       ],
       eventRules: [
-        "Each person is given 20 minutes.",
-        "Each participant should have their college ID card.",
-        "Participants should bring their own mobile/laptop.",
-        "We will generate the prompt topics.",
-        "Generate at least one image.",
-        "The judgment will be based on the judge's remarks and clarity in the topic.",
+       " Each person is given 20 minutes, you can analyze the topic and generate images with suitable prompts in AI tools provided.",
+    	 "Topics will be given on spot.",
+  	   "Generate at least one image.",
+    	 "The judgment will be based on the judge's remarks and clarity in the topic.",
       ],
       eventStaffCoordinator:
         {
           name: "Mr. M. Navaneethakrishnan AP/AD",
-          contact: "98659 68068",
+          contact: "9865968068",
         },
       studentCoordinator: [
         {
@@ -202,13 +201,12 @@ const ad = {
       eventVenue: "Veranda / E-Block",
       eventRounds: [],
       eventPrize: [
-        "The winner will receive a prize of Rs. 3000",
-        " while the runner-up will receive a prize of Rs. 2000. ",
+        "The winner will receive a prize of Rs. 1000",
+        " while the runner-up will receive a prize of Rs. 750. ",
         "All participants will receive a participation certificate.",
       ],
       eventRules: [
         "Team size 2-4 members.",
-        "Every participant must carry their ID proofs.",
         "The team must present their prototype.",
         "Industrial experts will do the evaluation process.",
         "In case of any disputes, the final decision will remain with the organizers.",
@@ -243,38 +241,7 @@ const ad = {
       eventRounds: [],
       eventPrize: ["All participants will receive participation certificates"],
       eventRules: [
-        "Every participant must carry proof of ID.",
-        "Everyone should attend the workshop for the entire duration.",
-      ],
-      eventStaffCoordinator:
-        {
-          name: "K. Vishnupriya AP/AD",
-          contact: "6383486701",
-        },
-      studentCoordinator: [
-        {
-          name: "Mr Naveen S",
-          contact: "9087742278",
-        },
-        {
-          name: "Ms Keerthana",
-          contact: "7845653168",
-        },
-      ]
-    },
-    {
-      posterUrl: "",
-      eventThumbnail: "",
-      eventName: "Workshop on Explainable AI (XAI) & Model Interpretability",
-      eventType: "WorkShop",
-      eventSubType: "WorkShop",
-      eventTime: "1.00PM – 3.00PM",
-      eventDescription:"Unlock the power of Explainable AI (XAI) in our hands-on workshop focused on model interpretability. Learn how to break down complex machine learning models using techniques like SHAP, LIME, and Feature Importance. Whether you're a data scientist, AI enthusiast, or business professional, this workshop will help you understand how AI makes decisions and ensure that your models are transparent, fair, and trustworthy. Through interactive sessions, you'll gain practical experience in applying XAI methods to real-world problems. Enhance the accountability of your AI systems and make informed, ethical decisions. Don’t miss this opportunity to elevate your AI expertise! Resource-person: Mr. Gunalan,Jr Data Engineer,Aggregate Intelligence",
-      eventVenue: "C-block/ Lab – Microsoft Lab",
-      eventRounds: [],
-      eventPrize: ["All participants will receive participation certificates"],
-      eventRules: [
-        "Every participant must carry proof of ID.",
+        "Every participant must carry respective passes to let in the workshop.",
         "Everyone should attend the workshop for the entire duration.",
       ],
       eventStaffCoordinator:
@@ -290,6 +257,38 @@ const ad = {
         {
           name: "Ms. Tharini G",
           contact: "8056578241",
+        },
+      ]
+    },
+    {
+      posterUrl: "",
+      eventThumbnail: "",
+      eventName: "Workshop on Explainable AI (XAI) & Model Interpretability",
+      eventType: "WorkShop",
+      eventSubType: "WorkShop",
+      eventTime: "1.00PM – 3.00PM",
+      eventDescription:"Unlock the power of Explainable AI (XAI) in our hands-on workshop focused on model interpretability. Learn how to break down complex machine learning models using techniques like SHAP, LIME, and Feature Importance. Whether you're a data scientist, AI enthusiast, or business professional, this workshop will help you understand how AI makes decisions and ensure that your models are transparent, fair, and trustworthy. Through interactive sessions, you'll gain practical experience in applying XAI methods to real-world problems. Enhance the accountability of your AI systems and make informed, ethical decisions. Don’t miss this opportunity to elevate your AI expertise! Resource-person: Mr. Gunalan,Jr Data Engineer,Aggregate Intelligence",
+      eventVenue: "C-block/ Lab – Microsoft Lab",
+      eventRounds: [],
+      eventPrize: ["All participants will receive participation certificates"],
+      eventRules: [
+        "Every participant must carry respective passes to let in the workshop.",
+        "Everyone should attend the workshop for the entire duration.",
+      ],
+      
+      eventStaffCoordinator:
+        {
+          name: "K. Vishnupriya AP/AD",
+          contact: "6383486701",
+        },
+      studentCoordinator: [
+        {
+          name: "Mr Naveen S",
+          contact: "9087742278",
+        },
+        {
+          name: "Ms Keerthana",
+          contact: "7845653168",
         },
       ]
     },
@@ -343,13 +342,13 @@ const ad = {
       eventSubType: "NonTechnical",
       eventTime: "09:00 a.m to 03:00 p.m",
       eventDescription:
-        "FunPlaza is an exciting event featuring a series of fun and interactive games. Under this event, it covers Cup Pyramid, Cup and the Ball, Victory Throw, Dumb Charades, and Squid.",
+        "FunPlaza is an exciting event featuring a series of fun and interactive games. Under this event, it covers\n -> Cup Pyramid,\n -> Cup and the Ball,\n -> Victory Throw, Dumb Charades, and Squid.",
       eventRules: [
         "All activities will be per the established rules and regulations.",
       ],
       eventVenue: "E Block Entrance",
       eventRounds: ["Based on the events"],
-      eventPrize: ["Participation certificates for all participants."],
+      eventPrize: ["Exciting Gadgets will be given as prizes."],
       eventStaffCoordinator:
         {
           name: "Mr. Bala Krishnan M",
@@ -384,7 +383,7 @@ const ad = {
       ],
       eventVenue: "E-Block 507",
       eventRounds: ["All films will be screened"],
-      eventPrize: [ " 1st place - ₹1300, 2nd place - ₹800, 3rd place - ₹400"],
+      eventPrize: [ " 1st place - ₹1000, 2nd place - ₹750"],
       eventStaffCoordinator:
         {
           name: "Mr. G Karthikeyan,AP/AD",
@@ -412,7 +411,7 @@ const ad = {
       eventTime: "11.00AM - 03.00PM",
       eventDescription:
         "The Virtual Treasure Hunt is an online adventure where participants solve puzzles, follow clues, and complete challenges to uncover hidden treasures. Players navigate through a series of virtual environments, racing against time and competitors. It’s an engaging, interactive experience designed to test problem-solving skills, teamwork, and creativity strategically, and enjoy the thrill of uncovering hidden spots! ",
-      eventVenue: "E507",
+      eventVenue: "C Block - MS Lab",
       eventRounds: ["Single Round: If there is a tie, a hidden challenge will decide the winner."],
       eventPrize: [
         "Winner: ₹1000",
@@ -421,10 +420,9 @@ const ad = {
       eventRules: [
         "Eligibility: Open to all.",
         "Team Size: 2-3 members.",
-        "Equipment: Bring laptops or smartphones.",
         "No External Help: Assistance from non-participants is prohibited.",
         "Fair Play: Cheating leads to disqualification.",
-        "Judgment: Judges' decisions are final."
+        "Judgment: Judges' decisions are final.",
       ],
       eventStaffCoordinator:
         {

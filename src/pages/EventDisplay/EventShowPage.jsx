@@ -1,13 +1,21 @@
-import { useEffect } from "react";
-import { MapPin, Clock, Rocket, Check, MoveRight } from "lucide-react";
+import  { useEffect } from "react";
+import {
+  MapPin,
+  Clock,
+
+  Rocket,
+  
+  Check,
+  MoveRight,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import "../../assets/fonts/dmserif.css";
 import "../../assets/fonts/opensans.css";
 import "../../assets/fonts/sourcesans.css";
 import { useLocation, useNavigate } from "react-router-dom";
+// import TestCard from "@/components/page-components/TestCard";
 import CoordinatorCard from "@/components/page-components/CoordinatorCard";
-import backgroundGif  from "@/assets/gif/card-background.webp";
-
+import backgroundGif from "../../assets/gif/card-background.webp";
 
 function EventShowPage() {
   useEffect(() => {
@@ -18,7 +26,7 @@ function EventShowPage() {
   const events = location.state || {};
   const data = events.events || {};
   const navigate = useNavigate();
-
+  const eventTopics=data.eventTopics||[];
   const eventRounds = data.eventRounds || [];
   const eventPrize = data.eventPrize || [];
   const eventRules = data.eventRules || [];
@@ -103,6 +111,19 @@ function EventShowPage() {
               </ul>
             </>
           )}
+          {eventTopics.length !== 0 && (
+            <>
+              <h4 className="text-yellow-400">Event Topics</h4>
+              <ul className="list-disc list-inside mt-2">
+                {eventTopics.map((topic, idx) => (
+                  <li key={idx} className="list-none dm-sans flex">
+                    <Check className="text-green-500" />
+                    {topic}
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
 
           {eventPrize.length !== 0 && (
             <>
@@ -165,5 +186,4 @@ function EventShowPage() {
     </div>
   );
 }
-
 export default EventShowPage;
