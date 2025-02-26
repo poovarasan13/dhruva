@@ -12,7 +12,7 @@ import RegistrationPage from "@/pages/Registration/RegistrationPage";
 import SportsPage from "@/pages/sports/SportsPage";
 import SportsInfo from "@/pages/SportsInfo/SportsInfo";
 import TechnicalFest from "@/pages/Technical-Fest/TechnicalFest";
-import React from "react";
+// import React from "react";
 import { Route, Routes } from "react-router-dom";
 
 function AppNavigation() {

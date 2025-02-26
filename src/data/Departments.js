@@ -13,19 +13,20 @@ import mba from "../data/mba.js";
 import mca from "../data/mca.js";
 
 const department = [
-  cse,
-  it,
-  ct,
   ad,
-  civil,
+  cse,
   cd,
-  ece,
+  civil,
+  ct,
   cyber,
-  mech,
+  ece,
   eee,
   ete,
+  it,
   mba,
   mca,
+  mech
 ];
+
 
 export default department;

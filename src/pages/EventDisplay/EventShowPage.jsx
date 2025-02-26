@@ -2,7 +2,7 @@ import  { useEffect } from "react";
 import {
   MapPin,
   Clock,
-
+  Link,
   Rocket,
   
   Check,
@@ -27,10 +27,12 @@ function EventShowPage() {
   const data = events.events || {};
   const navigate = useNavigate();
   const eventTopics=data.eventTopics||[];
+  const eventHighlights = data.eventHighlights || [];
   const eventRounds = data.eventRounds || [];
   const eventPrize = data.eventPrize || [];
   const eventRules = data.eventRules || [];
   const studentCoordinator = data.studentCoordinator || [];
+  const eventLink = data.eventLink || [];
 
   if (!data || Object.keys(data).length === 0) {
     return (
@@ -56,7 +58,7 @@ function EventShowPage() {
     >
       <div className="w-full max-w-7xl bg-white rounded-xl shadow-2xl overflow-hidden flex flex-col backdrop-blur-sm">
         {data.posterUrl && (
-          <div className="relative w-full h-80 flex justify-center">
+          <div className="relative w-full h-full flex justify-center">
             <img
               src={data.posterUrl}
               alt="Event Poster"
@@ -90,14 +92,26 @@ function EventShowPage() {
           </p>
 
           <div className="space-y-3 mt-4 text-base md:text-lg text-gray-800 w-full">
-            <div className="flex items-center gap-2">
+            <div className="flex justify-center items-center gap-2">
               <MapPin className="w-5 h-5 text-red-500" />
               <span>{data.eventVenue}</span>
             </div>
           </div>
+          {eventLink && (
+              <>
+                <h4 className="text-yellow-400"></h4>
+                <ul className="list-disc list-inside mt-2">
+                <div className="flex justify-center items-center gap-2">
+                  <Link className=" w-5 h-5 text-green-500" />
+                  <a className="underline" href={eventLink} target="_blank" rel="noreferrer">{eventLink}</a>
+                </div>
+                </ul>
+              </>
+            )}
         </div>
-
+        
         <div className="p-4 dm-sans lg:ms-7 text-gray-800 text-lg">
+          
           {eventRules.length !== 0 && (
             <>
               <h4 className="text-yellow-400">Event Rules</h4>
@@ -124,6 +138,20 @@ function EventShowPage() {
               </ul>
             </>
           )}
+          {eventHighlights.length !== 0 && (
+            <>
+              <h4 className="text-yellow-400">Event Highlights</h4>
+              <ul className="list-disc list-inside mt-2">
+                {eventHighlights.map((topic, idx) => (
+                  <li key={idx} className="list-none dm-sans flex">
+                    <Check className="text-green-500" />
+                    {topic}
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
+          
 
           {eventPrize.length !== 0 && (
             <>

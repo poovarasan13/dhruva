@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 import React, { useEffect } from "react";
 
-import RegistrationPage from "../Registration/RegistrationPage";
+// import RegistrationPage from "../Registration/RegistrationPage";
 import "../../assets/fonts/powergrotesk.css";
 import "../../assets/fonts/dmsans.css";
 import AnimatedCard from "@/components/page-components/AnimatedCard";

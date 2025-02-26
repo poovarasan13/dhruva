@@ -20,10 +20,16 @@ const ad = {
       eventTime: "9:00 AM – 2:00 PM",
       eventSubType: "Technical",
       eventDescription:
-        "Join us for our College Paper Presentation event, where students can showcase their research and innovative solutions to real-world challenges through impactful PowerPoint presentations. Participants will present their problem statements, methodologies, and potential impacts, followed by interactive Q&A sessions for valuable feedback and discussions.\n\nEvent Highlights:\n- Student-driven presentations on diverse, impactful topics\n- Engaging Q&A sessions\n- Collaborative environment for knowledge sharing\n- Networking opportunities with peers and faculty\n\nThemes:\n- AI Solutions for a Greener Planet\n- Smart Cities and Infrastructure\n- AI in Banking and Financial Services\n- Advancements in Modern Healthcare\n- Personalized Learning Through AI\n- AI in Sustainable Agriculture\n\nThis event fosters creativity, collaboration, and critical thinking, promoting innovative problem-solving across various fields. Don’t miss the chance to share your work and contribute to our college community!",
+        "Join us for our College Paper Presentation event, where students can showcase their research and innovative solutions to real-world challenges through impactful PowerPoint presentations. Participants will present their problem statements, methodologies, and potential impacts, followed by interactive Q&A sessions for valuable feedback and discussions.",
       eventVenue: "E_Block-E203",
-      eventRounds: [
-        "Idea submission : The team must submit their idea on the given Google form(https://bit.ly/kce-ai)",
+      eventHighlights: [
+        "Student-driven presentations on impactful topics across various domains.",
+        "Interactive Q&A sessions for feedback and discussions.",
+        "A collaborative environment to share knowledge and foster new ideas.",
+        "Opportunities to connect with fellow students and faculty members."
+      ],
+      eventLink : "https://bit.ly/kce-ai",
+      eventRounds: [        
         "Final round : The offline event will held on March 14th  for the final judgement ",
       ],
       eventPrize: [
@@ -197,9 +203,10 @@ const ad = {
       eventSubType: "Technical",
       eventTime: "09:00 AM to 12:00 PM",
       eventDescription:
-        "Step into a world of innovation and limitless possibilities at TechAI Expo. This is where ideas turn into reality, and technology meets imagination. This dynamic event allows participants to present their innovative solutions, engage with like-minded enthusiasts, and take pride in their hard work. Students can use this opportunity to let their creativity shine while gaining valuable insights, building networks, and staying ahead in the rapidly evolving world of AI. The event is all about teamwork, innovation, and inspiration. Don’t miss your chance to be part of this transformative experience! Kindly also fill the below form: https://forms.gle/Zt9kFYviFcycMu9w9",
+        "Step into a world of innovation and limitless possibilities at TechAI Expo. This is where ideas turn into reality, and technology meets imagination. This dynamic event allows participants to present their innovative solutions, engage with like-minded enthusiasts, and take pride in their hard work. Students can use this opportunity to let their creativity shine while gaining valuable insights, building networks, and staying ahead in the rapidly evolving world of AI. The event is all about teamwork, innovation, and inspiration. Don’t miss your chance to be part of this transformative experience!",
       eventVenue: "Veranda / E-Block",
       eventRounds: [],
+      eventLink :"https://forms.gle/Zt9kFYviFcycMu9w9",
       eventPrize: [
         "The winner will receive a prize of Rs. 1000",
         " while the runner-up will receive a prize of Rs. 750. ",
@@ -373,7 +380,8 @@ const ad = {
       eventSubType: "NonTechnical",
       eventTime: "12 PM – 3 PM",
       eventDescription:
-        "The competition challenges participants to showcase their creativity in a specific field, with prizes for originality and execution. Entries will be judged on impact, innovation, and skill. Winners gain recognition and the opportunity for exposure in a prominent event or platform. Kindly fill the below form https://forms.gle/C8cRrBJubPXhpW9u5",
+        `The competition challenges participants to showcase their creativity in a specific field, with prizes for originality and execution. Entries will be judged on impact, innovation, and skill. Winners gain recognition and the opportunity for exposure in a prominent event or platform.`,
+      eventLink:"https://forms.gle/C8cRrBJubPXhpW9u5",
       eventRules: [
         "Duration of the film: Minimum 5 minutes, Maximum 16 minutes.",
         "No Adult Content.",

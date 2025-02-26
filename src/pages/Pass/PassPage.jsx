@@ -6,7 +6,7 @@ import RegistrationPage from "../Registration/RegistrationPage";
 import "../../assets/fonts/powergrotesk.css";
 import "../../assets/fonts/dmsans.css";
 import AnimatedCard from "@/components/page-components/AnimatedCard";
-import passes from "../../data/passCardData.js";
+import passes from "@/data/PassCardData";
 
 const PassPage = () => {
   useEffect(() => {
@@ -27,11 +27,11 @@ const PassPage = () => {
       </motion.div>
 
       <div className="flex flex-col items-center  mt-2  px-6  mb-6">
-        <div className="flex flex-wrap justify-center gap-12 mt-20 ms-4 relative z-10">
+        <div className="flex flex-wrap justify-center gap-12 sm:mt-20 mt-6 ms-4 relative z-10">
           {passes.map((pass, index) => (
-            <>
+            <li key={index} className="list-none">
               <AnimatedCard passDetails={pass} key={index} />
-            </>
+            </li>
           ))}
         </div>
       </div>

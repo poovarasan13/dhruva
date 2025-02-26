@@ -25,7 +25,6 @@ const EventsDisplay = ({ scrollToEvent }) => {
 
   // Create an array of refs
   const eventRefs = useRef([]);
-
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2 sm:p-4 space-y-4 sm:space-y-6 overflow-hidden">
       {eventsData.map((event, index) => (
@@ -95,7 +94,7 @@ const EventsDisplay = ({ scrollToEvent }) => {
                 <UserPen className="text-red-500 w-[24px] h-[20px]" />
                 {event.facultyCoordinator}
               </p>
-
+              {event.facultyNumber &&
               <div className="flex items-center gap-[2px] text-gray-600 text-xs sm:text-sm">
                 <Phone className="text-blue-500 w-[20px] h-[16px]" />
                 <p>
@@ -106,26 +105,31 @@ const EventsDisplay = ({ scrollToEvent }) => {
                     {event.facultyNumber}
                   </a>
                 </p>
-              </div>
+              </div>}
             </div>
 
             {/* Student Coordinator */}
-            <div className="space-y-[2px]">
-              <p className="text-[10px] sm:text-[14px] font-semibold flex items-center gap-[2px] text-gray-700">
-                <User className="text-green-500 w-[20px] h-[20px]" />
-                {event.studentCoordinator}
-              </p>
-
-              <div className="flex items-center gap-[2px] text-gray-600 text-xs sm:text-sm">
-                <Phone className="text-blue-500 w-[20px] h-[16px]" />
-                <a
-                  href={`tel:${event.studentNumber}`}
-                  className="text-black hover:text-blue-800 text-xs md:text-sm"
-                >
-                  {event.studentNumber}
-                </a>
+            {(event.studentCoordinator || event.studentNumber) && (
+              <div className="space-y-[2px]">
+                {event.studentCoordinator && (
+                  <p className="text-[10px] sm:text-[14px] font-semibold flex items-center gap-[2px] text-gray-700">
+                    <User className="text-green-500 w-[20px] h-[20px]" />
+                    {event.studentCoordinator}
+                  </p>
+                )}
+                {event.studentNumber && (
+                  <div className="flex items-center gap-[2px] text-gray-600 text-xs sm:text-sm">
+                    <Phone className="text-blue-500 w-[20px] h-[16px]" />
+                    <a
+                      href={`tel:${event.studentNumber}`}
+                      className="text-black hover:text-blue-800 text-xs md:text-sm"
+                    >
+                      {event.studentNumber}
+                    </a>
+                  </div>
+                )}
               </div>
-            </div>
+            )}
 
             {/* Register Button */}
             <div className="py-5 flex justify-center lg:justify-start">
@@ -157,5 +161,4 @@ const EventsDisplay = ({ scrollToEvent }) => {
     </div>
   );
 };
-
 export default EventsDisplay;

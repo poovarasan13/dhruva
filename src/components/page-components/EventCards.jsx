@@ -5,6 +5,7 @@ import { Clock, Rocket } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import "../../assets/fonts/allfonts.css";
 import "../../assets/fonts/powergrotesk.css";
+
 function EventCards({ events }) {
   const navigate = useNavigate();
 
@@ -18,7 +19,7 @@ function EventCards({ events }) {
 
   return (
     <div className="flex hover:scale-105 duration-300 rounded-xl justify-center dm-sans overflow-hidden">
-      <Card className="w-full max-w-max sm:max-w-md bg-white hover:font-bold dark:bg-gray-800 shadow-lg rounded-xl overflow-hidden border border-gray-200 dark:border-gray-700 transition-all duration-300 hover:shadow-xl">
+      <Card className="w-80 sm:w-96 bg-white hover:font-bold dark:bg-gray-800 shadow-lg rounded-xl overflow-hidden border border-gray-200 dark:border-gray-700 transition-all duration-300 hover:shadow-xl">
         <CardContent className="p-4">
           {events.eventThumbnail && (
             <img
@@ -28,13 +29,13 @@ function EventCards({ events }) {
             />
           )}
           <div className="mt-4 text-center">
-            <h3 className="text-lg  powergrok text-gray-800 dark:text-white">
+            <h3 className="text-lg powergrok text-gray-800 dark:text-white">
               {events.eventName}
             </h3>
             <p className="text-sm text-gray-600 font-semibold dark:text-gray-300 mt-1">
               {events.eventType}
             </p>
-            <p className="text-sm flex justify-center gap-2 font-medium text-gray-700 dark:text-gray-400 mt-1 font-semibold">
+            <p className="text-sm flex justify-center gap-2  text-gray-700 dark:text-gray-400 mt-1 font-semibold">
               <Clock className="text-xs" /> Time:
               <span className="text-gray-800"> {events.eventTime}</span>
             </p>

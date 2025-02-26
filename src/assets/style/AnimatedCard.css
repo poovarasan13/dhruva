@@ -1,7 +1,7 @@
 .card {
   position: relative;
-  width: 300px;
-  height: 370px;
+  width: 350px;
+  height: 420px;
   border-radius: 14px;
   z-index: 1111;
   overflow: hidden;
@@ -16,8 +16,8 @@
   position: absolute;
   top: 5px;
   left: 5px;
-  width: 290px;
-  height: 360px;
+  width: 340px;
+  height: 410px;
   z-index: 2;
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(24px);
@@ -26,7 +26,6 @@
   outline: 2px solid white;
 }
 
-/* Glowing and Moving Blob */
 .blob {
   position: absolute;
   z-index: 1;
@@ -38,7 +37,7 @@
   background-color: var(--blob-color);
   opacity: 1;
   background-color: var(--blob-color);
-  box-shadow: 0 0 40px 20px var(--blob-color);
+  box-shadow: 0 0 80px 40px var(--blob-color);
   animation: blob-bounce 3s infinite ease-in-out,
     blob-glow 2s infinite alternate ease-in-out;
 }
@@ -49,7 +48,7 @@
     box-shadow: 0 0 20px 10px rgba(--blob-color);
   }
   100% {
-    box-shadow: 0 0 60px 30px rgba(--blob-color);
+    box-shadow: 0 0 80px 40px rgba(--blob-color);
   }
 }
 
@@ -59,13 +58,13 @@
     transform: translate(-50%, -50%) translate3d(0, 0, 0);
   }
   25% {
-    transform: translate(-50%, -50%) translate3d(80px, -40px, 0);
+    transform: translate(-50%, -50%) translate3d(150px, -100px, 0);
   }
   50% {
-    transform: translate(-50%, -50%) translate3d(50px, 60px, 0);
+    transform: translate(-50%, -50%) translate3d(120px, 180px, 0);
   }
   75% {
-    transform: translate(-50%, -50%) translate3d(-60px, 50px, 0);
+    transform: translate(-50%, -50%) translate3d(-140px, 150px, 0);
   }
   100% {
     transform: translate(-50%, -50%) translate3d(0, 0, 0);
@@ -74,11 +73,11 @@
 
 @media (max-width: 768px) {
   .card {
-    width: 250px;
-    height: 360px;
+    width: 270px;
+    height: 430px;
   }
   .bg {
-    width: 240px;
-    height: 350px;
+    width: 260px;
+    height: 420px;
   }
 }

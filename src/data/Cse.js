@@ -131,11 +131,7 @@ const cse = {
         {
           name: "Mr.S.Deepak Kumar III CS B",
           contact: "",
-        },
-        {
-          name: "",
-          contact: "",
-        },
+        }
       ],
     },
     {
@@ -144,8 +140,8 @@ const cse = {
       eventDepartement: "Department Of Computer Science And Engineering",
       eventType: "Technical",
       eventSubType: "Technical",
-      eventTime: "10:30 AM – 11.30 AM",
-      eventDescription: "",
+      eventTime: "11:30 AM – 12.30 AM",
+      eventDescription: "This event challenges participants with a series of tech-related puzzles, problem-solving tasks, and hands-on challenges. Test your knowledge across various fields of engineering and computer science while competing for top honors. ",
       eventRules: ["2 members/team"],
       eventVenue: "C-block / Room No: C 204",
       eventRounds: ["Round 1 : Sort listing.", "Round 2 : Final round."],
@@ -154,16 +150,16 @@ const cse = {
         "All the candidates will be given participation certificates.",
       ],
       eventStaffCoordinator: {
-        name: "",
+        name: "Dr. Kala R",
         contact: "",
       },
       studentCoordinator: [
         {
-          name: "",
+          name: "Vishal ",
           contact: "",
         },
         {
-          name: "",
+          name: "Manoj",
           contact: "",
         },
       ],
@@ -199,10 +195,10 @@ const cse = {
     },
     {
       posterUrl: "",
-      eventName: "",
+      eventName: "Mobile App Design Contest",
       eventType: "Technical",
       eventSubType: "Technical",
-      eventTime: "11:30 AM",
+      eventTime: "1:30 PM -2.30PM",
       eventDescription: "",
       eventRules: ["2 members/team"],
       eventVenue: "E-block / Room No: E102",
@@ -226,47 +222,47 @@ const cse = {
         },
       ],
     },
-    {
-      posterUrl: "",
-      eventName: "",
-      eventType: "Non-Technical",
-      eventSubType: "NonTechnical",
-      eventTime: "11:00 AM",
-      eventDescription: [
-        `The "Mystery Connection" event challenges participants to solve puzzles and connect clues to uncover hidden answers. It fosters teamwork, problem-solving, and critical thinking, providing an exciting and interactive experience for those eager to test their analytical skills.`,
-      ],
-      eventRules: [
-        "2 members/team",
-        "The one who holds the board shouldn’t see the board.",
-      ],
-      eventVenue: "E-block / Room No: E103",
-      eventRounds: ["Round 1 : Sort listing.", "Round 2 : Final round."],
-      eventPrize: [
-        "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
-        "All the candidates will be given participation certificates.",
-      ],
-      eventStaffCoordinator: {
-        name: "",
-        contact: "",
-      },
-      studentCoordinator: [
-        {
-          name: "",
-          contact: "",
-        },
-        {
-          name: "",
-          contact: "",
-        },
-      ],
-    },
+    // {
+    //   posterUrl: "",
+    //   eventName: "",
+    //   eventType: "Non-Technical",
+    //   eventSubType: "NonTechnical",
+    //   eventTime: "11:00 AM",
+    //   eventDescription: [
+    //     `The "Mystery Connection" event challenges participants to solve puzzles and connect clues to uncover hidden answers. It fosters teamwork, problem-solving, and critical thinking, providing an exciting and interactive experience for those eager to test their analytical skills.`,
+    //   ],
+    //   eventRules: [
+    //     "2 members/team",
+    //     "The one who holds the board shouldn’t see the board.",
+    //   ],
+    //   eventVenue: "E-block / Room No: E103",
+    //   eventRounds: ["Round 1 : Sort listing.", "Round 2 : Final round."],
+    //   eventPrize: [
+    //     "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
+    //     "All the candidates will be given participation certificates.",
+    //   ],
+    //   eventStaffCoordinator: {
+    //     name: "",
+    //     contact: "",
+    //   },
+    //   studentCoordinator: [
+    //     {
+    //       name: "",
+    //       contact: "",
+    //     },
+    //     {
+    //       name: "",
+    //       contact: "",
+    //     },
+    //   ],
+    // },
     {
       posterUrl: "",
       eventName: "Poster Design",
       eventType: "Non-Technical",
       eventSubType: "NonTechnical",
       eventTime: "2:00 PM",
-      eventDescription: "",
+      eventDescription: "This event challenges participants to craft visually captivating posters that communicate a strong message or theme. Whether it's for a cause, event, or brand, your design will be judged on creativity, clarity, and visual impact. Join us to showcase your artistic flair and make a statement with your design",
       eventRules: ["2 members / team"],
       eventVenue: "C-Block/ AT Lab",
       eventRounds: [],
@@ -275,49 +271,197 @@ const cse = {
         "All the candidates will be given participation certificates.",
       ],
       eventStaffCoordinator: {
-        name: "",
+        name: "Ms. Sharmila G",
         contact: "",
       },
       studentCoordinator: [
         {
-          name: "",
+          name: "Logeshwari",
           contact: "",
         },
         {
-          name: "",
+          name: "Indu",
           contact: "",
         },
       ],
     },
     {
       posterUrl: "",
-      eventName: "Tech Debate",
+      eventName: "Anime IQ",
       eventType: "Non-Technical",
       eventSubType: "NonTechnical",
-      eventTime: "3:00 PM",
-      eventDescription: "",
-      eventRules: ["4 members/team"],
-      eventVenue: "C-block / C -202",
+      eventTime: "2:30 PM -3.30 PM",
+      eventDescription: "This event is perfect for anime enthusiasts who love to dive deep into the world of anime characters, storylines, and trivia. Compete with fellow fans to see who knows the most about anime, from classics to the latest series. ",
+      eventRules: ["2 members / team"],
+      eventVenue: "E-Block/ Room No: E103",
+      eventRounds: [],
+      eventPrize: [
+        "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
+        "All the candidates will be given participation certificates.",
+      ],
+      eventStaffCoordinator: {
+        name: "Ms Nalini  N ",
+        contact: "",
+      },
+      studentCoordinator: [
+        {
+          name: "Kanishma ",
+          contact: "",
+        },
+        {
+          name: "Akshaya",
+          contact: "",
+        },
+      ],
+    },
+    {
+      posterUrl: "",
+      eventName: "Content Creation",
+      eventType: "Non-Technical",
+      eventSubType: "NonTechnical",
+      eventTime: "2:30 PM -3.00 PM",
+      eventDescription: "This competition invites participants to showcase their skills in three key areas: script writing, photography, and reel making. Whether you're crafting engaging stories, capturing stunning visuals, or producing attention-grabbing reels, this event provides the perfect platform to express your creativity.",
+      eventRules: ["2 members / team"],
+      eventVenue: "C-Block/ Room No: C202",
       eventRounds: ["Round 1 : Sort listing."],
       eventPrize: [
         "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
         "All the candidates will be given participation certificates.",
       ],
       eventStaffCoordinator: {
-        name: "",
+        name: "Mr. Antony Vijay J",
         contact: "",
       },
       studentCoordinator: [
         {
-          name: "",
+          name: "Surya  ",
           contact: "",
         },
         {
-          name: "",
+          name: "Dinesh ",
           contact: "",
         },
       ],
     },
+    {
+      posterUrl: "",
+      eventName: "Bug Smash",
+      eventType: "Technical",
+      eventSubType: "Technical",
+      eventTime: "3:30 PM -4.30 PM",
+      eventDescription: "Participants will dive into a series of coding puzzles, each containing tricky bugs to fix. The goal is simple: identify, smash, and eliminate the bugs as quickly and efficiently as possible. Test your debugging skills under time pressure and compete for prizes in this fast-paced, fun-filled contest.",
+      eventRules: ["2 members / team"],
+      eventVenue: "C-Block/ IBM LAB",
+      eventRounds: ["Round 1 : Selection Round.",
+        "Rounf 2 : Final Round."
+        ],
+      eventPrize: [
+        "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
+        "All the candidates will be given participation certificates.",
+      ],
+      eventStaffCoordinator: {
+        name: "Mr. Venkatesh R",
+        contact: "",
+      },
+      studentCoordinator: [
+        {
+          name: "Shruthi   ",
+          contact: "",
+        },
+        {
+          name: "Kamalesh  ",
+          contact: "",
+        },
+      ],
+    },
+    {
+      posterUrl: "",
+      eventName: "Hackathon",
+      eventType: "Technical",
+      eventSubType: "Technical",
+      eventTime: "3:0 PM -4.30 PM",
+      eventDescription: "A Hackathon is an intense, time-bound coding competition where participants collaborate to develop innovative software solutions. It brings together programmers, designers, and tech enthusiasts to solve real-world problems using cutting-edge technologies like AI, IoT, Blockchain, and Cloud Computing. Participants work in teams to brainstorm ideas, build prototypes, and present their solutions to judges. The event encourages creativity, teamwork, and rapid problem-solving, making it a great platform for learning and networking. Hackathons often result in groundbreaking projects, startups, or open-source contributions.",
+      eventRules: ["4 members / team"],
+      eventVenue: "C-Block/ AT LAB",
+      eventRounds: [
+        ],
+      eventPrize: [
+        "The winner will receive a prize of Rs. 1500, while the runner will receive a prize of Rs.1000.",
+        "All the candidates will be given participation certificates.",
+      ],
+      eventStaffCoordinator: {
+        name: "Ms. Mariammal R",
+        contact: "",
+      },
+      studentCoordinator: [
+        {
+          name: "Santhosh",
+          contact: "",
+        },
+        {
+          name: "Shakthi ",
+          contact: "",
+        },
+      ],
+    },
+    {
+      posterUrl: "",
+      eventName: "Mr & Ms AURA",
+      eventType: "Non-Technical",
+      eventSubType: "NonTechnical",
+      eventTime: "3.00 PM -4.30 PM",
+      eventDescription: "This event celebrates confidence, poise, and personality through a series of exciting rounds, including a stylish ramp walk, speech delivery, and a fun Q&A session. Participants will be judged on their charisma, communication skills, and overall presence. ",
+      eventRules: ["2 members / team"],
+      eventVenue: "C-Block/ Room No: C202",
+      eventRounds: [],
+      eventPrize: [
+        "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
+        "All the candidates will be given participation certificates.",
+      ],
+      eventStaffCoordinator: {
+        name: "Dr.Sangeetha S & Dr.Muthanantha Murugavel",
+        contact: "",
+      },
+      studentCoordinator: [
+        {
+          name: "Raghav S",
+          contact: "",
+        },
+        {
+          name: "Krihtik J",
+          contact: "",
+        },
+      ],
+    },
+    // {
+    //   posterUrl: "",
+    //   eventName: "Tech Debate",
+    //   eventType: "Non-Technical",
+    //   eventSubType: "NonTechnical",
+    //   eventTime: "3:00 PM",
+    //   eventDescription: "",
+    //   eventRules: ["4 members/team"],
+    //   eventVenue: "C-block / C -202",
+    //   eventRounds: ["Round 1 : Sort listing."],
+    //   eventPrize: [
+    //     "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
+    //     "All the candidates will be given participation certificates.",
+    //   ],
+    //   eventStaffCoordinator: {
+    //     name: "",
+    //     contact: "",
+    //   },
+    //   studentCoordinator: [
+    //     {
+    //       name: "",
+    //       contact: "",
+    //     },
+    //     {
+    //       name: "",
+    //       contact: "",
+    //     },
+    //   ],
+    // },
   ],
 };
 export default cse;

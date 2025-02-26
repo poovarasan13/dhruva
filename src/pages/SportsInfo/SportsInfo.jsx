@@ -93,7 +93,7 @@ const sportsData = [
     gender: "both",
     coordinator: "Dhanush",
     phone: "+916383104393",
-    venue: "KCe",
+    venue: "KCE",
     time: "13th March 2025, 09.00 AM",
     cost: "500/team",
     rules: [
