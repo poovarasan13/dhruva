@@ -48,7 +48,7 @@ const MusicalConcert = () => {
               Musical Concert
             </motion.h2>
             <motion.p
-              className="text-gray-600 sm:text-lg mb-6 md:mb-8 dm-sans"
+              className="text-gray-600 sm:text-lg mb-6 md:mb-8 work-sans"
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
@@ -59,7 +59,7 @@ const MusicalConcert = () => {
               distinguished guests.
             </motion.p>
             <motion.p
-              className="text-gray-600 sm:text-lg mb-6 md:mb-8 dm-sans"
+              className="text-gray-600 sm:text-lg mb-6 md:mb-8  work-sans"
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.6 }}
@@ -69,7 +69,7 @@ const MusicalConcert = () => {
               cultures.
             </motion.p>
             <motion.p
-              className="text-gray-600 sm:text-lg mb-6 md:mb-8 dm-sans"
+              className="text-gray-600 sm:text-lg mb-6 md:mb-8  work-sans"
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.8 }}
@@ -80,7 +80,7 @@ const MusicalConcert = () => {
               mesmerizing voice and be captivated by her performance!
             </motion.p>
             <motion.p
-              className="text-gray-600 sm:text-lg mb-6 md:mb-8 dm-sans"
+              className="text-gray-600 sm:text-lg mb-6 md:mb-8  work-sans"
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 1.0 }}

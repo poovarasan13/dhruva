@@ -82,7 +82,6 @@ function HeroSection() {
           </motion.div>
         </div>
 
-        {/* OffStage Section */}
         <div className="flex flex-col md:flex-row items-center gap-6 md:gap-8 lg:gap-12">
           <motion.div
             className="w-full md:w-1/2 lg:w-2/5 flex justify-center"

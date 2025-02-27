@@ -43,7 +43,7 @@ function EventBanner({
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="text-3xl lg:text-5xl dm-serif font-bold mb-4"
+          className="text-3xl lg:text-5xl powergrok font-light  mb-4"
           style={{ color: textColor }}
         >
           {title}
@@ -55,7 +55,7 @@ function EventBanner({
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="text-lg mb-8"
+          className="text-lg mb-8 work-sans"
           style={{ color: textColor }}
         >
           {description}
@@ -88,7 +88,7 @@ function EventBanner({
                 clipRule="evenodd"
               />
             </svg>
-            <span className="text-lg">Venue: {venue}</span>
+            <span className="text-lg work-sans">Venue: {venue}</span>
           </div>
 
           <div className={`flex items-center`} style={{ color: textColor }}>
@@ -105,7 +105,7 @@ function EventBanner({
                 clipRule="evenodd"
               />
             </svg>
-            <span className="text-lg">Date: {date}</span>
+            <span className="text-lg  work-sans">Date: {date}</span>
           </div>
         </motion.div>
       </div>
