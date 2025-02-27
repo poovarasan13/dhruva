@@ -7,8 +7,8 @@ const SportsAssests = {
     "https://res.cloudinary.com/dk75r8sim/image/upload/v1739937825/football_t5ugqu.png",
   Cricket:
     "https://res.cloudinary.com/dk75r8sim/image/upload/v1739937826/cricket_xy3xvm.png",
-  Volleyball:
-    "https://res.cloudinary.com/dk75r8sim/image/upload/v1739942318/volleyball_f3yald.png",
+  Volleyball:"https://res.cloudinary.com/dk75r8sim/image/upload/v1740587822/volley_yr4yhl.avif",
+    // "https://res.cloudinary.com/dk75r8sim/image/upload/v1739942318/volleyball_f3yald.png",
   Throwball:
     "https://res.cloudinary.com/dk75r8sim/image/upload/v1739943676/throwball_gzsqvd.png",
   Handball:

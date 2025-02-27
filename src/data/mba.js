@@ -25,17 +25,16 @@ const mba = {
         "Making a RE-innovation in a product. Creating a website and making a digital advertisement for a created product. This event is designed to ignite strategic thinking, creativity, and digital marketing expertise, providing participants with a platform to demonstrate their skills in branding, product innovation, and online promotion.",
       eventVenue: "B-Block",
       eventRounds: [
-        "INNOGENIUS: Select an existing product and enhance it with innovative attributes. Prepare a 3min pitch explaining the innovation, market needs and feasibility.",
-        "THE CLICK BLITZ: Create a fully functional website and submit a report on SEO techniques used.",
-        "AdVANTAGE: Create a 30-second video showcasing the product’s innovation. It may be animated or live action.",
+          "Innogenius - Select an existing product and enhance it with innovative attributes. Prepare a 3min pitch explaining the innovation, market needs and feasibility. ",
+          "Advantage – Create a 30 seconds video at showcasing the product’innovation. It may be animated or live actions. "
       ],
       eventPrize: [],
       eventRules: [
-        "Participants may be individual or teams (Max 4 members)",
-        "It must involve a significant improvement or innovative twist on existing product, systems, or ideas.",
+        "Participants may be individual or teams(Max 4 members) ",
+        "It must involve a significant improvement or innovative twist on existing product, systems or ideas. ",
         "Innovations must be unique and must not be copied",
-        "You will be selected for the subsequent rounds based on the performance in each round.",
-        "All participants must bring essential things (Laptop, Pendrive, etc.)",
+        "You will be selected for the subsequent rounds based on the performance in each round. ",
+        "All must bring your essential things(Laptop, Pendrive… ) ",
       ],
       eventStaffCoordinator: {
         name: "Ms. Shabana Rahman, AP/SoMS",
@@ -110,6 +109,7 @@ const mba = {
            "2 to 3 members ",
           "No electronic gadgets allowed",
           "Formal dress code for final round",
+          " Every team should bring their own business proposal and brochure",
       ],
       eventStaffCoordinator: {
         name: "Ms. K. Kavitha ",

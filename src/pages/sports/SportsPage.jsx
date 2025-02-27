@@ -84,7 +84,7 @@ const coordinatorData = {
   description: "Faster, Higher, Stronger, Together.",
   eventName: "Karpagam All India Inter College ChampionShip",
   eventType:
-    "HandBall, VolleyBall, Kabbadi, Cricket, BallBadminton, Throwball,Football",
+    "HandBall, VolleyBall, Kabbadi, Cricket, BallBadminton, Throwball, Football",
   eventTiming: "13.3.2025 - 14.3.2025",
   venue: "KCE GROUND",
 };

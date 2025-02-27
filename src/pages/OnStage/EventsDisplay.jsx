@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from "react";
+import { useNavigate } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import {
@@ -25,6 +26,10 @@ const EventsDisplay = ({ scrollToEvent }) => {
 
   // Create an array of refs
   const eventRefs = useRef([]);
+  const navigate=useNavigate();
+  const handleNavigate =()=>{
+      navigate('/registration');
+  }
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2 sm:p-4 space-y-4 sm:space-y-6 overflow-hidden">
@@ -143,7 +148,7 @@ const EventsDisplay = ({ scrollToEvent }) => {
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  <span className="flex items-center gap-2">
+                  <span className="flex items-center gap-2" onClick={handleNavigate}>
                     Register
                     <motion.div
                       whileHover={{ y: -5, rotate: -15 }}
