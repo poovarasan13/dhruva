@@ -4,7 +4,7 @@ const offstage = {
   FacePainting:
     "https://res.cloudinary.com/doqhh6cqt/image/upload/v1740038806/FacePainting_y1l3st.avif",
   Mehandi:
-    "https://res.cloudinary.com/dl2wibcfp/image/upload/v1740029680/Meganthi_jgxvik.avif",
+    "https://res.cloudinary.com/dzpkbej9y/image/upload/v1740588051/meganthi_xrdis5.png",
   Reels:
     "https://res.cloudinary.com/doqhh6cqt/image/upload/v1740040317/Reels_xsvpjh.avif",
   ShortFilm:

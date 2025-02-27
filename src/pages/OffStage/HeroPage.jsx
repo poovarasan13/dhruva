@@ -1,4 +1,3 @@
-// import {  default as heroImage2 } from '../../assets/images/about-images.jpg';
 import heroImage from "../../assets/images/HeroImage.png";
 import heroImage2 from "../../assets/images/HeroImage.png";
 const HeroPage = ({OffStage, title, tagline}) => {

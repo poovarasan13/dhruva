@@ -20,7 +20,7 @@ function HeroSection() {
   const onStageImage =
     "https://res.cloudinary.com/dzpkbej9y/image/upload/v1739939555/drumbs_fg2qjg.avif";
   const offStageImage =
-    "https://res.cloudinary.com/dl2wibcfp/image/upload/v1740029680/Meganthi_jgxvik.avif";
+    "https://res.cloudinary.com/dzpkbej9y/image/upload/v1740588051/meganthi_xrdis5.png";
 
   return (
     <div>
