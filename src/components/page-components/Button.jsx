@@ -11,7 +11,6 @@ const Button = ({ link, text, color = "blue-600" }) => {
         transition={{ duration: 0.5, ease: "easeOut" }}
       >
         <a href={link}>
-          {/* ✅ Changed motion.button to motion.div */}
           <motion.div
             className={`text-white josefin px-5 py-2 md:px-4 md:py-2 md:text-[15px] bg-${color} hover:bg-opacity-90 shadow-lg flex gap-2 items-center rounded-full cursor-pointer`}
             whileHover={{ scale: 1.1 }}

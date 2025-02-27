@@ -31,10 +31,10 @@ function HeroSection() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
-        <h1 className="text-3xl sm:text-4xl powergrok md:text-5xl lg:text-6xl  tracking-tight  text-black">
+        <h1 className="text-3xl sm:text-4xl powergrok md:text-5xl lg:text-6xl   tracking-wider  text-black">
           Cultural Fest
         </h1>
-        <p className="mt-4 dm-sans text-center text-sm sm:text-base md:text-lg text-gray-800 dark:text-gray-300 max-w-5xl mx-auto leading-relaxed">
+        <p className="mt-4 work-sans text-center text-sm sm:text-base md:text-lg text-gray-800 dark:text-gray-300 max-w-5xl mx-auto leading-relaxed">
           Get ready for an electrifying Cultural Fest! Experience the vibrant
           blend of music, dance, theatre, and art through
           <span className="font-bold text-black hover:text-red-600 ms-2 me-2">
@@ -68,7 +68,7 @@ function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
           >
-            <h1 className="text-2xl sm:text-3xl md:text-4xl dm-serif font-bold text-gray-900">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl powergrok font-bold text-gray-900">
               OnStage Events
             </h1>
             <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed work-sans">
@@ -103,10 +103,10 @@ function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut", delay: 0.2 }}
           >
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dm-serif">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 powergrok">
               OffStage Events
             </h1>
-            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed dm-sans">
+            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed worksans">
               Beyond the limelight, OffStage offers engaging workshops,
               interactive sessions, and behind-the-scenes glimpses into the
               creative world. Connect, learn, and be inspired.
