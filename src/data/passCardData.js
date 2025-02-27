@@ -4,7 +4,7 @@ const passes = [
   {
     id: 1,
     title: "Standard Pass",
-    color: "",
+    color: "#DE2E30",
     cardColor: "#DE2E30",
     price: 200,
     benefits: [
@@ -21,7 +21,7 @@ const passes = [
     title: "Elite Pass",
     price: 300,
     cardColor: "#E8DA2A",
-    color: "",
+    color: "#E8DA2A",
     benefits: [
       "For Individual",
       "Day 2 on 14/03/2025",
@@ -35,7 +35,7 @@ const passes = [
     id: 3,
     title: "Pro Pass",
     cardColor: "#AF10CF",
-    color: "",
+    color: "#AF10CF",
     price: 400,
     benefits: [
       "For Individual",
@@ -51,7 +51,7 @@ const passes = [
     id: 4,
     title: "Cultural Pass",
     cardColor: "#F30779",
-    color: "",
+    color: "#F30779",
     price: 200,
     benefits: [
       "Day 2 on 15/03/2025",
@@ -65,7 +65,7 @@ const passes = [
     id: 5,
     title: "Dhruva Pro Pass",
     price: 500,
-    color: "",
+    color: "#44BD32",
     cardColor: "#44BD32",
     benefits: [
       "Day 1(14/03/2025) & Day 2(15/03/2025)",
@@ -81,7 +81,7 @@ const passes = [
     title: "Sports Pass",
     price: "500/1000 per team",
     cardColor: "#FC8A02",
-    color: "",
+    color: "#FC8A02",
     benefits: [
       "Entry fee depends upon the Game. Checkout kcedhruva.in/sports for more details",
       "Strats on 13/03/2025 and match goes on based on knock out",
