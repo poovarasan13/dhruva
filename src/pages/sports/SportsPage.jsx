@@ -103,7 +103,7 @@ const CoordinatorCard = () => {
   return (
     <div className="max-w-4xl mx-auto bg-white rounded-3xl shadow-lg overflow-hidden p-4">
       <div className="p-8 bg-white text-gray-800 rounded-3xl shadow-xl">
-        <h2 className="text-1xl sm:text-3xl font-extrabold text-center mb-6 dm-serif">
+        <h2 className="text-1xl sm:text-3xl font-extrabold text-center mb-6 powergrok">
           Overall Coordinator
         </h2>
 
@@ -111,7 +111,7 @@ const CoordinatorCard = () => {
           <div className="flex flex-wrap justify-between items-center mb-4">
             <div className="flex items-center space-x-2 w-full ">
               <User className="text-blue-500" />
-              <div className="text-sm sm:text-sm md:text-md dm-sans text-gray-800 w-full sm:w-1/2 md:w-2/3">
+              <div className="text-sm sm:text-sm md:text-md work-sans text-gray-800 w-full sm:w-1/2 md:w-2/3">
                 {coordinatorData.name}
               </div>
             </div>
@@ -149,14 +149,14 @@ const CoordinatorCard = () => {
             </div>
           </div>
         </div>
-        <h3 className="text-2xl sm:text-xs md:text-xl dm-serif font-semibold mt-8 mb-4">
+        <h3 className="text-2xl sm:text-xs md:text-xl dm-serif font-lighter powergrok mt-8 mb-4">
           Event Details
         </h3>
         <div>
           <div className="flex flex-wrap justify-between items-center mb-4">
             <div className="flex items-center space-x-2 w-full ">
               <Calendar className="text-purple-500" />
-              <div className="text-sm sm:text-sm md:text-md dm-sans text-gray-800 w-full ">
+              <div className="text-sm sm:text-sm md:text-md work-sans text-gray-800 w-full ">
                 {coordinatorData.eventName}
               </div>
             </div>
@@ -165,7 +165,7 @@ const CoordinatorCard = () => {
           <div className="flex flex-wrap justify-between items-center mb-4">
             <div className="flex items-center space-x-2 w-full ">
               <FileText className="text-teal-500" />
-              <div className="text-sm sm:text-sm md:text-md dm-sans text-gray-800 w-full sm:w-1/2 md:w-2/3">
+              <div className="text-sm sm:text-sm md:text-md work-sans text-gray-800 w-full sm:w-1/2 md:w-2/3">
                 {coordinatorData.eventType}
               </div>
             </div>
@@ -174,7 +174,7 @@ const CoordinatorCard = () => {
           <div className="flex flex-wrap justify-between items-center mb-4">
             <div className="flex items-center space-x-2 w-full ">
               <Calendar className="text-orange-500" />
-              <div className="text-sm sm:text-sm md:text-md dm-sans text-gray-800 w-full sm:w-1/2 md:w-2/3">
+              <div className="text-sm sm:text-sm md:text-md work-sans text-gray-800 w-full sm:w-1/2 md:w-2/3">
                 {coordinatorData.eventTiming}
               </div>
             </div>
@@ -183,7 +183,7 @@ const CoordinatorCard = () => {
           <div className="flex flex-wrap justify-between items-center mb-4">
             <div className="flex items-center space-x-2 w-full ">
               <MapPin className="text-indigo-500" />
-              <div className="text-sm sm:text-sm md:text-md dm-sans text-gray-800 w-full sm:w-1/2 md:w-2/3">
+              <div className="text-sm sm:text-sm md:text-md work-sans text-gray-800 w-full sm:w-1/2 md:w-2/3">
                 {coordinatorData.venue}
               </div>
             </div>
@@ -206,10 +206,10 @@ const SportsPage = () => {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
-        <h1 className="text-3xl sm:text-6xl font-extrabold tracking-tight dm-serif bg-gradient-to-r text-black  bg-clip-text">
+        <h1 className="text-3xl sm:text-6xl font-medium powergrok tracking-wide dm-serif bg-gradient-to-r text-black  bg-clip-text">
           Department of Physical Education
         </h1>
-        <p className="mt-4 dm-sans text-sm md:text-lg text-gray-800 dark:text-gray-300 max-w-2xl mx-auto leading-relaxed">
+        <p className="mt-4 work-sans text-sm md:text-lg text-gray-800 dark:text-gray-300 max-w-2xl mx-auto leading-relaxed">
           The Department of Physical Education is excited to announce its
           upcoming events! Join us for
           <span className="font-bold text-black hover:text-red-600 ms-2 me-2">
@@ -221,7 +221,7 @@ const SportsPage = () => {
       </motion.div>
       <CoordinatorCard />
       <div className="container mx-auto px-4 lg:px-16 pb-12 lg:mt-18 mt-10">
-        <h1 className="lg:text-4xl text-2xl font-bold text-center mb-8 dm-serif mt-20 ">
+        <h1 className="lg:text-4xl text-2xl font-bold text-center mb-8 powergrok mt-20 ">
           Sports Meet
         </h1>
         {sportsData.map((sport, index) => (
@@ -271,7 +271,7 @@ const SportCard = ({ sport }) => {
         />
       </motion.div>
       <div className="w-full md:w-1/2 space-y-4 text-center md:text-left ">
-        <h2 className="text-2xl  dm-serif md:text-xl lg:text-2xl font-semibold text-black dm-serif flex items-center justify-center md:justify-center">
+        <h2 className="text-2xl  dm-serif md:text-xl lg:text-2xl font-semibold text-black powergrok flex items-center justify-center md:justify-center">
           {sport.title}
           {sport.gender === "male" && (
             <>
@@ -299,7 +299,7 @@ const SportCard = ({ sport }) => {
             </>
           )}
         </h2>
-        <p className="text-md  dm-sans text-center ">{sport.description}</p>
+        <p className="text-md  work-sans text-center  ">{sport.description}</p>
         <div className="flex justify-center md:justify-center">
           <Button
             className="p-4 border-b-gray-200  rounded-full w-40 dm-sans justify-center"
