@@ -27,19 +27,19 @@ const AnimatedCard = ({ passDetails }) => {
           style={{ backgroundColor: passDetails.cardColor }}
         >
           <div>
-            <h3 className="text-center text-2xl sm:text-3xl md:text-[32px] powergrok font-semibold text-black">
+            <h3 className="text-center text-2xl sm:text-3xl md:text-[32px] work-sans font-extrabold text-black">
               {passDetails.title}
             </h3>
             <p className="text-xl sm:text-2xl md:text-[28px] text-center font-medium mt-2 md:mt-3">
-              {passDetails.price}
-            </p>
+              ₹{passDetails.price}
+            </p>  
           </div>
 
           <ul className="mt-4 space-y-3 text-sm sm:text-base md:text-lg text-black flex-grow">
             {passDetails.benefits.map((benefit, index) => (
               <li key={index}>
                 <span className="flex items-center gap-2 sm:gap-3">
-                  <Check className="flex-shrink-0 text-green-400 w-4 h-4 sm:w-5 sm:h-5" />
+                  <Check className="flex-shrink-0 text-green-800 w-4 h-4 sm:w-5 sm:h-5" />
                   <span className="text-left text-sm sm:text-md">
                     {benefit}
                   </span>
@@ -48,19 +48,17 @@ const AnimatedCard = ({ passDetails }) => {
             ))}
           </ul>
           <div className="flex justify-center mb-2">
-<<<<<<< HEAD
-            <Button  onClick={handleNavigate}
-              className="text-white hover:text-black px-6 py-2 font-medium rounded-full hover:scale-105 transition-all flex items-center gap-2 text-sm sm:text-base md:text-lg"
-=======
-            <Button
-              className=" hover:bg-white hover:text-black px-6 py-2 bg-white text-black  font-medium rounded-full hover:scale-105 transition-all flex items-center gap-2 text-sm sm:text-base md:text-lg"
->>>>>>> 4d7e5cfb7b882f0e6117f253b46d73a35468d3ff
-              style={{
-                backgroundColor: passDetails.color,
-              }}
-            >
-              Visit <RocketIcon className="w-4 h-4 sm:w-5 sm:h-5" />
-            </Button>
+            <div className="relative group">
+              <div className="absolute -inset-0.5 bg-black rounded-full opacity-75 animate-pulse group-hover:opacity-100"></div>
+              <Button
+                className="relative hover:bg-white hover:text-black px-6 py-2 bg-white text-black font-medium rounded-full hover:scale-105 transition-all flex items-center gap-2 text-sm sm:text-base md:text-lg"
+                style={{
+                  backgroundColor: passDetails.color,
+                }}
+              >
+                Visit <RocketIcon className="w-4 h-4 sm:w-5 sm:h-5" />
+              </Button>
+            </div>
           </div>
         </div>
 
