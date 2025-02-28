@@ -36,13 +36,13 @@ const ConcertEvent = () => {
         variants={headerVariants}
         transition={{ duration: 0.5 }}
       >
-        <h1 className="text-4xl md:text-6xl dm-sans text-cp  font-extrabold">
+        <h1 className="text-4xl md:text-6xl  work-sans text-cp  font-extrabold">
           Mega Live In Concert
         </h1>
       </motion.header>
 
       <motion.section
-        className="relative px-4 md:px-8 py-10" 
+        className="relative px-4 md:px-8 py-10"
         initial="hidden"
         animate="visible"
         variants={sectionVariants}
@@ -54,7 +54,7 @@ const ConcertEvent = () => {
               <h2 className="text-2xl text-cp md:text-5xl font-bold dm-sans ">
                 Let's Rock!
               </h2>
-              <p className="mt-4 text-lg md:text-xl font-bold  josefin">
+              <p className="mt-4 text-lg md:text-xl font-bold  work-sans">
                 KCE Dhruva Events Join us as we bring together vivid minds,
                 visionaries, and budding talents from all parts of the country
                 to showcase their skills and passion in a vibrant environment.
@@ -85,13 +85,10 @@ const ConcertEvent = () => {
           variants={sectionVariants}
           transition={{ duration: 0.5 }}
         >
-          <h3
-            className="text-2xl  md:text-5xl dm-sans font-bold  text-cp"
-           
-          >
+          <h3 className="text-2xl  md:text-5xl dm-sans font-bold  text-cp">
             Live-in Concert
           </h3>
-          <p className="mt-4 text-gray-700 leading-relaxed text-lg md:text-xl josefin">
+          <p className="mt-4 text-gray-700 leading-relaxed text-lg md:text-xl work-sans">
             In the embrace of the night, prepare to be swept away by a cascade
             of harmonies and rhythms. Our Melody Evening is a tapestry of
             soul-stirring tunes, carefully curated to ignite your senses.
@@ -127,14 +124,10 @@ const ConcertEvent = () => {
           variants={sectionVariants}
           transition={{ duration: 0.5 }}
         >
-          <h3
-       
-            className="text-2xl text-cp  md:text-5xl dm-sans font-bold "
-       
-          >
+          <h3 className="text-2xl text-cp  md:text-5xl dm-sans font-bold ">
             General Rules
           </h3>
-          <ul className="mt-4 text-gray-700 list-disc space-y-3 pl-6 md:pl-8 josefin">
+          <ul className="mt-4 text-gray-700 list-disc space-y-3 pl-6 md:pl-8 work-sans">
             <li className="text-xl">
               Each participant should carry their respective identity proof.
             </li>

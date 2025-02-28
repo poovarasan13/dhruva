@@ -29,7 +29,7 @@ const Queries = () => {
   return (
     <div className="flex justify-center items-center px-4 py-10">
       <div className="w-full max-w-8xl bg-opacity-80 backdrop-blur-lg shadow-2xl rounded-lg p-4 sm:p-6">
-        <h4 className="text-center text-lg sm:text-xl font-bold text-gray-800 mb-4 sm:mb-5">
+        <h4 className="text-center text-lg sm:text-3xl font-light powergrok text-gray-800 mb-4 sm:mb-5">
           For Inquiries & Registration
         </h4>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6">
