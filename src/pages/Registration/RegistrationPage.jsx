@@ -2,12 +2,13 @@ import React from "react";
 import "../../assets/fonts/dmsans.css";
 // import Sports from "../../"
 import { useEffect } from "react";
+import Registration from '../../assets/visualassets/Registration.js'
 import { DemoCard } from "@/components/page-components/DemoCard";
 const cards = [
   {
     title: "Techincal Fest",
     description: "Explore the latest trends in cybersecurity and ethical hacking.",
-    imageUrl:"https://res.cloudinary.com/dzpkbej9y/image/upload/v1740573201/Technical_k4ly6w.avif",
+    imageUrl: Registration.Technical,
     link:"",
       // "https://images.unsplash.com/photo-1476842634003-7dcca8f832de?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
     // hoverImageUrl:Gif2
@@ -16,7 +17,7 @@ const cards = [
   {
     title: "Cultural Fest",
     description: "An innovative event showcasing AI-powered solutions.",
-    imageUrl:"https://res.cloudinary.com/dzpkbej9y/image/upload/v1740574213/xdmkkb7pethrxqukopwu_umlfue.avif",
+    imageUrl: Registration.Cultural,
     link:"",
       // "https://images.unsplash.com/photo-1476842634003-7dcca8f832de?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
     // hoverImageUrl:Gif1,
@@ -26,7 +27,7 @@ const cards = [
   {
     title: "Sports Meet",
     description: "Learn about decentralized technologies shaping the future.",
-    imageUrl:"https://res.cloudinary.com/dzpkbej9y/image/upload/v1740572480/Football_ny1tr2.avif",
+    imageUrl: Registration.Sports,
     link:"",
       // "https://images.unsplash.com/photo-1476842634003-7dcca8f832de?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
     // hoverImageUrl:

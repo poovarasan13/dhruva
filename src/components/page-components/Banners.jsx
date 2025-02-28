@@ -9,8 +9,12 @@ import Autoscroll from "embla-carousel-auto-scroll";
 
 import "../../assets/fonts/dmserif.css";
 // import ClubAssets from "@/assets/images/ClubAssets";
-import ClubAssets from "@/assets/images/HomePage/ClubAssets";
-const images = Object.values(ClubAssets);
+// import ClubAssets from "@/assets/images/HomePage/ClubAssets";
+import Home from "@/assets/visualassets/Home";
+
+
+
+const images = Object.values(Home.Clubs);
 // const images = [one,two];
 
 export default function Banners() {

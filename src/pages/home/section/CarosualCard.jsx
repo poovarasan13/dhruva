@@ -11,6 +11,8 @@ import {
 } from "@/components/ui/carousel";
 // import DhurvaFest from "@/utils/constant"; // Import the DhurvaFest object
 import DhurvaFest from "@/assets/images/HomePage/DhurvaFest";
+import Home from '../../../assets/visualassets/Home';
+
 
 function CarosualCard() {
   const plugin = React.useRef(
@@ -18,7 +20,7 @@ function CarosualCard() {
   );
 
   // Convert the DhurvaFest object into an array of image URLs
-  const imageUrls = Object.values(DhurvaFest);
+  const imageUrls = Object.values(Home.Guest);
 
   return (
     <Carousel

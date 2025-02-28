@@ -10,8 +10,10 @@ import "../../../assets/fonts/allfonts.css";
 import "../../../assets/fonts/dmsans.css";
 import Button from "@/components/page-components/Button";
 import HeroSection from "@/assets/images/HomePage/HeroSection";
+import RegisterButton from "./RegisterButton";
+import Home from "@/assets/visualassets/Home";
 
-const images = Object.values(HeroSection);
+const images = Object.values(Home.Hero);
 
 function HeroSectionComponent() {
   const plugin = React.useRef(
@@ -44,11 +46,6 @@ function HeroSectionComponent() {
               <strong>March 13, 14, 15</strong>. Join us for an unforgettable
               experience!
             </p>
-
-            {/* Register Button */}
-            <div className="mt-6 flex justify-center lg:justify-start">
-              <Button link="/registration" text="Register" />
-            </div>
           </div>
 
           {/* Carousel Section */}
@@ -79,6 +76,7 @@ function HeroSectionComponent() {
             </Carousel>
           </div>
         </div>
+        <RegisterButton/>
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 import onstage from "@/assets/images/OnStage/onstage";
-
+import CulturalFest from '../../assets/visualassets/CulturalFest.js';
 const OnStageDetails = [
   {
     eventName: "Solo Singing",
@@ -18,7 +18,7 @@ const OnStageDetails = [
       "The decision of the jury shall be final.",
       "Top six contestants will be selected to the final round.",
     ],
-    image: onstage.SoloSinging,
+    image: CulturalFest.onstage.SoloSinging,
     reverse: false,
   },
   {
@@ -40,7 +40,7 @@ const OnStageDetails = [
       "Top six contestants will be selected to final round.",
       "Participants should dress appropriately and avoid indecent exposure"
     ],
-    image: onstage.SoloDancing,
+    image: CulturalFest.onstage.SoloDance,
     reverse: true,
   },
   {
@@ -66,7 +66,7 @@ const OnStageDetails = [
       "9.	Any misconduct, inappropriate behaviour, or use of offensive content will lead to disqualification",
       "Judgment will be based on the qualities like Tal, Technique, Rhythm, Abhinaya or Expression, Costumes, Footwork and general impression etc.",
     ],
-    image: onstage.GroupDance,
+    image: CulturalFest.onstage.GroupDance,
     reverse: false,
   },
   {
@@ -87,7 +87,7 @@ const OnStageDetails = [
       "Maximum time allowed for the instrumental music is 10 minutes which include setting time. The setting time for a group shall not exceed 4 minutes.",
       "Judgment will be made on the qualities like, composition rhythm, coordination and general impression.",
     ],
-    image: onstage.Instrumentals,
+    image: CulturalFest.onstage.Drumbs,
     reverse: true,
   },
   {
@@ -106,7 +106,7 @@ const OnStageDetails = [
       "Judgment will be made base don expression, Choreography, Energy, and Attire.",
       "The decision of the jury shall be final with regard to the interpretation of the rules.",
     ],
-    image: onstage.AdaptTune,
+    image: CulturalFest.onstage.AdaptTune,
     reverse: false,
   },
   {
@@ -130,7 +130,7 @@ const OnStageDetails = [
       "Only solo participants are allowed",
       "No participant may make any reference to individuals or religion and any dual meaning obscene content is strictly prohibited",
     ],
-    image: onstage.standup,
+    image:  CulturalFest.onstage.standupcomedy,
     reverse: true,
   },
   {
@@ -158,7 +158,7 @@ const OnStageDetails = [
       "Necessary props must be arranged by the participants",
       "Act will be judged based on the script, facial expression, stage presence, co-ordination, voice modulation and overall performance.",
     ],
-    image: onstage.mime,
+    image:  CulturalFest.onstage.Mime,
     reverse: false,
   },
   {
@@ -178,7 +178,7 @@ const OnStageDetails = [
       "Garments and accessories used for competition should depict the ethnicity of the country, state or any other culture.",
       "Any form of indecency, vulgarity, obscenity will result in disqualification.",
     ],
-    image: onstage.Walk,
+    image:  CulturalFest.onstage.EthnicWalk,
     reverse: true,
   },
   {
@@ -197,33 +197,33 @@ const OnStageDetails = [
       "Time limit will be 6 minutes (3min for preparation and 3min for presentation)",
       "Participants will be judged on the basis of scripts, presentation, voice modulation, voice quality",
     ],
-    image: onstage.rj,
+    image:  CulturalFest.onstage.vjrj,
     reverse: false,
   },
-  {
-    eventName: "Variety Event",
-    facultyCoordinator:
-      "Ms Monisha L, AP / SH(Tamil Mandram)",
-    facultyNumber: "9003806038",
-    studentCoordinator: "M.Azhagu akshaya, M.Bhoopesh ",
-    studentNumber: "7810004627, 9445910290",
-    venue: "Academic Hall 2",
-    time: "1:00PM",
-    description: [
-      "Variety events like mimicry, solo instrumentals, stand-up comedy, beatbox and others",
-      "Each participant will be given 3-5 minutes to prove themselves",
-      "Best talents will be awarded.",
-      "MIMICRY:",
-      "Each student artist shall be given 5 minutes time.",
-      "Participants may mimic the sound of machines, speeches of a well-known persons etc.,",
-      "Marks will be awarded based on skill imitating, variety of sound and voice imitation and presentation",
-      "STAND-UP COMEDY:",
-      "Only solo participants are allowed",
-      "No participant may make any reference to individuals or religion and any dual meaning obscene content is strictly prohibited",
-    ],
-    image: onstage.Variety,
-    reverse: true,
-  },
+  // {
+  //   eventName: "Variety Event",
+  //   facultyCoordinator:
+  //     "Ms Monisha L, AP / SH(Tamil Mandram)",
+  //   facultyNumber: "9003806038",
+  //   studentCoordinator: "M.Azhagu akshaya, M.Bhoopesh ",
+  //   studentNumber: "7810004627, 9445910290",
+  //   venue: "Academic Hall 2",
+  //   time: "1:00PM",
+  //   description: [
+  //     "Variety events like mimicry, solo instrumentals, stand-up comedy, beatbox and others",
+  //     "Each participant will be given 3-5 minutes to prove themselves",
+  //     "Best talents will be awarded.",
+  //     "MIMICRY:",
+  //     "Each student artist shall be given 5 minutes time.",
+  //     "Participants may mimic the sound of machines, speeches of a well-known persons etc.,",
+  //     "Marks will be awarded based on skill imitating, variety of sound and voice imitation and presentation",
+  //     "STAND-UP COMEDY:",
+  //     "Only solo participants are allowed",
+  //     "No participant may make any reference to individuals or religion and any dual meaning obscene content is strictly prohibited",
+  //   ],
+  //   image: onstage.Variety,
+  //   reverse: true,
+  // },
   
 ];
 

@@ -22,6 +22,7 @@ import {
 import { Button } from "@/components/ui/button";
 import { InstagramLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
 import { NavLink } from "react-router-dom";
+import Home from "@/assets/visualassets/Home";
 
 export default function FooterSection() {
   return (
@@ -34,7 +35,7 @@ export default function FooterSection() {
         className="absolute top-0 left-0 w-full h-full object-cover opacity-20"
       >
         <source
-          src="https://res.cloudinary.com/dzpkbej9y/video/upload/v1739965580/video_byosi3.mp4"
+          src={Home.FooterVideo.DhruvaLogoVideo}
           type="video/mp4"
         />
       </video>

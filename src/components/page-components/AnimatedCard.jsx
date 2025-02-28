@@ -51,6 +51,7 @@ const AnimatedCard = ({ passDetails }) => {
             <div className="relative group">
               <div className="absolute -inset-0.5 bg-black rounded-full opacity-75 animate-pulse group-hover:opacity-100"></div>
               <Button
+              onClick={handleNavigate}
                 className="relative hover:bg-white hover:text-black px-6 py-2 bg-white text-black font-medium rounded-full hover:scale-105 transition-all flex items-center gap-2 text-sm sm:text-base md:text-lg"
                 style={{
                   backgroundColor: passDetails.color,
