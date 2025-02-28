@@ -23,7 +23,7 @@ const mba = {
       eventTime: "1:00 PM to 3:30 PM",
       eventDescription:
         "Making a RE-innovation in a product. Creating a website and making a digital advertisement for a created product. This event is designed to ignite strategic thinking, creativity, and digital marketing expertise, providing participants with a platform to demonstrate their skills in branding, product innovation, and online promotion.",
-      eventVenue: "B-Block",
+      eventVenue: "B-Block - BGO6",
       eventRounds: [
           "Innogenius - Select an existing product and enhance it with innovative attributes. Prepare a 3min pitch explaining the innovation, market needs and feasibility. ",
           "Advantage – Create a 30 seconds video at showcasing the product’innovation. It may be animated or live actions. "

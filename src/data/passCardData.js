@@ -78,7 +78,7 @@ const passes = [
         color: "#1FAB4A",
         benefits: [
           "Entry fee depends upon the Game. Checkout kcedhruva.in/sports for more details",
-          "Strats on 13/03/2025 and match goes on based on knock out",
+          "Starts on 13/03/2025 and match goes on based on knock out",
           "Any one sport event",
           "Get Certificates",
           "Win Prizes upto 1 Million"

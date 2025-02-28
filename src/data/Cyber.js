@@ -31,7 +31,7 @@ const cyber = {
         "\u2022 Papers must follow the standard IEEE format.",
         "\u2022 The document should not exceed [e.g., 6 pages], including references and appendices.",
         "\u2022 Papers must be submitted in PDF format via [mention submission link or email].",
-        "\u2022 The submission deadline is 28.02.2025. No extensions will be granted.",
+        "\u2022 The submission deadline is 10.03.2025. No extensions will be granted.",
         "Presentation Guidelines",
         "\u2022 Each team will have [e.g., 8-10 minutes] for the presentation, followed by [e.g., 2-5 minutes] of Q&A.",
         "\u2022 Presentations must be in PPT format and submitted at least before the event starts.",
@@ -79,7 +79,7 @@ const cyber = {
         "Code should be debugged without altering the intended logic of the program.",
         "Participants must provide a brief explanation of the identified errors.",
       ],
-      eventVenue: "",
+      eventVenue: "MAT Lab",
       eventRounds: ["2 or 3 Events"],
       eventPrize: [],
       eventStaffCoordinator: {
@@ -118,7 +118,7 @@ const cyber = {
         "Tie-Breakers: In case of a tie, the fastest completion time of challenges will determine the winner.",
         "Certificates & Prizes: Participants may receive certificates and prizes based on performance and rankings.",
       ],
-      eventVenue: "",
+      eventVenue: "MAT Lab",
       eventRounds: ["2 or 3 Rounds"],
       eventPrize: [],
       eventStaffCoordinator: {

@@ -4,11 +4,11 @@ const OffStageDetails = [
     eventName: "Rangoli",
     facultyCoordinator:
       "Ms Srinisha AP/CE(My Campus Clubs)",
-    facultyNumber: "",
-    studentCoordinator: "",
-    studentNumber: "",
-    venue: "Girls hostel – E block road",
-    time: "11:00 a.m.",
+    facultyNumber: "8870815415",
+    studentCoordinator: "HEMADEVI K, AKSHAYA M ",
+    studentNumber: "7094323056, 9003691193",
+    venue: "Boys hostel – E block road",
+    time: "11:00AM",
     description: [
       "Rangoli art should be of 5ft X 5ft",
       "Maximum time for Duo is 30 minutes while maximum time for Solo will be 1 hour.",
@@ -24,11 +24,11 @@ const OffStageDetails = [
     eventName: "Face Painting",
     facultyCoordinator:
       "Ms.Diviya AP/CD(My Campus Clubs)",
-    facultyNumber: "",
-    studentCoordinator: "",
-    studentNumber: "",
-    venue: "E-Block",
-    time: "11:00 a.m.",
+    facultyNumber: "9715571117",
+    studentCoordinator: "A.GOWSIKA, K.HARIHARAN ",
+    studentNumber: "8870027551, 9585168861",
+    venue: "A BLOCK",
+    time: "11:00AM",
     description: [
       "The team must have 2 members- the one who paints and the other whose face is to be painted",
       "All the required materials must be brought by the participants.",
@@ -44,15 +44,16 @@ const OffStageDetails = [
     eventName: "Mehandi",
     facultyCoordinator:
       "Dr.J .Rehaboth Nissi AP/ SH(My Campus Clubs)",
-    facultyNumber: "",
-    studentCoordinator: "",
-    studentNumber: "",
+    facultyNumber: "7892765172",
+    studentCoordinator: "ANUSHA B, SANGAVI M ",
+    studentNumber: "86101 09739, 8754052949",
     venue: "A-Block",
-    time: "12:00 p.m.",
+    time: "12:00PM",
     description: [
       "Participants must bring their own materials.",
       "Participants have to apply mehandi on the palmer as well as the dorsal side of the hand",
       "Participants can apply mehandi on their own hand or any other person’s hand",
+      "If you are applying for other person, you have to bring that person. ",
       "The Time limit will be 1 hour.",
       "Judging will be based on neatness and creativity.",
     ],
@@ -66,8 +67,8 @@ const OffStageDetails = [
     facultyNumber: "",
     studentCoordinator: "",
     studentNumber: "",
-    venue: "A-Block",
-    time: "11:00 a.m.",
+    venue: "C Block",
+    time: "10:00AM",
     description: [
       "Minimum time limit: 15 seconds",
       "Maximum time limit: 30 seconds",
@@ -84,8 +85,8 @@ const OffStageDetails = [
     facultyNumber: "",
     studentCoordinator: "",
     studentNumber: "",
-    venue: "A-Block",
-    time: "11:00 a.m.",
+    venue: "B-Block",
+    time: "11:00AM",
     description: [
       "Individual event.",
       "The film should have a time limit of 5 minutes",
@@ -99,12 +100,12 @@ const OffStageDetails = [
   {
     eventName: "Photography",
     facultyCoordinator:
-      "Dr. S. Vignesh, AP/CSE(Software Development Club)",
-    facultyNumber: "",
-    studentCoordinator: "",
-    studentNumber: "",
-    venue: "A-Block",
-    time: "10:00 a.m. - 2:00p.m",
+      "Dr.C.Arul  Murugan, Mr.Varatharajan N",
+    facultyNumber: "+91 81221 07125",
+    studentCoordinator: "Mr.Gowtham P, Mr.Balamurugan G",
+    studentNumber: "+91 97892 88677, +91 88258 88205",
+    venue: "C-Block",
+    time: "10:00AM",
     description: [
       "Mobile and DSLR photography are allowed (DSLR- recommended)",
       "Theme will be given on-spot.",
@@ -121,11 +122,11 @@ const OffStageDetails = [
   {
     eventName: "Fireless Cooking",
     facultyCoordinator: "Dr. A. Kavitha,AP/SHMy Campus Clubs)",
-    facultyNumber: "",
-    studentCoordinator: "",
-    studentNumber: "",
+    facultyNumber: "+91 99651 44560",
+    studentCoordinator: "Dhanasri K,Nisha K",
+    studentNumber: "7373556352,7010885872",
     venue: "A-Block",
-    time: "1:00 p.m.",
+    time: "1:00PM",
     description: [
       "2 members in a team",
       "Total preparation must be 35-40 minutes",
@@ -144,11 +145,11 @@ const OffStageDetails = [
     eventName: "Vegetable Carving",
     facultyCoordinator:
       "Ms. Vidhya Lakshmi, AP/EEE(My Campus Clubs)",
-    facultyNumber: "",
-    studentCoordinator: "",
-    studentNumber: "",
-    venue: "A – Block",
-    time: "12 : 00 pm",
+    facultyNumber: "+91 95979 01377",
+    studentCoordinator: "Abishek, Selva Bharathi",
+    studentNumber: "9344763457, 9360670633",
+    venue: "B – Block",
+    time: "12:00PM",
     description: [
       "All contestants are required to produce one sculpture that are made entirely of fruits/ vegetables.",
       "No flowers other than those sculpted of fruits/vegetables are allowed.",
@@ -166,11 +167,11 @@ const OffStageDetails = [
   {
     eventName: "Nail Art",
     facultyCoordinator:
-      "Ms. Vidhya Lakshmi, AP/EEE(My Campus Clubs)",
+      "Ms Sreeja, AP/CS(My Campus Clubs)",
     facultyNumber: "",
     studentCoordinator: "",
     studentNumber: "",
-    venue: "A – Block",
+    venue: "C – Block",
     time: "12 PM",
     description: [
       "No mobile phones, tablets or smart watches during the competition for both the competitor and the model.",
@@ -188,8 +189,8 @@ const OffStageDetails = [
     facultyCoordinator:
       "Ms. Kavithamani, AP/EEE(Arts and Crafts Club)",
     facultyNumber: "",
-    studentCoordinator: "",
-    studentNumber: "",
+    studentCoordinator: "Swetha S, AADHITH KRISHNA S",
+    studentNumber: "63805 28337, 9384396343",
     venue: "A – Block",
     time: "12 PM",
     description: [

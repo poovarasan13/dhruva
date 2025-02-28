@@ -14,17 +14,19 @@ const cse = {
   events: [
     {
       posterUrl: "",
-      eventName: "Hackathon",
+      eventName: "Design Forge",
       eventType: "Hackathon",
       eventSubType: "Technical",
       eventTime: "1:00 PM – 4:30 PM",
-      eventDescription: "Join our AI/ML Hackathon and unleash your creativity in artificial intelligence! Build innovative solutions, collaborate with tech enthusiasts, and solve real-world challenges using AI and ML. Compete for exciting prizes, gain hands-on experience. Innovate, Build, Transform!",
+      eventDescription: "Join us for the AI-Powered Web Hackathon, where participants showcase innovation, problem-solving, and technical skills. 1.  App Development: Build a web application using Full Stack with API integration, with AI tools for code, design, and content. 2.  Presentation: Create a PPT showcasing the idea, API integration, challenges, and final outcomes. Unleash creativity, enhance skills, and showcase AI-driven innovation! ",
       eventRules: [
-          	"Team Size: Each team must have exactly 4 members; no individual participation.Offline Development: All coding must be done offline within the given duration. No pre-built solutions.",
+          	"Team Size: Maximum 2 members",
+            "	Offline Development: All coding must be done within the given duration. No pre-built solutions.",
   	        "Resources Allowed: Open-source libraries and APIs are permitted but must be disclosed.",
+            "Requirement: Laptop, Charger and necessary accessories. ",
   	        "Submission & Judging: Projects must be submitted before the deadline and judged on innovation, implementation, impact, functionality, theme adherence, and code quality.",
    	        "Live Demo: Teams must present a live demo of their project to the judges.",    
-   	         "Professional Conduct: Respect all participants, mentors, and organizers. Projects must be unique. Judges’ decisions are final."
+   	        "Professional Conduct: Respect all participants, mentors, and organizers. Projects must be unique. Judges’ decisions are final."
       ],
       eventVenue: "Academic Hall 2",
       eventRounds: [
@@ -35,7 +37,7 @@ const cse = {
       ],
       eventPrize: [
         "The winner will receive a prize of Rs. 3000, while the runner will receive a prize of Rs.2000.",
-        "All the candidates will be given participation certificates.",
+        
       ],
       eventStaffCoordinator: {
         name: "Ms.Mariyammal C",
@@ -43,8 +45,8 @@ const cse = {
       },
       studentCoordinator: [
         {
-          name: "Deepakkumar S",
-          contact: "9087729108",
+          name: "Abishek S",
+          contact: "8610758548",
         },
         {
           name: "Gajendran A",
@@ -54,12 +56,12 @@ const cse = {
     },
     {
       posterUrl: "",
-      eventName: "Workshop on Industrial 4.0",
+      eventName: "Workshop on Gen AI",
       eventType: "Workshop",
       eventSubType: "WorkShop",
       eventTime: "11:30 AM - 01:00 PM",
       eventDescription:
-        "The primary goal of this workshop is to familiarize aspiring engineers with both conceptual and practical knowledge of Industry 4.0. It covers smart manufacturing, automation, IoT, AI, and data-driven technologies, preparing participants for the future of industrial innovation.",
+        "The primary goal of this workshop is to introduce aspiring engineers to the fundamentals and applications of Generative AI. It covers core concepts, model architectures, real-world use cases, and hands-on implementation to enhance AI-driven creativity and problem-solving skills.",
       eventRules: [],
       eventVenue: "ACADEMIC HALL 2",
       eventRounds: [],
@@ -189,7 +191,6 @@ const cse = {
       eventPrize: [
         "The winner will receive a prize of Rs. 1000",
         " while the runner-up will receive a prize of Rs. 750. ",
-        "All participants will receive a participation certificate.",
       ],
       eventStaffCoordinator:
         {
@@ -224,7 +225,7 @@ const cse = {
       eventRounds: [],
       eventPrize: [
         "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
-        "All the candidates will be given participation certificates.",
+        
       ],
       eventStaffCoordinator: {
         name: "Dr.S.Sangeetha, Dr. J Jasmine",
@@ -248,18 +249,21 @@ const cse = {
       eventSubType: "Technical",
       eventTime: "02:00 PM – 03:30 PM",
       eventDescription:
-        "Code Relay is a thrilling, team-based coding challenge that tests both individual skills and seamless collaboration. Each team must complete a solution within a structured relay format: Phase 1: The first coder writes the initial half of the solution within a set time (20-30 minutes). Phase 2: The second coder takes over, continuing from where their teammate left off to complete the solution. Communication Rule:  Team members cannot discuss their approach while coding. The handoff relies entirely on code readability and comments. Judging criteria include correctness, number of test cases passed, and code efficiency. Prepare to put your coding and teamwork skills to the ultimate test",
+        "Code Relay is a thrilling, team-based coding challenge that tests both individual skills and seamless collaboration. Each team must complete a solution within a structured relay format: Phase 1: The first coder writes the initial half of the solution within a set time (20-30 minutes). Phase 2: The second coder takes over, continuing from where their teammate left off to complete the solution.",
       eventRules: [
         "Team Size: 2 members per team.",
+        "No external help, online resources, or AI assistance allowed.",
+      "Code should be clean, structured, and efficient.",
+      "Any form of plagiarism or rule violation will result in disqualification",
       ],
       eventVenue: "C-block / Communication Lab",
       eventRounds: [
-        "Round 1 : Selection Round.",
-        "Round 2 : Final Round."
+        "Round 1: The Code Kickoff Showdown",
+        
       ],
       eventPrize: [
         "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
-        "All the candidates will be given participation certificates.",
+        
       ],
       eventStaffCoordinator: {
         name: "Mr. Venkatesh R /AP",
@@ -294,7 +298,7 @@ const cse = {
       ],
       eventPrize: [
         "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
-        "All the candidates will be given participation certificates.",
+        
       ],
       eventStaffCoordinator: {
         name: "Ms.Vidya Prabha C V / AP",
@@ -325,7 +329,7 @@ const cse = {
       eventRounds: ["Round 1 : Sort listing", "Round 2 : Final round."],
       eventPrize: [
         "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
-        "All the candidates will be given participation certificates.",
+        
       ],
       eventStaffCoordinator: {
         name: "Ms.Nalini AP/CS",
@@ -359,7 +363,7 @@ const cse = {
       eventRounds: ["All teams participate within the given time frame.Judges evaluate entries based on creativity, composition, storytelling, and editing quality."],
       eventPrize: [
         "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
-        "All the candidates will be given participation certificates.",
+        
       ],
       eventStaffCoordinator: {
         name: "Mr. Antony Vijay",
@@ -381,14 +385,14 @@ const cse = {
       eventName: "Mr and Ms Aura",
       eventType: "Non-Technical",
       eventSubType: "NonTechnical",
-      eventTime: "10:00 AM - 4:00 PM",
+      eventTime: "10:00 AM - 04:30 PM",
       eventDescription: " Join us for the exciting Mr. and Miss Aura event, where participants will showcase their confidence, creativity, expression, and spontaneity. This event provides a platform for individuals to express their true selves and boost their confidence.",
       eventRules: [
         "Team Size: An Individual",
         "Rounds: 4 engaging rounds with eliminations.",
         "Evaluation Criteria: Confidence, Creativity, Expression, and Spontaneity.",    
       ],
-      eventVenue: "C104,C102, Academic Hall(A2)",
+      eventVenue: "C104,C102, Academic Hall(A1)",
       eventRounds: [
         "Round 1: ACT IT OUT- Participants will pick a random scenario or emotion.They must act it out using expressions and gestures.",
         "Round 2: THE CRAZY QUESTION ROUND-Participants get a random, funny question and must respond in 10 seconds with full confidence.",
@@ -397,7 +401,7 @@ const cse = {
       ],
       eventPrize: [
         "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
-        "All the candidates will be given participation certificates.",
+        
       ],
       eventStaffCoordinator: {
         name: "Dr.Muthanantha Murugavel, Dr.Sangeetha",
@@ -428,7 +432,7 @@ const cse = {
                     "Final Round: Shortlisted teams will advance to face more complex challenges, where precision and problem-solving speed will determine the winners!"],
       eventPrize: [
         "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
-        "All the candidates will be given participation certificates.",
+        
       ],
       eventStaffCoordinator: {
         name: "MS.Rajapriya D",
@@ -451,13 +455,24 @@ const cse = {
       eventType: "Technical",
       eventSubType: "Technical",
       eventTime: "11.30 AM – 01.00 PM",
-      eventDescription: "The event consists of three rounds. In the preliminary round, participants will be given a theme and must generate an image within 15 minutes. In the elimination round, participants will be required to generate a specific text within 3 prompts. In the final round, contestants must obtain the desired text output with a single prompt within one minute.",
-      eventRules: ["2 members/team"],
+      eventDescription: "Join the Ultimate AI Prompting Challenge – Prompt X! Are you ready to put your creativity and precision to the test? Prompt X invites you to an electrifying competition where your skill in crafting the perfect prompts will determine your success!",
+      eventRules: [
+       " Each team must have exactly 2 members",
+        "Prompts should be original and adhere to the given themes.",
+        "Teams will be evaluated based on accuracy, creativity, and efficiency of the prompts.",
+        "Any form of plagiarism or external assistance will lead to immediate disqualification.",
+        "Judges’ decisions will be final and binding"
+
+      ],
       eventVenue: "C-block / Communication Lab",
-      eventRounds: ["Round 1: Preliminary Round.","Round 2: Selection Round.","Round 3: Final Round."],
+      eventRounds: [
+        "Preliminary Round: Unleash your imagination! Participants will be given a theme and must generate an image within 10 minutes.",
+      "Elimination Round: Challenge your prompt engineering skills! Generate a specific text output within 3 prompts to advance.",
+      " Final Showdown: The ultimate test of mastery! Contestants must achieve the desired text output in a single prompt—all within just one minute"
+      ],
       eventPrize: [
         "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
-        "All the candidates will be given participation certificates.",
+        
       ],
       eventStaffCoordinator: {
         name: "Ms. Sharmila",
@@ -487,7 +502,7 @@ const cse = {
       eventRounds: ["Round 1: Rapid Frontend Development - The Final Showdown"],
       eventPrize: [
         "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
-        "All the candidates will be given participation certificates.",
+        
       ],
       eventStaffCoordinator: {
         name: "Mr.Ramaraj S /AP",

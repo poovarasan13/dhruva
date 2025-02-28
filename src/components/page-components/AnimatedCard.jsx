@@ -5,8 +5,12 @@ import { Button } from "../ui/button";
 import "../../assets/style/AnimatedCard.css";
 import "../../assets/fonts/opensans.css";
 import "../../assets/fonts/dmsans.css";
-
+import { useNavigate } from "react-router-dom";
 const AnimatedCard = ({ passDetails }) => {
+  const navigate=useNavigate();
+  const handleNavigate=()=>{
+    navigate("/registration")
+  }
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -39,7 +43,7 @@ const AnimatedCard = ({ passDetails }) => {
             ))}
           </ul>
           <div className="flex justify-center mb-2">
-            <Button
+            <Button  onClick={handleNavigate}
               className="text-white hover:text-black px-6 py-2 font-medium rounded-full hover:scale-105 transition-all flex items-center gap-2 text-sm sm:text-base md:text-lg"
               style={{
                 backgroundColor: passDetails.color,

@@ -1,7 +1,7 @@
     const ClubAssets = {
         IOT: "https://res.cloudinary.com/dzpkbej9y/image/upload/v1739969203/IOT_s1wymv.png",
         PhotoClub: "https://res.cloudinary.com/dzpkbej9y/image/upload/v1739969200/PhotoClub_pztdvc.png",
-        SDC:"https://res.cloudinary.com/dzpkbej9y/image/upload/v1739969204/SDC_l2unl2.png",
+        SDC:"https://res.cloudinary.com/dl2wibcfp/image/upload/v1740647227/SDC_gnffoe.png ",
         TamilMandram:"https://res.cloudinary.com/dzpkbej9y/image/upload/v1739969204/TamilMandram_pjpv1i.png",
         KindelClub:"https://res.cloudinary.com/dzpkbej9y/image/upload/v1739969204/KindelClub_rcpowr.png",
         ScienceClub : "https://res.cloudinary.com/dzpkbej9y/image/upload/v1739969203/ScienceClub_c08m4a.png",

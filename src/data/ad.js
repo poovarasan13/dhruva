@@ -201,8 +201,8 @@ const ad = {
       eventVenue: "Veranda / E-Block",
       eventLink :"https://bit.ly/kce-ai",
       eventPrize: [
-        "The winner will receive a prize of Rs. 1000",
-        " while the runner-up will receive a prize of Rs. 750. ",
+        "The winner will receive a prize of Rs. 3000",
+        " while the runner-up will receive a prize of Rs. 2000. ",
         "All participants will receive a participation certificate.",
       ],
       eventRounds: [        
@@ -281,7 +281,7 @@ const ad = {
       
       eventStaffCoordinator:
         {
-          name: "K. Vishnupriya AP/AD",
+          name: "Ms. K. Vishnupriya AP/AD",
           contact: "6383486701",
         },
       studentCoordinator: [
