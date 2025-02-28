@@ -48,7 +48,7 @@ const MusicalConcert = () => {
               Musical Concert
             </motion.h2>
             <motion.p
-              className="text-gray-600 sm:text-lg mb-6 md:mb-8 dm-sans"
+              className="text-gray-600 sm:text-lg mb-6 md:mb-8 work-sans"
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
@@ -59,7 +59,7 @@ const MusicalConcert = () => {
               distinguished guests.
             </motion.p>
             <motion.p
-              className="text-gray-600 sm:text-lg mb-6 md:mb-8 dm-sans"
+              className="text-gray-600 sm:text-lg mb-6 md:mb-8  work-sans"
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.6 }}
@@ -69,7 +69,7 @@ const MusicalConcert = () => {
               cultures.
             </motion.p>
             <motion.p
-              className="text-gray-600 sm:text-lg mb-6 md:mb-8 dm-sans"
+              className="text-gray-600 sm:text-lg mb-6 md:mb-8  work-sans"
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.8 }}
@@ -80,30 +80,13 @@ const MusicalConcert = () => {
               mesmerizing voice and be captivated by her performance!
             </motion.p>
             <motion.p
-              className="text-gray-600 sm:text-lg mb-6 md:mb-8 dm-sans"
+              className="text-gray-600 sm:text-lg mb-6 md:mb-8  work-sans"
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 1.0 }}
             >
               Get ready to groove to the beats of our dynamic DJ at the concert.
             </motion.p>
-
-            {/* <motion.div
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 1.2 }}
-              whileHover={{ scale: 1.1 }}
-            >
-              <a
-                href="#"
-                className="inline-block dm-sans hover:scale-105 bg-sky-400 hover:bg-sky-400 hover:text-black focus-visible:ring ring-sky-300 text-white text-sm md:text-base font-semibold text-center rounded-full outline-none transition duration-100 px-12 py-3"
-              >
-                <span className="justify-content flex">
-                  Register Now <Rocket />
-                </span>
-              </a>
-            </motion.div> */}
-
             <Button link="/registration" text="Register" />
           </motion.div>
         </div>

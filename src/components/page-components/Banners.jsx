@@ -25,7 +25,7 @@ export default function Banners() {
 
   return (
     <div className="container mx-auto my-8 ">
-      <h4 className="text-center text-5xl my-4 bebas">Our Clubs</h4>
+      <h4 className="text-center text-5xl my-4 powergrok tracking-wider">Our Clubs</h4>
       <div className="">
         <div className="relative bg-transparent rounded-2xl">
           <Carousel
