@@ -22,7 +22,7 @@ const HeroPage = ({OffStage, title, tagline}) => {
           {title}
         </h1>
         <p 
-          className="text-white text-xl md:text-2xl lg:text-3xl font-medium tracking-wide dm-serif"
+          className="text-white text-xl md:text-2xl lg:text-3xl font-medium tracking-wide powergrok"
           data-aos="fade-up"
         >
           {tagline}

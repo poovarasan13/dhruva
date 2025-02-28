@@ -14,6 +14,7 @@ import SportsInfo from "@/pages/SportsInfo/SportsInfo";
 import TechnicalFest from "@/pages/Technical-Fest/TechnicalFest";
 
 import { Route, Routes } from "react-router-dom";
+import Error from "./ErrorPage";
 
 function AppNavigation() {
   return (
@@ -33,6 +34,7 @@ function AppNavigation() {
         <Route path="/onstage" element={<OnStagePage />}></Route>
         <Route path="/offstage" element={<OffStagePage />}></Route>
         <Route path="/registration" element={<RegistrationPage />}></Route>
+        <Route path="*" element={<Error />}></Route>
       </Routes>
       <FooterSection />
     </div>
