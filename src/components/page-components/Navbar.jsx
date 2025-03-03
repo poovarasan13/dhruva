@@ -76,7 +76,7 @@ const Navbar = () => {
                     {item.name} <ChevronDown className="ml-2" />
                   </button>
                   {isDropdownOpen === item.name && (
-                    <ul className="absolute left-0 mt-2 min-w-[280px] lg:min-w-[400px] bg-black border-orange-400 border-2 border-opacity-70 text-white shadow-lg rounded-md p-2 grid grid-cols-2 gap-2">
+                    <ul className="absolute left-0 mt-2 min-w-[280px] lg:min-w-[400px] bg-black border-gray-800  border-2 border-opacity-70 text-white shadow-lg rounded-md p-2 grid grid-cols-2 gap-2">
                       {item.name === "Cultural Fest" ? (
                         <>
                           <li>
@@ -103,7 +103,7 @@ const Navbar = () => {
                           <li key={i}>
                             <NavLink
                               to={`/technicalFest/${dept.name}`}
-                              className="block p-2 dm-sans hover:text-orange-400 text-left"
+                              className="block p-2 dm-sans hover:bg-gray-800 text-left"
                               onClick={closeDropdown}
                             >
                               {dept.fullName}
