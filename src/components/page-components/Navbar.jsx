@@ -6,19 +6,22 @@ import "../../assets/fonts/dmsans.css";
 import navData from "../../data/NavData";
 
 const department = [
-  "ad",
-  "cse",
-  "cd",
-  "civil",
-  "ct",
-  "cyber",
-  "ece",
-  "eee",
-  "ete",
-  "it",
-  "mba",
-  "mca",
-  "mech",
+  { name: "ad", fullName: "Artificial Intelligence and Data Science" },
+  { name: "cse", fullName: "Computer Science and Engineering" },
+  { name: "cd", fullName: "Computer Science and Design" },
+  { name: "civil", fullName: "Civil Engineering" },
+  { name: "ct", fullName: "Computer Science and Technology" },
+  {
+    name: "cyber",
+    fullName: "Computer Science and Engineering (Cyber Security)",
+  },
+  { name: "ece", fullName: "Electronics and Communication Engineering" },
+  { name: "eee", fullName: "Electrical and Electronics Engineering" },
+  { name: "ete", fullName: "Electronics and Telecommunication Engineering" },
+  { name: "it", fullName: "Information Technology" },
+  { name: "mba", fullName: "School of Management Studies" },
+  { name: "mca", fullName: "School of Computer Applications" },
+  { name: "mech", fullName: "Mechanical Engineering" },
 ];
 
 const Navbar = () => {
@@ -44,7 +47,6 @@ const Navbar = () => {
     setIsDropdownOpen(isDropdownOpen === menu ? null : menu);
   };
 
-  // Close dropdown on selection (Desktop fix)
   const closeDropdown = () => {
     setIsDropdownOpen(null);
   };
@@ -61,7 +63,7 @@ const Navbar = () => {
         </NavLink>
 
         {/* Desktop Navigation */}
-        <ul className="hidden lg:flex flex-grow justify-center space-x-8">
+        <ul className="hidden lg:flex flex-grow justify-center space-x-12">
           {navData.map((item, index) => (
             <li key={index} className="relative group">
               {item.name === "Cultural Fest" ||
@@ -74,13 +76,13 @@ const Navbar = () => {
                     {item.name} <ChevronDown className="ml-2" />
                   </button>
                   {isDropdownOpen === item.name && (
-                    <ul className="absolute left-0 mt-2 w-64 bg-black border-orange-400 border-2 border-opacity-70 text-white shadow-lg rounded-md p-2 grid grid-cols-2 gap-2">
+                    <ul className="absolute left-0 mt-2 min-w-[280px] lg:min-w-[400px] bg-black border-orange-400 border-2 border-opacity-70 text-white shadow-lg rounded-md p-2 grid grid-cols-2 gap-2">
                       {item.name === "Cultural Fest" ? (
                         <>
                           <li>
                             <NavLink
                               to="/onstage"
-                              className="block p-2 hover:text-orange-400"
+                              className="block p-2 hover:bg-white hover:text-black rounded-md text-left"
                               onClick={closeDropdown}
                             >
                               Onstage
@@ -89,7 +91,7 @@ const Navbar = () => {
                           <li>
                             <NavLink
                               to="/offstage"
-                              className="block p-2 hover:text-orange-400"
+                              className="block p-2 hover:bg-white hover:text-black rounded-md text-left"
                               onClick={closeDropdown}
                             >
                               Offstage
@@ -98,13 +100,13 @@ const Navbar = () => {
                         </>
                       ) : (
                         department.map((dept, i) => (
-                          <li key={i} className="text-center">
+                          <li key={i}>
                             <NavLink
-                              to={`/technicalFest/${dept}`}
-                              className="block p-2 hover:text-orange-400"
+                              to={`/technicalFest/${dept.name}`}
+                              className="block p-2 dm-sans hover:text-orange-400 text-left"
                               onClick={closeDropdown}
                             >
-                              {dept.toUpperCase()}
+                              {dept.fullName}
                             </NavLink>
                           </li>
                         ))
@@ -146,10 +148,10 @@ const Navbar = () => {
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <div className="flex justify-between items-center  ps-4 py-4">
+        <div className="flex justify-between items-center ps-4 py-4">
           <h2 className="text-white text-xl font-semibold dm-sans">Menu</h2>
           <Button variant="ghost" onClick={toggleMenu}>
-            <X className="w-7 h-7 ms-5 flex  text-white" />
+            <X className="w-7 h-7 ms-5 flex text-white" />
           </Button>
         </div>
 
@@ -169,19 +171,19 @@ const Navbar = () => {
                     <ul className="bg-gray-800 text-white mt-2 space-y-2 p-2 grid grid-cols-1">
                       {item.name === "Cultural Fest" ? (
                         <>
-                          <li>
+                          <li key="1">
                             <NavLink
                               to="/onstage"
-                              className="block p-2 hover:text-orange-400"
+                              className="block p-2 hover:bg-white hover:text-black rounded-md"
                               onClick={toggleMenu}
                             >
                               Onstage
                             </NavLink>
                           </li>
-                          <li>
+                          <li key="2">
                             <NavLink
                               to="/offstage"
-                              className="block p-2 hover:text-orange-400"
+                              className="block p-2 hover:bg-white hover:text-black rounded-md"
                               onClick={toggleMenu}
                             >
                               Offstage
@@ -192,11 +194,11 @@ const Navbar = () => {
                         department.map((dept, i) => (
                           <li key={i}>
                             <NavLink
-                              to={`/technicalFest/${dept}`}
+                              to={`/technicalFest/${dept.name}`}
                               className="block p-2 hover:bg-white hover:text-orange-400"
                               onClick={toggleMenu}
                             >
-                              {dept.toUpperCase()}
+                              {dept.fullName}
                             </NavLink>
                           </li>
                         ))
@@ -207,7 +209,7 @@ const Navbar = () => {
               ) : (
                 <NavLink
                   to={item.route}
-                  className="text-white text-lg hover:text-orange-400 transition-all duration-300 block"
+                  className="text-white text-lg hover:text-orange-400 block"
                   onClick={toggleMenu}
                 >
                   {item.name}

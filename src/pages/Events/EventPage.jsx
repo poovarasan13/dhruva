@@ -15,10 +15,8 @@ function EventPage() {
   useEffect(() => {
     window.scrollTo(0, 0);
 
-    // Get department data from location state if available
     let department = location.state?.events;
 
-    // If not available, find it from the department list
     if (!department) {
       department = departmentDataList.find(
         (dept) =>
@@ -45,7 +43,7 @@ function EventPage() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
-        <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight powergrok bg-gradient-to-r text-black bg-clip-text">
+        <h1 className="text-3xl sm:text-5xl lg:text-6xl  tracking-wide powergrok bg-gradient-to-r text-black bg-clip-text">
           {departmentData.departmentName}
         </h1>
         <p className="mt-4 dm-sans text-lg text-justify text-gray-600 dark:text-gray-300 max-w-7xl mx-auto leading-relaxed">
