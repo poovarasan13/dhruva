@@ -47,20 +47,7 @@ const passes = [
     ],
     date: "15/03/2024",
   },
-  {
-    id: 4,
-    title: "Cultural Pass",
-    cardColor: "#F30779",
-    color: "#F30779",
-    price: 200,
-    benefits: [
-      "Day 2 on 15/03/2025",
-      "Unlimited Cultural Events",
-      "Get Certificates",
-      "Win Prizes upto 1 Million",
-    ],
-    date: "15/03/2025",
-  },
+
   {
     id: 5,
     title: "Dhruva Pro Pass",
@@ -75,6 +62,20 @@ const passes = [
       "Get real time insights from resource person",
     ],
     date: "14/03/2025 & 15/03/2025",
+  },
+  {
+    id: 4,
+    title: "Cultural Pass",
+    cardColor: "#F30779",
+    color: "#F30779",
+    price: 200,
+    benefits: [
+      "Day 2 on 15/03/2025",
+      "Unlimited Cultural Events",
+      "Get Certificates",
+      "Win Prizes upto 1 Million",
+    ],
+    date: "15/03/2025",
   },
   {
     id: 6,

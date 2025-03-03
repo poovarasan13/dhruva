@@ -3,6 +3,8 @@ import EventsDisplay from "./EventsDisplay";
 import ExploreEvents from "./ExploreEvents";
 import HeroPage from "./HeroPage";
 import onstage from "@/assets/images/OnStage/onstage";
+import CulturalFest from '../../assets/visualassets/CulturalFest.js';
+
 const OnStage = () => {
   const document = {
     OnStage: true,
@@ -11,16 +13,16 @@ const OnStage = () => {
   };
 
   const EventData = [
-    { id: 1, title: "Solo Singing", image: onstage.SoloSinging },
-    { id: 2, title: "Solo Dancing", image: onstage.SoloDancing },
-    { id: 3, title: "Group Dance", image: onstage.GroupDance },
-    { id: 4, title: "Instrumentals", image: onstage.Instrumentals },
-    { id: 5, title: "Stand Up", image: onstage.standup},
-    { id: 6, title: "Adapt Tune", image: onstage.AdaptTune },
-    { id: 7, title: "Skit Mime", image: onstage.mime },
-    { id: 8, title: "Ethnic Walk", image: onstage.Walk },
-    { id: 9, title: "Vj/Rj  Hunt", image: onstage.rj },
-    { id: 10, title: "Variety Event", image: onstage.Variety },
+    { id: 1, title: "Solo Singing", image: CulturalFest.onstage.SoloSinging },
+    { id: 2, title: "Solo Dancing", image: CulturalFest.onstage.SoloDance},
+    { id: 3, title: "Group Dance", image: CulturalFest.onstage.GroupDance },
+    { id: 4, title: "Instrumentals", image: CulturalFest.onstage.Drumbs },
+    { id: 5, title: "Adapt Tune", image: CulturalFest.onstage.AdaptTune },
+    { id: 6, title: "Stand Up", image: CulturalFest.onstage.standupcomedy},
+    { id: 7, title: "Skit Mime", image: CulturalFest.onstage.Mime },
+    { id: 8, title: "Ethnic Walk", image: CulturalFest.onstage.EthnicWalk },
+    { id: 9, title: "Vj/Rj  Hunt", image: CulturalFest.onstage.vjrj },
+    // { id: 10, title: "Variety Event", image: onstage.Variety },
   ];
 
   return (

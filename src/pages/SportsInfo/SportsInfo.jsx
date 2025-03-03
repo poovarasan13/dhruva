@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Rocket } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 import {
   Clock,
   MapPin,
@@ -14,12 +15,12 @@ import {
   IndianRupee,
 } from "lucide-react";
 import SportsAssests from "@/assets/images/sports/SportAssets";
-
+import Sports from '../../assets/visualassets/Sports.js';
 const sportsData = [
   {
     title: "Handball",
     description: "Experience the fast-paced action of handball!",
-    image: SportsAssests.Handball,
+    image: Sports.Handball,
     gender: "male",
     coordinator: "VivekPrasanna SivaSamy",
     phone: "+91 93422 83487",
@@ -42,7 +43,7 @@ const sportsData = [
   {
     title: "Kabaddi",
     description: "Get ready for intense raiding and defending in Kabaddi!",
-    image: SportsAssests.Kabbadi,
+    image: Sports.Kabbadi,
     gender: "male",
     coordinator: "Vasanth Balan",
     phone: "+91 70920 88003",
@@ -66,7 +67,7 @@ const sportsData = [
     title: "Football",
     description:
       "Dribble, pass, and score in our exciting football tournament!",
-    image: SportsAssests.Football,
+    image: Sports.Football,
     gender: "male",
     coordinator: "Aakash",
     phone: "+91 9497037603",
@@ -89,7 +90,7 @@ const sportsData = [
   {
     title: "Volleyball",
     description: "Spike your way to victory in the volleyball tournament!",
-    image: SportsAssests.Volleyball,
+    image: Sports.VolleyBall,
     gender: "both",
     coordinator: "Dhanush",
     phone: "+916383104393",
@@ -113,7 +114,7 @@ const sportsData = [
     title: "Cricket",
     description:
       "Step up to the crease and smash those boundaries in our Cricket Championship!",
-    image: SportsAssests.Cricket,
+    image: Sports.Cricket,
     gender: "male",
     coordinator: "Mohan",
     phone: "+91 82202 93437",
@@ -139,7 +140,7 @@ const sportsData = [
   {
     title: "Ball Badminton",
     description: "Experience the unique sport of Ball Badminton!",
-    image: SportsAssests.BallBadminton,
+    image: Sports.BallBadminton,
     gender: "male",
     coordinator: "Sudharsan",
     phone: "+91 63790 40788",
@@ -163,7 +164,7 @@ const sportsData = [
     title: "Throwball",
     description:
       "Calling all! Join our Throwball tournament and showcase your skills.",
-    image: SportsAssests.Throwball,
+    image: Sports.Throwball,
     gender: "female",
     coordinator: "Revanth",
     phone: "+91 7639381389",
@@ -191,6 +192,12 @@ const containerVariants = {
 };
 
 const SportsInfo = () => {
+  const navigate = useNavigate();
+   const handleNavigate=()=> {
+    navigate("/registration");
+   }
+
+
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -294,14 +301,14 @@ const SportsInfo = () => {
                 <li key={index}>{rule}</li>
               ))}
             </ul>
-            <a
-              href="#"
+            <button
+              onClick={handleNavigate}
               className="inline-block dm-sans hover:scale-105 bg-sky-400 hover:bg-sky-400 hover:text-black  focus-visible:ring ring-sky-300 text-white text-sm md:text-base font-semibold text-center rounded-full outline-none transition duration-100 px-12 py-3"
             >
-              <span className="justify-content flex">
+              <span className="justify-content flex" >
                 Register Now <Rocket />
               </span>
-            </a>
+            </button>
           </div>
         </div>
       </motion.div>
