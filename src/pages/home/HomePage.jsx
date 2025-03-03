@@ -17,10 +17,10 @@ function HomePage() {
     <div>
       <VideoParallax />
       <HeroSection />
-      <Gallery />
-      <DhurvaFest />
-      <PassPage />
       <Countdown/>
+      <DhurvaFest /> 
+      <Gallery />
+      <PassPage />
       <Banners />
       {/* <Sponors/> */}
     </div>

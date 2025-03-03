@@ -42,6 +42,7 @@
     "react-responsive-masonry": "^2.7.1",
     "react-router-dom": "^7.1.5",
     "react-virtualized": "^9.22.6",
+    "sweetalert2": "^11.17.2",
     "tailwind-merge": "^3.0.1",
     "tailwindcss-animate": "^1.0.7"
   },
