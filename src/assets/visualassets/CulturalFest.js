@@ -1,5 +1,5 @@
 import Meganthi from "../visualcontent/Meganthi.png";
-import Drumbs from '../visualcontent/Drumbs.avif';
+import Drumbs from '../visualcontent/Drumbs.jpg';
 import Shortfilm from '../visualcontent/Shortfilm.avif';
 import VegetableCraving from '../visualcontent/VegetableCraving.avif';
 import CarftArt from '../visualcontent/CarftArt.avif';
@@ -18,6 +18,7 @@ import SoloDance from '../visualcontent/SoloDance.avif';
 import GroupDance from '../visualcontent/GroupDance.avif';
 import AdaptTune from '../visualcontent/AdaptTune.avif';
 import Mime from '../visualcontent/Mime.avif';
+import Variety from '../visualcontent/Variety.jpg';
 import vjrj from '../visualcontent/vjrj.jpg';
 import standupcomedy from '../visualcontent/standupcomedy.jpg';
 const CulturalFest = {
@@ -34,7 +35,9 @@ const CulturalFest = {
         EthnicWalk : EthnicWalk,
         vjrj : vjrj,
         standupcomedy : standupcomedy,
-        SoloDance : SoloDance
+        SoloDance : SoloDance,
+        Variety  : Variety 
+
     },
 
     offstage: {

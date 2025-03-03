@@ -55,7 +55,7 @@ const passes = [
     color: "#44BD32",
     cardColor: "#44BD32",
     benefits: [
-      "Day 1(14/03/2025) & Day 2(15/03/2025)",
+      "Day 2(14/03/2025) & Day 3(15/03/2025)",
       "Unlimited Technical Events + One Workshop/ Hackathon/Ideathon + Unlimited Cultural Events",
       "Get Certificates",
       "Win Prizes upto 1 Million",

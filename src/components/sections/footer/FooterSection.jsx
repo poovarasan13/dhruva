@@ -5,7 +5,7 @@ import {
   FooterBottom,
   FooterContent,
 } from "../../ui/footer";
-import dhurvaLogo from "../../../assets/images/dhurva-logo.png";
+import Home from "../../../assets/visualassets/Home.js";
 import {
   HoverCard,
   HoverCardContent,
@@ -22,7 +22,6 @@ import {
 import { Button } from "@/components/ui/button";
 import { InstagramLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
 import { NavLink } from "react-router-dom";
-import Home from "@/assets/visualassets/Home";
 
 export default function FooterSection() {
   return (
@@ -46,7 +45,7 @@ export default function FooterSection() {
             <FooterColumn className="flex flex-col items-center sm:items-start">
               <div className="mb-4">
                 <img
-                  src={dhurvaLogo}
+                  src={Home.Hero.DhruvaLogo}
                   height="100"
                   width="100"
                   alt="Dhurva Logo"
