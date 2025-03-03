@@ -52,7 +52,7 @@ const cd = {
       eventSubType: "Technical",
       eventDescription:
         "Students can deliver their ideas, the results of their research activities, and innovations in the field of Computer Science and Technology using a PowerPoint presentation.",
-      eventRules: "2 to 4 members per team",
+      eventRules: ["2 to 4 members per team"],
       eventVenue: "D Block - D304",
       eventRounds: ["One Round"],
       eventPrize: [
@@ -180,7 +180,7 @@ const cd = {
         "Tournament Store Will Be Given (Desert Eagle,UMP,M1887,M59,Woodpecker,AWM)",
         "Emulators Blocked",
         "Loadouts Will Be Turned Off (*No Rules Applied In Game On Behalf Of Unlimited Ammo) ",
-        
+
         "Internet Stability Is Players Issue (We Suggest VI , Airtel For Better Stability)",
         "Every Team Entries Should Be Confirmed By Department Co-Ordinators On List",
         "Unregistered Team Cannot Participate in This Event",
