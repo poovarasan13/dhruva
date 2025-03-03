@@ -146,16 +146,16 @@ const Navbar = () => {
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <div className="flex justify-between items-center p-4">
-          <h2 className="text-white text-xl font-semibold">Menu</h2>
+        <div className="flex justify-between items-center  ps-4 py-4">
+          <h2 className="text-white text-xl font-semibold dm-sans">Menu</h2>
           <Button variant="ghost" onClick={toggleMenu}>
-            <X className="w-7 h-7 text-white" />
+            <X className="w-7 h-7 ms-5 flex  text-white" />
           </Button>
         </div>
 
         <ul className="flex flex-col items-start space-y-4 mt-5 px-4">
           {navData.map((item, index) => (
-            <li key={index} className="w-full">
+            <li key={index} className="w-full dm-sans">
               {item.name === "Cultural Fest" ||
               item.name === "Technical Fest" ? (
                 <>

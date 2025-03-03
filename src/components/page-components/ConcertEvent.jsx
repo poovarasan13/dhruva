@@ -77,7 +77,7 @@ const ConcertEvent = () => {
       </motion.section>
 
       {/* About Section */}
-      <div className="px-11 ">
+      <div className="md:px-11">
         <motion.section
           className="px-6 md:px-16 py-10"
           initial="hidden"
@@ -116,7 +116,7 @@ const ConcertEvent = () => {
       </div>
 
       {/* General Rules Section */}
-      <div className="px-11">
+      <div className="md:px-11">
         <motion.section
           className="px-6 md:px-16 py-10 bg-white'"
           initial="hidden"
