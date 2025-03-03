@@ -1,4 +1,6 @@
 import offstage from "@/assets/images/OffStage/offstage";
+import CulturalFest from '../../assets/visualassets/CulturalFest.js';
+
 const OffStageDetails = [
   {
     eventName: "Rangoli",
@@ -17,7 +19,7 @@ const OffStageDetails = [
       "Use of phones, tablets or printouts as a preference will lead to immediate disqualification.",
       "Evaluation will be based on theme, colour combinations, creativity and clarity of rangoli",
     ],
-    image: offstage.Rangoli,
+    image: CulturalFest.offstage.Rangoli,
     reverse: false,
   },
   {
@@ -37,7 +39,7 @@ const OffStageDetails = [
       "Use of phones, tablets or printouts as a preference will lead to immediate disqualification.",
       "Participants will be judged on the basis of creativity, innovation and design.",
     ],
-    image: offstage.FacePainting,
+    image: CulturalFest.offstage.FacePainting,
     reverse: true,
   },
   {
@@ -57,7 +59,7 @@ const OffStageDetails = [
       "The Time limit will be 1 hour.",
       "Judging will be based on neatness and creativity.",
     ],
-    image: offstage.Mehandi,
+    image: CulturalFest.offstage.Meganthi,
     reverse: false,
   },
   {
@@ -75,7 +77,7 @@ const OffStageDetails = [
       "Participants should act and present their own video to the audience.",
       "The videos will be displayed on screen at the event, and the winners will be chosen",
     ],
-    image: offstage.Reels,
+    image: CulturalFest.offstage.Reels,
     reverse: true,
   },
   {
@@ -94,7 +96,7 @@ const OffStageDetails = [
       "Films in other languages are permitted but should have subtitles in English",
       "The short film must be original. No copyright issues should be claimed.",
     ],
-    image: offstage.ShortFilm,
+    image: CulturalFest.offstage.Shortfilm,
     reverse: false,
   },
   {
@@ -116,7 +118,7 @@ const OffStageDetails = [
       "Digital images are evaluated on the basis of (I) IMPACT, (II) COMPOSITION. (III) TECHNICAL QUALITY, and (IV) SUITABILITY for the specific theme",
       "The additional instructions will be announced on the spot.",
     ],
-    image: offstage.Photography,
+    image: CulturalFest.offstage.Photography,
     reverse: true,
   },
   {
@@ -138,7 +140,7 @@ const OffStageDetails = [
       "Participants are allowed to bring non-electric equipment (mixer, chopper, juicer, grater etc.,)",
       "Evaluation will be based on table cleanliness, presentation and taste of the food",
     ],
-    image: offstage.FirelessCooking,
+    image: CulturalFest.offstage.Fireless,
     reverse: false,
   },
   {
@@ -161,7 +163,7 @@ const OffStageDetails = [
       "No pre preparation of vegetables or fruits before competition is allowed",
       "Participants should not take the help of others to complete the task.",
     ],
-    image: offstage.VegetableCarving,
+    image: CulturalFest.offstage.VegetableCraving,
     reverse: true,
   },
   {
@@ -181,7 +183,7 @@ const OffStageDetails = [
       "Competitors using a model will have 30 minutes to complete one hand.",
       "Competitors working on themselves will receive 5 extra minutes.",
     ],
-    image: offstage.NailArt,
+    image: CulturalFest.offstage.NailArt,
     reverse: false,
   },
   {
@@ -201,7 +203,7 @@ const OffStageDetails = [
       "Competitors will have 30 minutes to complete the craft.",
       "Final results will be decided by the allocated judges.",
     ],
-    image: offstage.CarftArt,
+    image: CulturalFest.offstage.CarftArt,
     reverse: true,
   },
 ];

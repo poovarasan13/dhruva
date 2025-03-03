@@ -15,7 +15,7 @@ const Queries = () => {
       coordinatorContactPhone: "+91 93600 35659",
     },
     {
-      coordinatorName: "Rahhul M C",
+      coordinatorName: "Raagul M C",
       coordinatorContactPhone: "+91 8270802749",
       departmentName: "Student Coordinator",
     },

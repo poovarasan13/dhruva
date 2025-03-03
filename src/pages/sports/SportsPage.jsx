@@ -6,13 +6,13 @@ import { FaMale, FaFemale } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
 import SportsAssests from "@/assets/images/sports/SportAssets";
 import Queries from "../SportsInfo/Queries";
-
+import Sports from '../../assets/visualassets/Sports.js'
 const sportsData = [
   {
     title: "Handball",
     description: "Experience the fast-paced action of handball!",
     coordinator: "VivekPrasanna SivaSamy",
-    image: SportsAssests.Handball,
+    image: Sports.Handball,
     imageOnLeft: false,
     gender: "male",
   },
@@ -21,7 +21,7 @@ const sportsData = [
     description: "Get ready for intense raiding and defending in Kabaddi!",
     coordinator: "Vasanth Balan",
     phone: "+91 70920 88003",
-    image: SportsAssests.Kabbadi,
+    image: Sports.Kabbadi,
     imageOnLeft: true,
     gender: "male",
   },
@@ -31,14 +31,14 @@ const sportsData = [
       "Dribble, pass, and score in our exciting football tournament!",
     coordinator: "Aakash",
     phone: "+91 6379040788",
-    image: SportsAssests.Football,
+    image: Sports.Football,
     imageOnLeft: false,
     gender: "male",
   },
   {
     title: "Volleyball",
     description: "Spike your way to victory in the volleyball tournament!",
-    image: SportsAssests.Volleyball,
+    image: Sports.VolleyBall,
     coordinator: "Deepak",
     phone: "+91 97865 30029",
     imageOnLeft: true,
@@ -48,7 +48,7 @@ const sportsData = [
     title: "Cricket",
     description:
       "Step up to the crease and smash those boundaries in our Cricket Championship!",
-    image: SportsAssests.Cricket,
+    image: Sports.Cricket,
     coordinator: "Mohan",
     phone: "+91 82202 93437",
     imageOnLeft: false,
@@ -57,7 +57,7 @@ const sportsData = [
   {
     title: "Ball Badminton",
     description: "Experience the unique sport of Ball Badminton!",
-    image: SportsAssests.BallBadminton,
+    image: Sports.BallBadminton,
     coordinator: "Sudharsan",
     phone: "+91 63790 40788",
     imageOnLeft: true,
@@ -67,7 +67,7 @@ const sportsData = [
     title: "Throwball",
     description:
       "Calling all! Join our Throwball tournament and showcase your skills.",
-    image: SportsAssests.Throwball,
+    image: Sports.Throwball,
     imageOnLeft: false,
     gender: "female",
   },

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../../../assets/fonts/dmsans.css";
+import Home from "@/assets/visualassets/Home";
 const VideoParallax = () => {
   const [offsetY, setOffsetY] = useState(0);
 
@@ -13,10 +14,10 @@ const VideoParallax = () => {
     <div className="relative sm:mt-16 md:mt-20 w-full h-[900px] md:h-[700px] overflow-hidden flex items-center justify-center">
       <video
         className="absolute top-0 left-0 w-full h-[900px] md:h-[700px] object-cover"
-        src="https://res.cloudinary.com/dzpkbej9y/video/upload/v1740030183/websitevid-loww_pmyawj.mp4"
+        src={Home.ParallexVideo}
         autoPlay
         loop
-        poster="https://res.cloudinary.com/dzpkbej9y/image/upload/v1740237509/Home_slmynu.avif"
+        poster = {Home.PreLoader}
         muted
         playsInline
         style={{ transform: `translateY(${offsetY}px)` }}
