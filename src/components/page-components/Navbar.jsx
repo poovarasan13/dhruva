@@ -171,7 +171,7 @@ const Navbar = () => {
                         <>
                           <li>
                             <NavLink
-                              to="/culturalFest/onstage"
+                              to="/onstage"
                               className="block p-2 hover:text-orange-400"
                               onClick={toggleMenu}
                             >
@@ -180,7 +180,7 @@ const Navbar = () => {
                           </li>
                           <li>
                             <NavLink
-                              to="/culturalFest/offstage"
+                              to="/offstage"
                               className="block p-2 hover:text-orange-400"
                               onClick={toggleMenu}
                             >
