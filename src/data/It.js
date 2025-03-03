@@ -56,15 +56,21 @@ const it = {
       eventDescription:
         "Lights, Camera… but No Action Words! Get ready for a thrilling round of Dumb Charades, where actions speak louder than words. In this classic game of gestures, teams will compete to guess the given word or phrase based on their teammate’s silent acting. Each team takes turns sending a member to act out a randomly assigned word, while their teammates race against the clock to guess it correctly. The event will progress through multiple rounds, featuring increasingly difficult words and creative challenges.",
       eventRules: [
-        "2-4 members per team.",
-        "The actor cannot speak, write, or mouth words only gestures and facial expressions are allowed.",
-        "Words are assigned randomly from different categories.",
-        "Each team gets 60-90 seconds per turn. Teams take turns acting and guessing.",
+        "Each team consists of 2-4 participants.",
+        "1 person will act and other will make the guesses",
+        "No lip movement or speaking is allowed.",
+        "Proper name should be guessed, an incomplete name would not be considered.",
+        "Gestures can be used but cannot be broken into letters or alphabets",
+        // "The actor cannot speak, write, or mouth words only gestures and facial expressions are allowed.",
+        // "Words are assigned randomly from different categories.",
+        // "Each team gets 60-90 seconds per turn. Teams take turns acting and guessing.",
       ],
-      eventVenue: "C-Block (C304)",
-      eventRounds: ["Round 1", "Final Round"],
+      eventVenue: "C-Block / Room No..: C304)",
+      eventRounds: ["Round 1 : Thematic Words", "Round 2: Complex Phrases"],
       eventPrize: [
-        "As per the norms all the candidates will be given participation certificates.",
+       " Winner will get prize worth of Rs. 1000 and runner will get the prize worth of Rs.750.",
+        "All the candidates will be given with participation certificates."
+        
       ],
       eventStaffCoordinator: {
         name: "Ms. A. Arthi, AP / IT",
@@ -76,7 +82,7 @@ const it = {
           contact: "9345453082",
         },
         {
-          name: "R.. Karthik Kiran",
+          name: "R. Karthik Kiran",
           contact: "8300181333",
         },
       ],
@@ -96,10 +102,12 @@ const it = {
         "Second round qualifications will be based on first round.",
         "Judges and co-ordinators decision will be final.",
       ],
-      eventVenue: "C-Block",
+      eventVenue: "C-Block /Room No.: C-302",
       eventRounds: ["Round 1 ", " Final Round"],
       eventPrize: [
-        "As per the norms all the candidates will be given participation certificates.",
+        "Winner will get prize worth of Rs. 1000 and runner will get the prize worth of Rs.750.",
+        "All the candidates will be given with participation certificates."
+,
       ],
       eventStaffCoordinator: {
         name: "Ms. M. Shyamala, AP / IT",
@@ -107,8 +115,8 @@ const it = {
       },
       studentCoordinator: [
         {
-          name: "M. Harshini",
-          contact: "7418281318",
+          name: "S.K.Madhan Kumaran",
+          contact: "6379835083",
         },
         {
           name: "M. Sham",
@@ -154,13 +162,15 @@ const it = {
       eventDescription:
         "A thrilling coding competition for young innovators to showcase their programming skills and creativity. Solve challenges, build solutions, and compete for glory! Unlock your potential of Python / C / C++ Java / Javascript and become the ultimate Code Champ of 2025!Each round will have a specific time limit; exceeding it may lead to disqualification",
       eventRules: [
-        "The event consists of two rounds - Quiz, Problem Solving Participants can use Python / C / C++ / Java / Javascript language.The Participated Candidates needs to solve the given logic with in the language.",
+        "The event consists of two rounds - Quiz, Problem Solving Participants can use Python / C / C++ / Java / Javascript language.",
+        "The Participated Candidates needs to solve the given logic with in the language.",
         "Team Size :   1 Member",
       ],
       eventVenue: "IT PROJECT LAB",
       eventRounds: ["Round 1", "Final Round"],
       eventPrize: [
-        "As per the norms all the candidates will be given participation certificates.",
+        "Winner will get prize worth of Rs. 1000 and runner will get the prize worth of Rs.750.",
+        "All the candidates will be given with participation certificates."
       ],
       eventStaffCoordinator: {
         name: "Dr. B. P. Sreeja, AP / IT",

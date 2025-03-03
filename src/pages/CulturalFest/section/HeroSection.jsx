@@ -71,8 +71,8 @@ function HeroSection() {
             <h1 className="text-2xl sm:text-3xl md:text-4xl powergrok font-bold text-gray-900">
               OnStage Events
             </h1>
-            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed work-sans">
-              Step into the spotlight with breathtaking performances that bring
+            <p className="hidden md:block text-sm sm:text-base md:text-lg md:text-gray-700 md:leading-relaxed work-sans">
+               Step into the spotlight with breathtaking performances that bring
               stories to life. From mesmerizing dance and music to theatrical
               masterpieces, OnStage is where the magic happens.
             </p>
@@ -105,11 +105,11 @@ function HeroSection() {
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 powergrok">
               OffStage Events
             </h1>
-            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed worksans">
-              Beyond the limelight, OffStage offers engaging workshops,
-              interactive sessions, and behind-the-scenes glimpses into the
-              creative world. Connect, learn, and be inspired.
+            <p className="hidden md:block text-sm sm:text-base md:text-lg md:text-gray-700 md:leading-relaxed work-sans">
+              Step into the spotlight with breathtaking performances that bring stories to life. 
+                   From mesmerizing dance and music to theatrical masterpieces, OnStage is where the magic happens.
             </p>
+
             <div className="flex justify-center md:justify-start">
               <Button link="offstage" text="Explore" />
             </div>

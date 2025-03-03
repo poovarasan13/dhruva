@@ -6,7 +6,7 @@ import RegistrationPage from "../Registration/RegistrationPage";
 import "../../assets/fonts/powergrotesk.css";
 import "../../assets/fonts/dmsans.css";
 import AnimatedCard from "@/components/page-components/AnimatedCard";
-import passes from "@/data/PassCardData";
+import passes from "@/data/passCardData";
 
 const PassPage = () => {
   useEffect(() => {
@@ -21,9 +21,9 @@ const PassPage = () => {
         className="text-center sm:mt-24  mt-20"
       >
         <h1 className="text-5xl powergrok  tracking-wide">Exclusive Passes</h1>
-        <p className="text-gray-800 text-lg mt-2">
-          Unlock premium content with our exclusive memberships
-        </p>
+          <p className="text-gray-800 text-lg mt-2">
+            Unlock premium content with our exclusive memberships
+          </p>
       </motion.div>
 
       <div className="flex flex-col items-center  mt-2  px-6  mb-6">

@@ -1,37 +1,26 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../../assets/fonts/dmsans.css";
-// import Sports from "../../"
-import { useEffect } from "react";
-import Registration from '../../assets/visualassets/Registration.js'
+import Registration from '../../assets/visualassets/Registration.js';
 import { DemoCard } from "@/components/page-components/DemoCard";
+
 const cards = [
   {
-    title: "Techincal Fest",
+    title: "Technical Fest",
     description: "Explore the latest trends in cybersecurity and ethical hacking.",
     imageUrl: Registration.Technical,
-    link:"",
-      // "https://images.unsplash.com/photo-1476842634003-7dcca8f832de?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
-    // hoverImageUrl:Gif2
-      // "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWlodTF3MjJ3NnJiY3Rlc2J0ZmE0c28yeWoxc3gxY2VtZzA5ejF1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/syEfLvksYQnmM/giphy.gif",
+    link: "",
   },
   {
     title: "Cultural Fest",
     description: "An innovative event showcasing AI-powered solutions.",
     imageUrl: Registration.Cultural,
-    link:"",
-      // "https://images.unsplash.com/photo-1476842634003-7dcca8f832de?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
-    // hoverImageUrl:Gif1,
-      // "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWlodTF3MjJ3NnJiY3Rlc2J0ZmE0c28yeWoxc3gxY2VtZzA5ejF1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/syEfLvksYQnmM/giphy.gif",
+    link: "",
   },
-
   {
     title: "Sports Meet",
     description: "Learn about decentralized technologies shaping the future.",
     imageUrl: Registration.Sports,
-    link:"",
-      // "https://images.unsplash.com/photo-1476842634003-7dcca8f832de?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80",
-    // hoverImageUrl:
-    //   "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWlodTF3MjJ3NnJiY3Rlc2J0ZmE0c28yeWoxc3gxY2VtZzA5ejF1NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/syEfLvksYQnmM/giphy.gif",
+    link: "",
   },
 ];
 
@@ -41,17 +30,18 @@ function RegistrationPage() {
   }, []);
 
   return (
-    <div className="pt-20 md:pt-0 pb-16 lg:pb-0">
-      <div className="grid grid-cols-1 md:pt-20 md:mt-16  md:pb-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-6 px-4 w-full max-w-6xl mx-auto place-content-center">
+    <div className="flex flex-col items-center min-h-screen pt-20 pb-16 px-4">
+      <div className="text-center max-w-6xl  my-5 md:my-10">
+        <h1 className=" text-2xl md:text-4xl font-bolder text-blue-600 dm-sans">Welcome to Dhruva 2025!</h1>
+        <p className="text-gray-800 text-md mt-2">
+        Join us for an electrifying <b>Tech, Cultural, and Sports Fest</b> filled with
+        <b> competitions, performances, and endless fun!</b>
+        </p>
+      </div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-6xl place-items-center">
         {cards.map((card, index) => (
-          <div key={index} className="w-full  max-w-xs"> 
-            <DemoCard
-              title={card.title}
-              description={card.description}
-              imageUrl={card.imageUrl}
-              link={card.link}
-            />
-         
+          <div key={index} className="w-full max-w-xs"> 
+            <DemoCard title={card.title} description={card.description} imageUrl={card.imageUrl} link={card.link} />
           </div>
         ))}
       </div>
