@@ -25,6 +25,7 @@ function AppNavigation() {
         <Route path="/dhurva" element={<HomePage />}></Route>
         <Route path="/culturalFest" element={<CulturalFestPage />} />
         <Route path="/technicalFest/*" element={<TechnicalFest />}></Route>
+        <Route path="/technicalFest/:departmentName" element={<EventPage />} />
         <Route path="/departmentInfo" element={<EventPage />}></Route>
         <Route path="/eventInfo" element={<EventShowPage />}></Route>
         <Route path="/sports" element={<SportsPage />}></Route>
