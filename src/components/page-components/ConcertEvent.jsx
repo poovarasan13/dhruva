@@ -145,12 +145,7 @@ const ConcertEvent = () => {
         </motion.section>
       </div>
 
-      {/* Social Links */}
-      {/* <div className="flex justify-center gap-6 py-8">
-        <Facebook href="https://www.facebook.com/share/1ERFLsRYj7/" target="_blank"className="w-8 h-8 cursor-pointer hover:text-blue-600 transition-colors" />
-        <Instagram href="https://www.instagram.com/kcedhruva?igsh=cmV3ZjloMW9oeDRs" target="_blank" className="w-8 h-8 cursor-pointer hover:text-pink-600 transition-colors" />
-        <Twitter target="_blank" className="w-8 h-8 cursor-pointer hover:text-blue-400 transition-colors" />
-      </div> */}
+
     </div>
   );
 };
