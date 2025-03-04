@@ -28,6 +28,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 1024);
   const [hoveredMenu, setHoveredMenu] = useState(null);
+  const [openDropdown, setOpenDropdown] = useState(null);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -44,14 +45,21 @@ const Navbar = () => {
     document.body.style.overflow = isOpen ? "auto" : "hidden";
   };
 
-  const handleMenuClick = (route) => {
-    navigate(route);
+  const closeMenu = () => {
+    if (isMobile) {
+      setIsOpen(false);
+      document.body.style.overflow = "auto";
+    }
+  };
+
+  const toggleDropdown = (menuName) => {
+    setOpenDropdown(openDropdown === menuName ? null : menuName);
   };
 
   return (
     <nav className="fixed top-0 left-0 w-full z-50 border-b bg-black shadow-md">
       <div className="container mx-auto flex items-center justify-between px-4 py-3 lg:p-4">
-        <NavLink to="/" className="text-xl font-bold">
+        <NavLink to="/" className="text-xl font-bold" onClick={closeMenu}>
           <img
             src="https://res.cloudinary.com/dzpkbej9y/image/upload/v1739981304/Dhruva_iulxia.png"
             alt="Dhruva Logo"
@@ -71,10 +79,7 @@ const Navbar = () => {
               {item.name === "Cultural Fest" ||
               item.name === "Technical Fest" ? (
                 <>
-                  <button
-                    className="dm-sans hover:scale-105 md:text-sm lg:text-lg border-b-2 border-transparent transition-all duration-300 hover:border-orange-400 text-white flex items-center"
-                    onClick={() => handleMenuClick(item.route)}
-                  >
+                  <button className="dm-sans hover:scale-105 md:text-sm lg:text-lg border-b-2 border-transparent transition-all duration-300 hover:border-orange-400 text-white flex items-center">
                     {item.name} <ChevronDown className="ml-2" />
                   </button>
                   {hoveredMenu === item.name && (
@@ -84,7 +89,7 @@ const Navbar = () => {
                           <li>
                             <NavLink
                               to="/onstage"
-                              className="block p-2 hover:bg-white hover:text-black rounded-md text-left"
+                              className="block p-2 hover:bg-white hover:text-black rounded-md"
                             >
                               Onstage
                             </NavLink>
@@ -92,7 +97,7 @@ const Navbar = () => {
                           <li>
                             <NavLink
                               to="/offstage"
-                              className="block p-2 hover:bg-white hover:text-black rounded-md text-left"
+                              className="block p-2 hover:bg-white hover:text-black rounded-md"
                             >
                               Offstage
                             </NavLink>
@@ -103,7 +108,7 @@ const Navbar = () => {
                           <li key={i}>
                             <NavLink
                               to={`/technicalFest/${dept.name}`}
-                              className="block p-2 dm-sans hover:bg-gray-800 text-left"
+                              className="block p-2 dm-sans hover:bg-gray-800"
                             >
                               {dept.fullName}
                             </NavLink>
@@ -133,14 +138,15 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
-      <div
-        className={`fixed inset-0 bg-black bg-opacity-75 transition-opacity duration-300 ${
-          isOpen ? "opacity-100 visible" : "opacity-0 invisible"
-        }`}
-        onClick={toggleMenu}
-      ></div>
+      {/* Mobile Overlay */}
+      {isOpen && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-75"
+          onClick={toggleMenu}
+        ></div>
+      )}
 
+   
       <div
         className={`fixed top-0 right-0 h-full w-64 bg-black shadow-lg transform transition-transform duration-300 flex flex-col overflow-y-auto ${
           isOpen ? "translate-x-0" : "translate-x-full"
@@ -160,49 +166,55 @@ const Navbar = () => {
               item.name === "Technical Fest" ? (
                 <>
                   <button
-                    className="text-white text-lg hover:text-orange-400 transition-all duration-300 flex items-center justify-between w-full"
-                    onClick={() => handleMenuClick(item.route)}
+                    className="text-white text-lg hover:text-orange-400 flex items-center w-full"
+                    onClick={() => toggleDropdown(item.name)}
                   >
                     {item.name} <ChevronDown className="ml-2" />
                   </button>
-                  <ul className="bg-gray-800 text-white mt-2 space-y-2 p-2 grid grid-cols-1">
-                    {item.name === "Cultural Fest" ? (
-                      <>
-                        <li>
-                          <NavLink
-                            to="/onstage"
-                            className="block p-2 hover:bg-white hover:text-black rounded-md"
-                          >
-                            Onstage
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="/offstage"
-                            className="block p-2 hover:bg-white hover:text-black rounded-md"
-                          >
-                            Offstage
-                          </NavLink>
-                        </li>
-                      </>
-                    ) : (
-                      department.map((dept, i) => (
-                        <li key={i}>
-                          <NavLink
-                            to={`/technicalFest/${dept.name}`}
-                            className="block p-2 hover:bg-white hover:text-orange-400"
-                          >
-                            {dept.fullName}
-                          </NavLink>
-                        </li>
-                      ))
-                    )}
-                  </ul>
+                  {openDropdown === item.name && (
+                    <ul className="bg-gray-800 text-white mt-2 space-y-2 p-2">
+                      {item.name === "Cultural Fest" ? (
+                        <>
+                          <li>
+                            <NavLink
+                              to="/onstage"
+                              className="block p-2 hover:bg-white hover:text-black rounded-md"
+                              onClick={(e) => e.stopPropagation()} // Keeps menu open
+                            >
+                              Onstage
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/offstage"
+                              className="block p-2 hover:bg-white hover:text-black rounded-md"
+                              onClick={(e) => e.stopPropagation()}
+                            >
+                              Offstage
+                            </NavLink>
+                          </li>
+                        </>
+                      ) : (
+                        department.map((dept, i) => (
+                          <li key={i}>
+                            <NavLink
+                              to={`/technicalFest/${dept.name}`}
+                              className="block p-2 hover:bg-white hover:text-orange-400"
+                              onClick={(e) => e.stopPropagation()}
+                            >
+                              {dept.fullName}
+                            </NavLink>
+                          </li>
+                        ))
+                      )}
+                    </ul>
+                  )}
                 </>
               ) : (
                 <NavLink
                   to={item.route}
                   className="text-white text-lg hover:text-orange-400 block"
+                  onClick={closeMenu}
                 >
                   {item.name}
                 </NavLink>
