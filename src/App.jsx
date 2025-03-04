@@ -6,6 +6,7 @@ import "./assets/fonts/dmserif.css";
 import star from "./assets/images/dhruvastar.png";
 import "./assets/fonts/dmsans.css";
 import AppNavigation from "./router/AppNavigation";
+import "./assets/fonts/allfonts.css";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -24,7 +25,7 @@ function App() {
     <>
       {isLoading ? (
         <div className="center-container">
-            <img src={star} className="logo rotating" alt="Star logo" />
+          <img src={star} className="logo rotating" alt="Star logo" />
         </div>
       ) : (
         <>

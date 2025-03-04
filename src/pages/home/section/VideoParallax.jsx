@@ -11,7 +11,7 @@ const VideoParallax = () => {
   }, []);
 
   return (
-    <div className="relative sm:mt-16 md:mt-20 w-full h-[900px] md:h-[700px] overflow-hidden flex items-center justify-center">
+    <div className="relative  md:mt-20 w-full h-[800px] md:h-[700px] overflow-hidden flex items-center justify-center">
       <video
         className="absolute top-0 left-0 w-full h-[900px] md:h-[700px] object-cover"
         src={Home.ParallexVideo}
@@ -23,9 +23,9 @@ const VideoParallax = () => {
         style={{ transform: `translateY(${offsetY}px)` }}
       />
 
-      <div className="absolute top-0 left-0 w-full h-[900px] md:h-[700px] bg-black/50"></div>
+      <div className="absolute top-0 left-0 w-full h-[800px] md:h-[700px] bg-black/50"></div>
 
-      <div className="relative md:mt-[400px] mt-[600px] z-10 text-center text-white px-6 md:px-12">
+      <div className="relative md:mt-[400px] mt-[300px] z-10 text-center text-white px-6 md:px-12">
         <h1 className="text-2xl md:text-6xl font-bold dm-sans">
         <strong>Create your{" "}</strong>
           <span className="text-orange-600">

@@ -23,26 +23,22 @@ const EventsDisplay = ({ scrollToEvent }) => {
       delay: 100,
     });
   }, []);
-
-  // Create an array of refs
   const eventRefs = useRef([]);
-  const navigate=useNavigate();
-  const handleNavigate =()=>{
-      navigate('/registration');
-  }
+  const navigate = useNavigate();
+  const handleNavigate = () => {
+    navigate("/registration");
+  };
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2 sm:p-4 space-y-4 sm:space-y-6 overflow-hidden">
       {eventsData.map((event, index) => (
         <div
           key={index}
-          id={`event-card-${index}`} // Add unique ID for scrolling
-          ref={(el) => (eventRefs.current[index] = el)} // Assign ref to each card
-          // style={{ scrollMarginBottom: '100px' }}
+          id={`event-card-${index}`}
+          ref={(el) => (eventRefs.current[index] = el)}
           className={`flex flex-col md:flex-row ${
             event.reverse ? "md:flex-row-reverse" : ""
           } items-start gap-2 md:gap-4 bg-gradient-to-r from-white to-gray-100 p-2 md:p-4 rounded-xl shadow-lg hover:shadow-xl transition-shadow border border-gray-300 w-full max-w-full`}
           data-aos="fade-up"
-          // Adjust this value based on your header height
         >
           <div
             className="md:w-3/4 lg:w-[700px] object-fit md:object-none"
@@ -59,17 +55,17 @@ const EventsDisplay = ({ scrollToEvent }) => {
             className="w-full md:w-1/2 space-y-2 md:space-y-3"
             data-aos="fade-left"
           >
-            <h1 className="text-sm sm:text-lg dm-serif md:text-xl font-bold flex items-center gap-1 text-gray-800">
+            <h1 className="text-sm sm:text-lg powergrok  md:text-2xl font-light tracking-wide flex  items-center gap-1 text-gray-800">
               <Users className="text-blue-500 w-3 h-3 sm:w-4 sm:h-4" />{" "}
               {event.eventName}
             </h1>
 
             <div className="flex flex-col sm:flex-row gap-1 sm:gap-2">
-              <div className="flex items-center gap-1 text-gray-700 dm-sans text-xs sm:text-sm">
+              <div className="flex items-center gap-1 text-gray-700 work-sans text-xs sm:text-sm">
                 <MapPin className="text-red-500 w-3 h-3 sm:w-4 sm:h-4" />
                 <h3 className="font-medium"> {event.venue}</h3>
               </div>
-              <div className="flex items-center gap-1 text-gray-700 text-xs dm-sans sm:text-sm">
+              <div className="flex items-center gap-1 text-gray-700 text-xs work-sans  sm:text-sm">
                 <Clock className="text-green-500 w-3 h-3 sm:w-4 sm:h-4" />
                 <h3 className="font-medium"> {event.time}</h3>
               </div>
@@ -84,7 +80,7 @@ const EventsDisplay = ({ scrollToEvent }) => {
                 {event.description.map((item, index) => (
                   <li
                     key={index}
-                    className="transition-transform duration-200 hover:translate-x-[2px]"
+                    className="transition-transform  work-sans  duration-200 hover:translate-x-[2px]"
                     data-aos="fade-right"
                   >
                     {item}
@@ -93,27 +89,27 @@ const EventsDisplay = ({ scrollToEvent }) => {
               </ul>
             </div>
 
-            {/* Faculty Coordinator */}
+          
             <div className="space-y-[2px]">
-              <p className="text-[10px] sm:text-[14px] font-semibold flex items-center gap-[2px] text-gray-700">
+              <p className="text-[10px] sm:text-[14px] font-bold tracking-wide  powergrok  flex items-center gap-[2px] text-gray-700">
                 <UserPen className="text-red-500 w-[24px] h-[20px]" />
                 {event.facultyCoordinator}
               </p>
-              {event.facultyNumber &&
-              <div className="flex items-center gap-[2px] text-gray-600 text-xs sm:text-sm">
-                <Phone className="text-blue-500 w-[20px] h-[16px]" />
-                <p>
-                  <a
-                    href={`tel:${event.facultyNumber}`}
-                    className="text-black hover:text-blue-800 text-xs md:text-sm"
-                  >
-                    {event.facultyNumber}
-                  </a>
-                </p>
-              </div>}
+              {event.facultyNumber && (
+                <div className="flex items-center gap-[2px] text-gray-600 text-xs sm:text-sm">
+                  <Phone className="text-blue-500 w-[20px] h-[16px]" />
+                  <p>
+                    <a
+                      href={`tel:${event.facultyNumber}`}
+                      className="text-black hover:text-blue-800  powergrok text-xs md:text-md"
+                    >
+                      {event.facultyNumber}
+                    </a>
+                  </p>
+                </div>
+              )}
             </div>
 
-            {/* Student Coordinator */}
             {(event.studentCoordinator || event.studentNumber) && (
               <div className="space-y-[2px]">
                 {event.studentCoordinator && (
@@ -148,7 +144,10 @@ const EventsDisplay = ({ scrollToEvent }) => {
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  <span className="flex items-center gap-2" onClick={handleNavigate}>
+                  <span
+                    className="flex items-center gap-2"
+                    onClick={handleNavigate}
+                  >
                     Register
                     <motion.div
                       whileHover={{ y: -5, rotate: -15 }}

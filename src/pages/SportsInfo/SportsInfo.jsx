@@ -122,6 +122,9 @@ const sportsData = [
     time: "13th March 2025, 09.00 AM",
     cost: "1000/team",
     rules: [
+      "The match will be an 8-over format per side.",
+      "Each team must have 5 bowlers.",
+      "Red tennis ball will be used for the matches.",
       "Teams should report at least 30 minutes before the commencement of the match",
       "Player must produce the college identity card at the time of registration and will be returned only after the tournament. Without Identity card, the players will not be permitted to participate.",
       "No one else including alumni students will be permitted into our campus. Team with Physical Director or any accompanying staff member must carry the college identity card.",
