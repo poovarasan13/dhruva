@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import "../../assets/fonts/dmsans.css";
 import "../../assets/fonts/dmserif.css";
-import { Rocket } from "lucide-react";
+import { Clock, Locate, Map, MapPin, Rocket } from "lucide-react";
 import Button from "./Button";
 
 function EventBanner({
@@ -75,37 +75,13 @@ function EventBanner({
           className="mt-12 flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8"
         >
           <div className={`flex items-center`} style={{ color: textColor }}>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              className="w-6 h-6 mr-2"
-              aria-hidden="true"
-            >
-              <path
-                fillRule="evenodd"
-                d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 000-1.5h-3.75V6z"
-                clipRule="evenodd"
-              />
-            </svg>
-            <span className="text-lg work-sans">Venue: {venue}</span>
+            <MapPin className="text-red-500" />
+            <span className="text-lg work-sans"> {venue}</span>
           </div>
 
-          <div className={`flex items-center`} style={{ color: textColor }}>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="currentColor"
-              className="w-6 h-6 mr-2"
-              aria-hidden="true"
-            >
-              <path
-                fillRule="evenodd"
-                d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 000-1.5h-3.75V6z"
-                clipRule="evenodd"
-              />
-            </svg>
-            <span className="text-lg  work-sans">Date: {date}</span>
+          <div className={`flex`} style={{ color: textColor }}>
+            <Clock className="text-green-700" />
+            <span className="text-lg  work-sans">{date}</span>
           </div>
         </motion.div>
       </div>

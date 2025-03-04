@@ -77,7 +77,7 @@ const ConcertEvent = () => {
       </motion.section>
 
       {/* About Section */}
-      <div className="px-11 ">
+      <div className="md:px-11">
         <motion.section
           className="px-6 md:px-16 py-10"
           initial="hidden"
@@ -116,7 +116,7 @@ const ConcertEvent = () => {
       </div>
 
       {/* General Rules Section */}
-      <div className="px-11">
+      <div className="md:px-11">
         <motion.section
           className="px-6 md:px-16 py-10 bg-white'"
           initial="hidden"
@@ -145,12 +145,7 @@ const ConcertEvent = () => {
         </motion.section>
       </div>
 
-      {/* Social Links */}
-      {/* <div className="flex justify-center gap-6 py-8">
-        <Facebook href="https://www.facebook.com/share/1ERFLsRYj7/" target="_blank"className="w-8 h-8 cursor-pointer hover:text-blue-600 transition-colors" />
-        <Instagram href="https://www.instagram.com/kcedhruva?igsh=cmV3ZjloMW9oeDRs" target="_blank" className="w-8 h-8 cursor-pointer hover:text-pink-600 transition-colors" />
-        <Twitter target="_blank" className="w-8 h-8 cursor-pointer hover:text-blue-400 transition-colors" />
-      </div> */}
+
     </div>
   );
 };
