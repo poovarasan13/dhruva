@@ -34,7 +34,7 @@ const it = {
       ],
       eventStaffCoordinator: {
         name: "Mr. S. Nagaraj, AP / IT",
-        contact: "",
+        contact: "+91 95003 13921",
       },
       studentCoordinator: [
         {
@@ -68,7 +68,7 @@ const it = {
       ],
       eventStaffCoordinator: {
         name: "Ms. A. Arthi, AP / IT",
-        contact: "",
+        contact: "+91 89037 39051",
       },
       studentCoordinator: [
         {
@@ -103,7 +103,7 @@ const it = {
       ],
       eventStaffCoordinator: {
         name: "Ms. M. Shyamala, AP / IT",
-        contact: "",
+        contact: "9944323138",
       },
       studentCoordinator: [
         {
@@ -132,7 +132,7 @@ const it = {
       ],
       eventStaffCoordinator: {
         name: "Dr.M.Dhurgadevi, Prof./IT",
-        contact: "",
+        contact: "+91 98650 08455",
       },
       studentCoordinator: [
         {
@@ -164,7 +164,7 @@ const it = {
       ],
       eventStaffCoordinator: {
         name: "Dr. B. P. Sreeja, AP / IT",
-        contact: "",
+        contact: "+91 82206 12234",
       },
       studentCoordinator: [
         {
@@ -181,7 +181,8 @@ const it = {
       posterUrl: "",
       eventName: "Paper quest",
       eventSubType: "Technical",
-      eventType: "Paper presentation – Technical event, Please mail your papers to paperquest2k25@gmail.com after registration",
+      eventType:
+        "Paper presentation – Technical event, Please mail your papers to paperquest2k25@gmail.com after registration",
       eventTime: "10.30 AM",
       eventDescription: "Paper presentation",
       eventRules: [
@@ -231,7 +232,7 @@ const it = {
       ],
       eventStaffCoordinator: {
         name: "Dr. V. Jothi Prakash, AP / IT",
-        contact: "",
+        contact: "+91 96775 04541",
       },
       studentCoordinator: [
         {
@@ -260,7 +261,7 @@ const it = {
       ],
       eventStaffCoordinator: {
         name: "Dr. T. Guhan, ASP / IT",
-        contact: "",
+        contact: "+91 98422 02738",
       },
       studentCoordinator: [
         {
@@ -279,7 +280,8 @@ const it = {
       eventType: "Workshop - Technical",
       eventSubType: "WorkShop",
       eventTime: "10.30 a.m",
-      eventDescription: "Interactive and Hands-on session is designed for tech enthusiasts, developers, and professionals to explore the practical aspects of Data Analytics with Python",
+      eventDescription:
+        "Interactive and Hands-on session is designed for tech enthusiasts, developers, and professionals to explore the practical aspects of Data Analytics with Python",
       eventRules: [],
       eventVenue: "MG Hall",
       eventRounds: [],
@@ -288,7 +290,7 @@ const it = {
       ],
       eventStaffCoordinator: {
         name: "Dr.M.Dhurgadevi, Prof./IT",
-        contact: "",
+        contact: "+91 98650 08455",
       },
       studentCoordinator: [
         {
