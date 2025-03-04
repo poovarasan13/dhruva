@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "../../assets/fonts/allfonts.css";
 import {
   Calendar,
   MapPin,
@@ -26,10 +27,10 @@ const EventsDisplay = ({ scrollToEvent }) => {
 
   // Create an array of refs
   const eventRefs = useRef([]);
-  const navigate=useNavigate();
-  const handleNavigate =()=>{
-      navigate('/registration');
-  }
+  const navigate = useNavigate();
+  const handleNavigate = () => {
+    navigate("/registration");
+  };
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col items-center justify-center p-2 sm:p-4 space-y-4 sm:space-y-6 overflow-hidden">
@@ -60,8 +61,8 @@ const EventsDisplay = ({ scrollToEvent }) => {
             className="w-full md:w-1/2 space-y-2 md:space-y-3"
             data-aos="fade-left"
           >
-            <h1 className="text-sm sm:text-lg dm-serif md:text-xl font-bold flex items-center gap-1 text-gray-800">
-              <Users className="text-blue-500 w-3 h-3 sm:w-4 sm:h-4" />{" "}
+            <h1 className="text-sm sm:text-lg powergrok md:text-xl  flex items-center gap-1 text-gray-800">
+              <Users className="text-blue-500  w-3 h-3 sm:w-4 sm:h-4" />{" "}
               {event.eventName}
             </h1>
 
@@ -115,26 +116,27 @@ const EventsDisplay = ({ scrollToEvent }) => {
               )}
             </div>
 
-            {(event.studentCoordinator || event.studentNumber) &&
-            <div className="space-y-[2px]">
-              {event.studentCoordinator && (
-                <p className="text-[10px] sm:text-[14px] font-semibold flex items-center gap-[2px] text-gray-700">
-                  <User className="text-green-500 w-[20px] h-[20px]" />
-                  {event.studentCoordinator}
-                </p>
-              )}
-              {event.studentNumber && (
-                <div className="flex items-center gap-[2px] text-gray-600 text-xs sm:text-sm">
-                  <Phone className="text-blue-500 w-[20px] h-[16px]" />
-                  <a
-                    href={`tel:${event.studentNumber}`}
-                    className="text-black hover:text-blue-800 text-xs md:text-sm"
-                  >
-                    {event.studentNumber}
-                  </a>
-                </div>
-              )}
-            </div>}
+            {(event.studentCoordinator || event.studentNumber) && (
+              <div className="space-y-[2px]">
+                {event.studentCoordinator && (
+                  <p className="text-[10px] sm:text-[14px] font-semibold flex items-center gap-[2px] text-gray-700">
+                    <User className="text-green-500 w-[20px] h-[20px]" />
+                    {event.studentCoordinator}
+                  </p>
+                )}
+                {event.studentNumber && (
+                  <div className="flex items-center gap-[2px] text-gray-600 text-xs sm:text-sm">
+                    <Phone className="text-blue-500 w-[20px] h-[16px]" />
+                    <a
+                      href={`tel:${event.studentNumber}`}
+                      className="text-black hover:text-blue-800 text-xs md:text-sm"
+                    >
+                      {event.studentNumber}
+                    </a>
+                  </div>
+                )}
+              </div>
+            )}
 
             {/* Register Button */}
             <div className="py-5 flex justify-center lg:justify-start">
@@ -144,11 +146,14 @@ const EventsDisplay = ({ scrollToEvent }) => {
                 transition={{ duration: 0.5, ease: "easeOut" }}
               >
                 <motion.button
-                  className="text-white josefin px-5 py-2 md:px-4 md:py-2 md:text-[15px] bg-blue-600 hover:bg-blue-700 shadow-lg flex gap-2 items-center rounded-full"
+                  className="text-white  px-5 py-2 md:px-4 work-sans md:py-2 md:text-[15px] bg-sky-400 hover:bg-sky-700 shadow-lg flex gap-2 items-center rounded-full"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
                 >
-                  <span className="flex items-center gap-2" onClick={handleNavigate}>
+                  <span
+                    className="flex items-center gap-2"
+                    onClick={handleNavigate}
+                  >
                     Register
                     <motion.div
                       whileHover={{ y: -5, rotate: -15 }}
