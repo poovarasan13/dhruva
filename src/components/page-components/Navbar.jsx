@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Button } from "../ui/button";
 import { Menu, X, ChevronDown } from "lucide-react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import "../../assets/fonts/dmsans.css";
 import navData from "../../data/NavData";
 
@@ -27,7 +27,8 @@ const department = [
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 1024);
-  const [isDropdownOpen, setIsDropdownOpen] = useState(null);
+  const [hoveredMenu, setHoveredMenu] = useState(null);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleResize = () => {
@@ -43,12 +44,8 @@ const Navbar = () => {
     document.body.style.overflow = isOpen ? "auto" : "hidden";
   };
 
-  const toggleDropdown = (menu) => {
-    setIsDropdownOpen(isDropdownOpen === menu ? null : menu);
-  };
-
-  const closeDropdown = () => {
-    setIsDropdownOpen(null);
+  const handleMenuClick = (route) => {
+    navigate(route);
   };
 
   return (
@@ -57,7 +54,7 @@ const Navbar = () => {
         <NavLink to="/" className="text-xl font-bold">
           <img
             src="https://res.cloudinary.com/dzpkbej9y/image/upload/v1739981304/Dhruva_iulxia.png"
-            alt="Dhurva Logo"
+            alt="Dhruva Logo"
             className="w-20 md:w-[100px]"
           />
         </NavLink>
@@ -65,25 +62,29 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <ul className="hidden lg:flex flex-grow justify-center space-x-12">
           {navData.map((item, index) => (
-            <li key={index} className="relative group">
+            <li
+              key={index}
+              className="relative group"
+              onMouseEnter={() => setHoveredMenu(item.name)}
+              onMouseLeave={() => setHoveredMenu(null)}
+            >
               {item.name === "Cultural Fest" ||
               item.name === "Technical Fest" ? (
                 <>
                   <button
                     className="dm-sans hover:scale-105 md:text-sm lg:text-lg border-b-2 border-transparent transition-all duration-300 hover:border-orange-400 text-white flex items-center"
-                    onClick={() => toggleDropdown(item.name)}
+                    onClick={() => handleMenuClick(item.route)}
                   >
                     {item.name} <ChevronDown className="ml-2" />
                   </button>
-                  {isDropdownOpen === item.name && (
-                    <ul className="absolute left-0 mt-2 min-w-[280px] lg:min-w-[400px] bg-black border-gray-800  border-2 border-opacity-70 text-white shadow-lg rounded-md p-2 grid grid-cols-2 gap-2">
+                  {hoveredMenu === item.name && (
+                    <ul className="absolute left-0 mt-2 min-w-[280px] lg:min-w-[400px] bg-black border-gray-800 border-2 border-opacity-70 text-white shadow-lg rounded-md p-2 grid grid-cols-2 gap-2">
                       {item.name === "Cultural Fest" ? (
                         <>
                           <li>
                             <NavLink
                               to="/onstage"
                               className="block p-2 hover:bg-white hover:text-black rounded-md text-left"
-                              onClick={closeDropdown}
                             >
                               Onstage
                             </NavLink>
@@ -92,7 +93,6 @@ const Navbar = () => {
                             <NavLink
                               to="/offstage"
                               className="block p-2 hover:bg-white hover:text-black rounded-md text-left"
-                              onClick={closeDropdown}
                             >
                               Offstage
                             </NavLink>
@@ -104,7 +104,6 @@ const Navbar = () => {
                             <NavLink
                               to={`/technicalFest/${dept.name}`}
                               className="block p-2 dm-sans hover:bg-gray-800 text-left"
-                              onClick={closeDropdown}
                             >
                               {dept.fullName}
                             </NavLink>
@@ -134,7 +133,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Menu Overlay */}
+      {/* Mobile Menu */}
       <div
         className={`fixed inset-0 bg-black bg-opacity-75 transition-opacity duration-300 ${
           isOpen ? "opacity-100 visible" : "opacity-0 invisible"
@@ -142,7 +141,6 @@ const Navbar = () => {
         onClick={toggleMenu}
       ></div>
 
-      {/* Mobile Menu */}
       <div
         className={`fixed top-0 right-0 h-full w-64 bg-black shadow-lg transform transition-transform duration-300 flex flex-col overflow-y-auto ${
           isOpen ? "translate-x-0" : "translate-x-full"
@@ -163,54 +161,48 @@ const Navbar = () => {
                 <>
                   <button
                     className="text-white text-lg hover:text-orange-400 transition-all duration-300 flex items-center justify-between w-full"
-                    onClick={() => toggleDropdown(item.name)}
+                    onClick={() => handleMenuClick(item.route)}
                   >
                     {item.name} <ChevronDown className="ml-2" />
                   </button>
-                  {isDropdownOpen === item.name && (
-                    <ul className="bg-gray-800 text-white mt-2 space-y-2 p-2 grid grid-cols-1">
-                      {item.name === "Cultural Fest" ? (
-                        <>
-                          <li key="1">
-                            <NavLink
-                              to="/onstage"
-                              className="block p-2 hover:bg-white hover:text-black rounded-md"
-                              onClick={toggleMenu}
-                            >
-                              Onstage
-                            </NavLink>
-                          </li>
-                          <li key="2">
-                            <NavLink
-                              to="/offstage"
-                              className="block p-2 hover:bg-white hover:text-black rounded-md"
-                              onClick={toggleMenu}
-                            >
-                              Offstage
-                            </NavLink>
-                          </li>
-                        </>
-                      ) : (
-                        department.map((dept, i) => (
-                          <li key={i}>
-                            <NavLink
-                              to={`/technicalFest/${dept.name}`}
-                              className="block p-2 hover:bg-white hover:text-orange-400"
-                              onClick={toggleMenu}
-                            >
-                              {dept.fullName}
-                            </NavLink>
-                          </li>
-                        ))
-                      )}
-                    </ul>
-                  )}
+                  <ul className="bg-gray-800 text-white mt-2 space-y-2 p-2 grid grid-cols-1">
+                    {item.name === "Cultural Fest" ? (
+                      <>
+                        <li>
+                          <NavLink
+                            to="/onstage"
+                            className="block p-2 hover:bg-white hover:text-black rounded-md"
+                          >
+                            Onstage
+                          </NavLink>
+                        </li>
+                        <li>
+                          <NavLink
+                            to="/offstage"
+                            className="block p-2 hover:bg-white hover:text-black rounded-md"
+                          >
+                            Offstage
+                          </NavLink>
+                        </li>
+                      </>
+                    ) : (
+                      department.map((dept, i) => (
+                        <li key={i}>
+                          <NavLink
+                            to={`/technicalFest/${dept.name}`}
+                            className="block p-2 hover:bg-white hover:text-orange-400"
+                          >
+                            {dept.fullName}
+                          </NavLink>
+                        </li>
+                      ))
+                    )}
+                  </ul>
                 </>
               ) : (
                 <NavLink
                   to={item.route}
                   className="text-white text-lg hover:text-orange-400 block"
-                  onClick={toggleMenu}
                 >
                   {item.name}
                 </NavLink>
