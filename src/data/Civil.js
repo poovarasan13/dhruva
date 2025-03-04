@@ -1,6 +1,6 @@
 const civil = {
   id: 12,
-  shortName: "CE",
+  shortName: "Civil",
   technicalEventCount: 4,
   nonTechnicalEventCount: 1,
   workshop: 2,

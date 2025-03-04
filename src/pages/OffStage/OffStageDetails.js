@@ -66,9 +66,9 @@ const OffStageDetails = [
     eventName: "Reels",
     facultyCoordinator:
       "Mr. Sivaji Rao, AP/CSD(Photography Club)",
-    facultyNumber: "",
-    studentCoordinator: "",
-    studentNumber: "",
+    facultyNumber: "+91 90437 84314",
+    studentCoordinator: "S.Karthikeyan, BharaniRaj",
+    studentNumber: "7639273091, 63797 95076",
     venue: "C Block",
     time: "10:00AM",
     description: [
