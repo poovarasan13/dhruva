@@ -22,7 +22,7 @@ const OnStage = () => {
     { id: 7, title: "Skit Mime", image: CulturalFest.onstage.Mime },
     { id: 8, title: "Ethnic Walk", image: CulturalFest.onstage.EthnicWalk },
     { id: 9, title: "Vj/Rj  Hunt", image: CulturalFest.onstage.vjrj },
-    // { id: 10, title: "Variety Event", image: onstage.Variety },
+    { id: 10, title: "Variety Event", image: onstage.Variety },
   ];
 
   return (
