@@ -73,7 +73,12 @@ const Navbar = () => {
                     className="dm-sans hover:scale-105 md:text-sm lg:text-lg border-b-2 border-transparent transition-all duration-300 hover:border-orange-400 text-white flex items-center"
                     onClick={() => toggleDropdown(item.name)}
                   >
-                    {item.name} <ChevronDown className="ml-2" />
+                    <NavLink
+                      to={(item.name === "Cultural Fest")?("/CulturalFest"):("/TechnicalFest")}
+                    >
+                      {item.name}
+                    </NavLink>
+                    <ChevronDown className="ml-2" />
                   </button>
                   {isDropdownOpen === item.name && (
                     <ul className="absolute left-0 mt-2 min-w-[280px] lg:min-w-[400px] bg-black border-gray-800  border-2 border-opacity-70 text-white shadow-lg rounded-md p-2 grid grid-cols-2 gap-2">
@@ -165,7 +170,12 @@ const Navbar = () => {
                     className="text-white text-lg hover:text-orange-400 transition-all duration-300 flex items-center justify-between w-full"
                     onClick={() => toggleDropdown(item.name)}
                   >
-                    {item.name} <ChevronDown className="ml-2" />
+                    <NavLink
+                      to={(item.name === "Cultural Fest")?("/CulturalFest"):("/TechnicalFest")}
+                    >
+                      {item.name}
+                    </NavLink>
+                    <ChevronDown className="ml-2" />
                   </button>
                   {isDropdownOpen === item.name && (
                     <ul className="bg-gray-800 text-white mt-2 space-y-2 p-2 grid grid-cols-1">
