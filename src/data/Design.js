@@ -9,7 +9,7 @@ const cd = {
   departmentDescription:
     "The Department of Computer Science and Design is excited to announce its upcoming lineup of events for the upcoming academic year. We will be conducting 2 technical events, 1 non-technical event, and 1 workshops and 1 Hackathon that are sure to be informative and get hands-on experience with various tools and technologies that are widely used in the industry",
   coordinatorName: "M A Mohammed Ansar Ali / Assistant Professor ",
-  coordinatorContactPhone: "90034727522",
+  coordinatorContactPhone: "9003472752",
   coordinatorEmail: "mohammedansarali.ma@kce.ac.in",
   events: [
     {

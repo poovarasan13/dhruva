@@ -8,19 +8,19 @@ const cards = [
     title: "Technical Fest",
     description: "Explore the latest trends in cybersecurity and ethical hacking.",
     imageUrl: Registration.Technical,
-    link: "",
+    link: "https://rzp.io/rzp/RPUaLt5",
   },
   {
     title: "Cultural Fest",
     description: "An innovative event showcasing AI-powered solutions.",
     imageUrl: Registration.Cultural,
-    link: "",
+    link: "https://rzp.io/rzp/RPUaLt5",
   },
   {
     title: "Sports Meet",
     description: "Learn about decentralized technologies shaping the future.",
     imageUrl: Registration.Sports,
-    link: "",
+    link: "https://rzp.io/rzp/S4LuOAu",
   },
 ];
 
