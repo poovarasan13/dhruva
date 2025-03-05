@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import Swal from "sweetalert2";
+// import Swal from "sweetalert2";
 
 export function DemoCard({ title, description, imageUrl, link }) {
   const navigate = useNavigate();
