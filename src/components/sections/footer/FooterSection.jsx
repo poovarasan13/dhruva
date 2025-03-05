@@ -5,7 +5,7 @@ import {
   FooterBottom,
   FooterContent,
 } from "../../ui/footer";
-import dhurvaLogo from "../../../assets/images/dhurva-logo.png";
+import Home from "../../../assets/visualassets/Home.js";
 import {
   HoverCard,
   HoverCardContent,
@@ -21,8 +21,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { InstagramLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
-import { Link, NavLink } from "react-router-dom";
-import Home from "@/assets/visualassets/Home";
+import { NavLink } from "react-router-dom";
 
 export default function FooterSection() {
   return (
@@ -34,7 +33,10 @@ export default function FooterSection() {
         muted
         className="absolute top-0 left-0 w-full h-full object-cover opacity-20"
       >
-        <source src={Home.FooterVideo.DhruvaLogoVideo} type="video/mp4" />
+        <source
+          src={Home.FooterVideo.DhruvaLogoVideo}
+          type="video/mp4"
+        />
       </video>
 
       <div className="relative mx-auto max-w-container px-4 py-8">
@@ -43,7 +45,7 @@ export default function FooterSection() {
             <FooterColumn className="flex flex-col items-center sm:items-start">
               <div className="mb-4">
                 <img
-                  src={dhurvaLogo}
+                  src={Home.Hero.DhruvaLogo}
                   height="100"
                   width="100"
                   alt="Dhurva Logo"
@@ -216,17 +218,8 @@ export default function FooterSection() {
             </div>
           </FooterContent>
 
-          <FooterBottom className="mt-8 border-t  border-gray-800 pt-6 text-center text-gray-400">
+          <FooterBottom className="mt-8 border-t border-gray-800 pt-6 text-center text-gray-400">
             © 2025 Karpagam College Of Engineering | Core Team - My Campus Clubs
-            <div className="space-x-4">
-              <span> </span>
-              <Link to="/terms" className="me-4 hover:underline">
-                Terms and Conditions
-              </Link>
-              <Link to="/privacy" className="hover:underline">
-                Privacy Policy
-              </Link>
-            </div>
           </FooterBottom>
         </Footer>
       </div>

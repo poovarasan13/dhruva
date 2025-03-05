@@ -1,9 +1,10 @@
 import onstage from "@/assets/images/OnStage/onstage";
-import CulturalFest from "../../assets/visualassets/CulturalFest.js";
+import CulturalFest from '../../assets/visualassets/CulturalFest.js';
 const OnStageDetails = [
   {
     eventName: "Solo Singing",
-    facultyCoordinator: "Ms. Ramsheena, AP/SH (Kindle Club)",
+    facultyCoordinator:
+      "Ms. Ramsheena, AP/SH (Kindle Club)",
     facultyNumber: "9037319421",
     studentCoordinator: "PRISHA K, SARAVANA KUMAR. P ",
     studentNumber: "90423 73480, 63693 83477 ",
@@ -22,7 +23,8 @@ const OnStageDetails = [
   },
   {
     eventName: "Solo Dance",
-    facultyCoordinator: "Mr. Arun Kumar AP/ME (Riders Club)",
+    facultyCoordinator:
+      "Mr. Arun Kumar AP/ME (Riders Club)",
     facultyNumber: "+91 85264 08302",
     studentCoordinator: "•	Mr Vinish R, •	Mr Benial V",
     studentNumber: "6374542762, 8825503768",
@@ -36,14 +38,15 @@ const OnStageDetails = [
       "The participants are asked to bring the songs/track in pen-drive.",
       "The decision of the jury shall be final with regard to the interpretation of the rules.",
       "Top six contestants will be selected to final round.",
-      "Participants should dress appropriately and avoid indecent exposure",
+      "Participants should dress appropriately and avoid indecent exposure"
     ],
     image: CulturalFest.onstage.SoloDance,
     reverse: true,
   },
   {
     eventName: "Group Dance",
-    facultyCoordinator: "Ms. Saranya, AP/ECE (Music and Dance Club)",
+    facultyCoordinator:
+      "Ms. Saranya, AP/ECE (Music and Dance Club)",
     facultyNumber: "9787865982",
     studentCoordinator: "MOHAN RAJ T, SANTHOSH P ",
     studentNumber: "8825960347, 6380431085",
@@ -68,10 +71,11 @@ const OnStageDetails = [
   },
   {
     eventName: "Instrumentals",
-    facultyCoordinator: "Mr. Prabhu, AP/S&H (My Campus Clubs)",
-    facultyNumber: "9597798116",
-    studentCoordinator: "",
-    studentNumber: "",
+    facultyCoordinator:
+      "Mr. Prabhu, AP/S&H (My Campus Clubs)",
+    facultyNumber: "+91 96597 91588",
+    studentCoordinator: "Shanmugapriyan, Varnika",
+    studentNumber: "+91 6379 118 341,+91 6381 070 959",
     venue: "Auditorium",
     time: "12:00PM",
     description: [
@@ -88,7 +92,8 @@ const OnStageDetails = [
   },
   {
     eventName: "Adapt Tune",
-    facultyCoordinator: "Mr. Pradeep Kumar, AP/ CE(Riders Club)",
+    facultyCoordinator:
+      "Mr. Pradeep Kumar, AP/ CE(Riders Club)",
     facultyNumber: "+91 77083 50825",
     studentCoordinator: "M.E.ANDARDAKKAR, R. HARIHARASUTHAN",
     studentNumber: "6384302213, 8807439292",
@@ -106,30 +111,31 @@ const OnStageDetails = [
   },
   {
     eventName: "Stand up",
-    facultyCoordinator: "Ms. Charumathi, AP/S&H (Kindle Club)",
-    facultyNumber: "+91 99943 76667",
-    studentCoordinator: "",
-    studentNumber: "",
+    facultyCoordinator:
+      "Ms. ASWATHI AP/S&H (Kindle Club)",
+    facultyNumber: "+91 8754752125",
+    studentCoordinator: "GLADSON RAJ, HARSHINI",
+    studentNumber: "9344566328, 7418281318",
     venue: "Academic Hall 2",
     time: "10:00AM",
     description: [
-      "Variety events like mimicry, solo instrumentals, stand-up comedy, beatbox and others",
-      "Each participant will be given 3-5 minutes to prove themselves",
-      "Best talents will be awarded.",
-      "MIMICRY:",
-      "Each student artist shall be given 5 minutes time.",
-      "Participants may mimic the sound of machines, speeches of a well-known persons etc.,",
-      "Marks will be awarded based on skill imitating, variety of sound and voice imitation and presentation",
-      "STAND-UP COMEDY:",
-      "Only solo participants are allowed",
-      "No participant may make any reference to individuals or religion and any dual meaning obscene content is strictly prohibited",
+      	"Avoid offensive or controversial content.",
+  	"Keep your talk or speech within the allotted time which is 4 mins.",
+  	"Maintain a respectful tone, even when making jokes or critiquing something. ",
+    "Format: Participants can choose any style - motivational, humorous, storytelling, informative, or persuasive, but it must be a spoken performance (no reading from scripts).",
+    "The jury holds the right to disqualify participants for any rule violations.",
+"This is your chance to step up and own the mic - whether it’s a powerful speech, a hilarious take on life, or a thought-provoking message. No presentations, no scripts - just raw expression, bold ideas, and your voice making an impact!",
+"Who can participate? Anyone with a passion for speaking!",
+"Why join? To boost confidence, refine public speaking skills, and leave a lasting impression.",
+"Step up, speak out, and make your words count!"
     ],
-    image: CulturalFest.onstage.standupcomedy,
+    image:  CulturalFest.onstage.standupcomedy,
     reverse: true,
   },
   {
     eventName: "Skit & Mime",
-    facultyCoordinator: "Dr. S. Vignesh, ASP/CSE (Software Development Club)",
+    facultyCoordinator:
+      "Dr. S. Vignesh, ASP/CSE (Software Development Club)",
     facultyNumber: "+91 98946 42277",
     studentCoordinator: "Jeeva, Praveen",
     studentNumber: "+91 99526 07287, +91 94897 90927",
@@ -151,12 +157,13 @@ const OnStageDetails = [
       "Necessary props must be arranged by the participants",
       "Act will be judged based on the script, facial expression, stage presence, co-ordination, voice modulation and overall performance.",
     ],
-    image: CulturalFest.onstage.Mime,
+    image:  CulturalFest.onstage.Mime,
     reverse: false,
   },
   {
     eventName: "Ethnic Walk",
-    facultyCoordinator: "Ms . Adlin Princy(Kindle Club)",
+    facultyCoordinator:
+      "Ms . Adlin Princy(Kindle Club)",
     facultyNumber: "6369018498",
     studentCoordinator: "DIVYA BARATHI B, NANTHINI R T",
     studentNumber: "+ 9150125366,7826040476 ",
@@ -170,15 +177,16 @@ const OnStageDetails = [
       "Garments and accessories used for competition should depict the ethnicity of the country, state or any other culture.",
       "Any form of indecency, vulgarity, obscenity will result in disqualification.",
     ],
-    image: CulturalFest.onstage.EthnicWalk,
+    image:  CulturalFest.onstage.EthnicWalk,
     reverse: true,
   },
   {
     eventName: "RJ/VJ Hunt",
-    facultyCoordinator: "Dr. Saminathan, ASP/ EC(Tamil Mandram)",
+    facultyCoordinator:
+      "Dr. Swamynathan S M, ASP/ EC(Tamil Mandram)",
     facultyNumber: "9944749649",
-    studentCoordinator: "",
-    studentNumber: "",
+    studentCoordinator: "NANDHITHA.L, .R.Kumuthashree",
+    studentNumber: "9566998702, 7010257027",
     venue: "KIC",
     time: "12:00PM",
     description: [
@@ -188,12 +196,13 @@ const OnStageDetails = [
       "Time limit will be 6 minutes (3min for preparation and 3min for presentation)",
       "Participants will be judged on the basis of scripts, presentation, voice modulation, voice quality",
     ],
-    image: CulturalFest.onstage.vjrj,
+    image:  CulturalFest.onstage.vjrj,
     reverse: false,
   },
   {
     eventName: "Variety Event",
-    facultyCoordinator: "Ms Monisha L, AP / SH(Tamil Mandram)",
+    facultyCoordinator:
+      "Ms Monisha L, AP / SH(Tamil Mandram)",
     facultyNumber: "9003806038",
     studentCoordinator: "M.Azhagu akshaya, M.Bhoopesh ",
     studentNumber: "7810004627, 9445910290",
@@ -211,9 +220,10 @@ const OnStageDetails = [
       "Only solo participants are allowed",
       "No participant may make any reference to individuals or religion and any dual meaning obscene content is strictly prohibited",
     ],
-    image: onstage.Variety,
+    image: CulturalFest.onstage.Variety,
     reverse: true,
   },
+  
 ];
 
 export default OnStageDetails;

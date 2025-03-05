@@ -1,10 +1,11 @@
 import offstage from "@/assets/images/OffStage/offstage";
-import CulturalFest from "../../assets/visualassets/CulturalFest.js";
+import CulturalFest from '../../assets/visualassets/CulturalFest.js';
 
 const OffStageDetails = [
   {
     eventName: "Rangoli",
-    facultyCoordinator: "Ms Srinisha AP/CE(My Campus Clubs)",
+    facultyCoordinator:
+      "Ms Srinisha AP/CE(My Campus Clubs)",
     facultyNumber: "8870815415",
     studentCoordinator: "HEMADEVI K, AKSHAYA M ",
     studentNumber: "7094323056, 9003691193",
@@ -23,7 +24,8 @@ const OffStageDetails = [
   },
   {
     eventName: "Face Painting",
-    facultyCoordinator: "Ms.Diviya AP/CD(My Campus Clubs)",
+    facultyCoordinator:
+      "Ms.Diviya AP/CD(My Campus Clubs)",
     facultyNumber: "9715571117",
     studentCoordinator: "A.GOWSIKA, K.HARIHARAN ",
     studentNumber: "8870027551, 9585168861",
@@ -42,7 +44,8 @@ const OffStageDetails = [
   },
   {
     eventName: "Mehandi",
-    facultyCoordinator: "Dr.J .Rehaboth Nissi AP/ SH(My Campus Clubs)",
+    facultyCoordinator:
+      "Dr.J .Rehaboth Nissi AP/ SH(My Campus Clubs)",
     facultyNumber: "7892765172",
     studentCoordinator: "ANUSHA B, SANGAVI M ",
     studentNumber: "86101 09739, 8754052949",
@@ -61,10 +64,11 @@ const OffStageDetails = [
   },
   {
     eventName: "Reels",
-    facultyCoordinator: "Mr. Sivaji Rao, AP/CSD(Photography Club)",
-    facultyNumber: "9043784314",
-    studentCoordinator: "",
-    studentNumber: "",
+    facultyCoordinator:
+      "Mr. Sivaji Rao, AP/CSD(Photography Club)",
+    facultyNumber: "+91 90437 84314",
+    studentCoordinator: "S.Karthikeyan, BharaniRaj",
+    studentNumber: "7639273091, 63797 95076",
     venue: "C Block",
     time: "10:00AM",
     description: [
@@ -78,8 +82,9 @@ const OffStageDetails = [
   },
   {
     eventName: "Short Film",
-    facultyCoordinator: "Ms. Gopika, AP/MBA(Nature and yoga club)",
-    facultyNumber: "9790130801",
+    facultyCoordinator:
+      "Ms. Gopika, AP/MBA(Nature and yoga club)",
+    facultyNumber: "",
     studentCoordinator: "",
     studentNumber: "",
     venue: "B-Block",
@@ -96,7 +101,8 @@ const OffStageDetails = [
   },
   {
     eventName: "Photography",
-    facultyCoordinator: "Dr.C.Arul  Murugan, Mr.Varatharajan N",
+    facultyCoordinator:
+      "Dr.C.Arul  Murugan, Mr.Varatharajan N",
     facultyNumber: "+91 81221 07125",
     studentCoordinator: "Mr.Gowtham P, Mr.Balamurugan G",
     studentNumber: "+91 97892 88677, +91 88258 88205",
@@ -139,7 +145,8 @@ const OffStageDetails = [
   },
   {
     eventName: "Vegetable Carving",
-    facultyCoordinator: "Ms. Vidhya Lakshmi, AP/EEE(My Campus Clubs)",
+    facultyCoordinator:
+      "Ms. Vidhya Lakshmi, AP/EEE(My Campus Clubs)",
     facultyNumber: "+91 95979 01377",
     studentCoordinator: "Abishek, Selva Bharathi",
     studentNumber: "9344763457, 9360670633",
@@ -161,8 +168,9 @@ const OffStageDetails = [
   },
   {
     eventName: "Nail Art",
-    facultyCoordinator: "Ms Sreeja, AP/CS(My Campus Clubs)",
-    facultyNumber: "8220612234",
+    facultyCoordinator:
+      "Ms Sreeja, AP/CS(My Campus Clubs)",
+    facultyNumber: "",
     studentCoordinator: "",
     studentNumber: "",
     venue: "C – Block",
@@ -180,8 +188,9 @@ const OffStageDetails = [
   },
   {
     eventName: "Craft Art",
-    facultyCoordinator: "Ms. Kavithamani, AP/EEE(Arts and Crafts Club)",
-    facultyNumber: "8015312306",
+    facultyCoordinator:
+      "Ms. Kavithamani, AP/EEE(Arts and Crafts Club)",
+    facultyNumber: "",
     studentCoordinator: "Swetha S, AADHITH KRISHNA S",
     studentNumber: "63805 28337, 9384396343",
     venue: "A – Block",

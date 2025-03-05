@@ -32,9 +32,7 @@ const cse = {
       ],
       eventVenue: "Academic Hall 2",
       eventRounds: [
-        "Round 1: Preliminary Round : Participants will answer 25 multiple-choice questions (MCQs) covering C, Java, and Python.Only the top performers will advance to the next round.",
-        "Round 2: Technical & Puzzle Solving : Shortlisted participants will face 15 questions, including: Technical Image Interpretation : Puzzle Solving Challenges Only the best problem-solvers will move to the final round.",
-        "Round 3: The Ultimate Challenge : The final round consists of 10 high-level MCQs, including: 5 Output-Based Questions 5 Hard-Level Conceptual MCQs",
+        "A Single Round Event",
       ],
       eventPrize: [
         "The winner will receive a prize of Rs. 3000, while the runner will receive a prize of Rs.2000.",
@@ -282,7 +280,14 @@ const cse = {
       eventTime: "02:00 PM – 03:00 PM",
       eventDescription:
         "Join us for an exciting Tech Quiz, where participants will test their programming knowledge, problem-solving skills, and logical reasoning. This event challenges aspiring tech enthusiasts with multiple rounds of MCQs, puzzles, and output-based questions, providing a platform to showcase their technical expertise and analytical thinking.",
-      eventRules: [],
+      eventRules: [
+          "Minimum 1 member, Maximum 3 members per team.",
+          "Participants can compete individually or form a team of up to 3 members.",
+          "All participants must adhere to the time limits for each round.",
+          "Use of external resources (internet, books, or help from others) is strictly prohibited.",
+          "Any form of malpractice will result in immediate disqualification.",
+          "Decisions made by the judges and organizers are final"
+      ],
       eventVenue: "C-block / Room No: C204",
       eventRounds: [
         "Round 1: Preliminary Round : Participants will answer 25 multiple-choice questions (MCQs) covering C, Java, and Python.Only the top performers will advance to the next round.",
@@ -397,7 +402,8 @@ const cse = {
         'Round  4:  THE HILARIOUS PITCH-Participants are given a random, absurd object.They must pitch it like a real salesperson and make the judges want to "buy" it.',
       ],
       eventPrize: [
-        "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
+        "The Mr. Aura winner will receive a prize of 850 Rs.",
+  	    "The Ms. Aura will receive a prize 850 Rs ",
       ],
       eventStaffCoordinator: {
         name: "Dr.Muthanantha Murugavel, Dr.Sangeetha",
