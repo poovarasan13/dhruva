@@ -15,6 +15,8 @@ import TechnicalFest from "@/pages/Technical-Fest/TechnicalFest";
 
 import { Route, Routes } from "react-router-dom";
 import Error from "./ErrorPage";
+import TermsOfServiceCard from "@/pages/TermsAndCondition/TermsAndConditionCard";
+import PrivacyPolicy from "@/pages/TermsAndCondition/PrivacyPolicy";
 
 function AppNavigation() {
   return (
@@ -36,6 +38,8 @@ function AppNavigation() {
         <Route path="/offstage" element={<OffStagePage />}></Route>
         <Route path="/registration" element={<RegistrationPage />}></Route>
         <Route path="*" element={<Error />}></Route>
+        <Route path="/terms" element={<TermsOfServiceCard />}></Route>
+        <Route path="/privacy" element={<PrivacyPolicy />}></Route>
       </Routes>
       <FooterSection />
     </div>
