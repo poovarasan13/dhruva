@@ -140,7 +140,7 @@ const EventsDisplay = ({ scrollToEvent }) => {
                 transition={{ duration: 0.5, ease: "easeOut" }}
               >
                 <motion.button
-                  className="text-white josefin px-5 py-2 md:px-4 md:py-2 md:text-[15px] bg-blue-600 hover:bg-blue-700 shadow-lg flex gap-2 items-center rounded-full"
+                  className="text-white josefin px-5 py-2 md:px-4 md:py-2 md:text-[15px] bg-sky-400 hover:bg-sky-700 shadow-lg flex gap-2 items-center rounded-full"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.95 }}
                 >

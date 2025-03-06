@@ -321,7 +321,7 @@ const mech = {
         "4. No claims will be entertained against the announced result.",
         "5. The organizers reserve the right to change any or all of the above rules if the situation demands.",
       ],
-      eventVenue: "KCE - Basketball Ground",
+      eventVenue: "KCE - near M Block",
       eventRounds: ["Round 1", "Round 2 (Final)"],
       eventPrize: [
         "Winner will get a prize worth Rs. 1000, and the runner-up will get a prize worth Rs. 750.",

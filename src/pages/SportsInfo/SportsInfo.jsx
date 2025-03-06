@@ -15,7 +15,7 @@ import {
   IndianRupee,
 } from "lucide-react";
 import SportsAssests from "@/assets/images/sports/SportAssets";
-import Sports from '../../assets/visualassets/Sports.js';
+import Sports from "../../assets/visualassets/Sports.js";
 const sportsData = [
   {
     title: "Handball",
@@ -133,7 +133,7 @@ const sportsData = [
       // "Each team consists of 15 players, with specific roles (batsmen, bowlers, fielders).",
       "Red tennis ball will be used for the matches.",
       "Each team must have 5 bowlers.",
-     "The match will be an 8-over format per side",
+      "The match will be an 8-over format per side",
       "The match format may vary (e.g., T20, ODI), but typically consists of two innings per side.",
       "Bowlers may not bowl more than one-fifth of the total overs in limited-overs formats.",
       "Teams must have a minimum number of fielders within a certain distance from the batsman at all times.",
@@ -196,10 +196,9 @@ const containerVariants = {
 
 const SportsInfo = () => {
   const navigate = useNavigate();
-   const handleNavigate=()=> {
+  const handleNavigate = () => {
     navigate("/registration");
-   }
-
+  };
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -239,7 +238,7 @@ const SportsInfo = () => {
         animate={controls}
         className="bg-white text-black py-12 px-4 md:px-12 lg:px-24"
       >
-        <h1 className="text-2xl md:text-4xl  font-bold text-gray-800 text-center flex items-center gap-2">
+        <h1 className="text-2xl md:text-4xl  font-bold powergrok  text-black tracking-wider text-center flex items-center gap-2">
           <Trophy className="w-8 h-8 text-yellow-500" />
           {sport.title}
         </h1>
@@ -254,20 +253,22 @@ const SportsInfo = () => {
             />
           </div>
           <div className="space-y-6">
-            <p className="text-gray-700 font-medium flex items-center gap-2">
+            <p className="text-gray-700  flex work-sans items-center gap-2">
               <Users className="w-5 h-5 text-blue-500" />
               <span>
                 {/* Faculty Coordinator:{" "} */}
-                <span className="text-gray-900">{sport.coordinator}</span>
+                <span className="text-gray-900 work-sans font-bold">
+                  {sport.coordinator}
+                </span>
               </span>
             </p>
-            <p className="text-gray-700 font-medium flex items-center gap-2">
+            <p className="text-gray-700 font flex items-center gap-2">
               <Phone className="w-5 h-5 text-green-500" />
               <span>
                 {/* Phone:  */}
                 <a
                   href={`tel:$ {sport.phone}`}
-                  className="text-black hover:text-blue-800 "
+                  className="text-black hover:text-blue-800  work-sans"
                 >
                   {sport.phone}
                 </a>
@@ -278,21 +279,21 @@ const SportsInfo = () => {
               <MapPin className="w-5 h-5 text-green-500" />
               <span>
                 {/* Venue:  */}
-                <span className="text-gray-900">{sport.venue}</span>
+                <span className="text-gray-900 work-sans">{sport.venue}</span>
               </span>
             </p>
             <p className="text-gray-700 font-medium flex items-center gap-2">
               <Clock className="w-5 h-5 text-purple-500" />
               <span>
                 {/* Time:  */}
-                <span className="text-gray-900">{sport.time}</span>
+                <span className="text-gray-900 work-sans">{sport.time}</span>
               </span>
             </p>
             <p className="text-gray-700 font-medium flex items-center gap-2">
               <IndianRupee className="w-5 h-5 text-purple-500" />
               <span>
                 {/* Entry fee  */}
-                <span className="text-gray-900">{sport.cost}</span>
+                <span className="text-gray-900 work-sans">{sport.cost}</span>
               </span>
             </p>
             <h3 className="text-xl font-semibold text-gray-800 flex items-center gap-2">
@@ -301,14 +302,14 @@ const SportsInfo = () => {
             </h3>
             <ul className="list-disc pl-5 space-y-2 text-gray-700">
               {sport.rules.map((rule, index) => (
-                <li key={index}>{rule}</li>
+                <li key={index} className="work-sans">{rule}</li>
               ))}
             </ul>
             <button
               onClick={handleNavigate}
               className="inline-block dm-sans hover:scale-105 bg-sky-400 hover:bg-sky-400 hover:text-black  focus-visible:ring ring-sky-300 text-white text-sm md:text-base font-semibold text-center rounded-full outline-none transition duration-100 px-12 py-3"
             >
-              <span className="justify-content flex" >
+              <span className="justify-content flex">
                 Register Now <Rocket />
               </span>
             </button>

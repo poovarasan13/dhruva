@@ -34,5 +34,4 @@ const OnStage = () => {
   );
 };
 
-// export default StageEvents;
 export default OnStage;
