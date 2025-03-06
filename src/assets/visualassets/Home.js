@@ -28,7 +28,6 @@ import Ieee from '../visualcontent/IEEE.png'
 import star from '../../assets/visualcontent/dhruvaStarMeta.png'
 
 const Home = {
-    // HeroSection
     meta : star,
     PreLoader : preload,
     ParallexVideo : ParallexVideo,

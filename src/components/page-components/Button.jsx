@@ -12,7 +12,7 @@ const Button = ({ link, text, color = "blue-600" }) => {
       >
         <a href={link}>
           <motion.div
-            className={`text-white josefin px-5 py-2 md:px-4 md:py-2 md:text-[15px] bg-${color} hover:bg-opacity-90 shadow-lg flex gap-2 items-center rounded-full cursor-pointer`}
+            className={`text-white josefin px-5 py-2 md:px-4 md:py-2 md:text-[15px] bg-sky-400 hover:bg-opacity-90 shadow-lg flex gap-2 items-center rounded-full cursor-pointer`}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
           >

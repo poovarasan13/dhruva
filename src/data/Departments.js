@@ -25,7 +25,7 @@ const department = [
   it,
   mba,
   mca,
-  mech
+  mech,
 ];
 
 

@@ -13,7 +13,6 @@ import "../../assets/fonts/dmserif.css";
 import "../../assets/fonts/opensans.css";
 import "../../assets/fonts/sourcesans.css";
 import { useLocation, useNavigate } from "react-router-dom";
-// import TestCard from "@/components/page-components/TestCard";
 import CoordinatorCard from "@/components/page-components/CoordinatorCard";
 import backgroundGif from "../../assets/gif/card-background.webp";
 

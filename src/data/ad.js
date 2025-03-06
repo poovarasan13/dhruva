@@ -138,7 +138,7 @@ const ad = {
       eventStaffCoordinator:
       {
           name: "Dr. R. Keerthika ASP/AD ",
-          contact: "9952765070",
+          contact: "8073887511",
       },
       studentCoordinator: [
         {
