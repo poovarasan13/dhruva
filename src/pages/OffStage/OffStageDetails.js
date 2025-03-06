@@ -171,13 +171,14 @@ const OffStageDetails = [
   {
     eventName: "Nail Art",
     facultyCoordinator:
-      "Ms Sreeja, AP/CS(My Campus Clubs)",
+      "Dr.B.P.Sreeja ,AP /IT(My Campus Clubs)",
     facultyNumber: "+91 82206 12234",
     studentCoordinator: "Naveena K, Harini M",
     studentNumber: "9345838151, 9342773207",
     venue: "C – Block",
     time: "12 PM",
     description: [
+      "Competitors must bring their own tools and products",
       "No mobile phones, tablets or smart watches during the competition for both the competitor and the model.",
       "No outside communication with competitors while competitions are going on.",
       "Competitors allowed to prepare the natural nail prior to the competition. But absolutely no application work of any kind until the competition officially begins.",
