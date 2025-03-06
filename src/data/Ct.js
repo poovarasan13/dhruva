@@ -81,8 +81,8 @@ const ct = {
       eventVenue: "D-block Hall D302",
       eventRounds: ["1 ROUND"],
       eventPrize: [
-        "Winner: Rs. 1500",
-        "Runner: Rs. 1000",
+        "Winner: Rs. 1000",
+        "Runner: Rs. 750",
         "All participants will be given participation certificates.",
       ],
       eventStaffCoordinator: {
@@ -149,8 +149,8 @@ const ct = {
       eventVenue: "D-block / Room No: D303",
       eventRounds: ["1 Round"],
       eventPrize: [
-        "Winner: Rs. 1500",
-        "Runner: Rs. 1000",
+        "Winner: Rs. 1000",
+        "Runner: Rs. 750",
         "All participants will receive participation certificates.",
       ],
       eventStaffCoordinator: {
@@ -182,8 +182,8 @@ const ct = {
       eventVenue: "D-block / Room No: D-block Seminar Hall",
       eventRounds: ["1 Round"],
       eventPrize: [
-        "Winner: Rs. 1500",
-        "Runner: Rs. 1000",
+        "Winner: Rs. 1000",
+        "Runner: Rs. 750",
         "All participants will receive participation certificates.",
       ],
       eventStaffCoordinator: {
