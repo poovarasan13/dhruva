@@ -124,10 +124,12 @@ const OnStageDetails = [
   	"Maintain a respectful tone, even when making jokes or critiquing something. ",
     "Format: Participants can choose any style - motivational, humorous, storytelling, informative, or persuasive, but it must be a spoken performance (no reading from scripts).",
     "The jury holds the right to disqualify participants for any rule violations.",
-"This is your chance to step up and own the mic - whether it’s a powerful speech, a hilarious take on life, or a thought-provoking message. No presentations, no scripts - just raw expression, bold ideas, and your voice making an impact!",
-"Who can participate? Anyone with a passion for speaking!",
-"Why join? To boost confidence, refine public speaking skills, and leave a lasting impression.",
-"Step up, speak out, and make your words count!"
+    "This is your chance to step up and own the mic - whether it’s a powerful speech, a hilarious take on life, or a thought-provoking message. No presentations, no scripts - just raw expression, bold ideas, and your voice making an impact!",
+    "Who can participate? Anyone with a passion for speaking!",
+    "Why join? To boost confidence, refine public speaking skills, and leave a lasting impression.",
+    "Step up, speak out, and make your words count!",
+    "TOPICS : The power of taking risks, Why being underestimated is actually a superpower, How AI is changing the way we work and live",
+    "Any one of the above topics can be chosen"
     ],
     image:  CulturalFest.onstage.standupcomedy,
     reverse: true,
