@@ -61,10 +61,10 @@ function EventBanner({
           {description}
         </motion.p>
 
-        {/* ✅ Fixed Button - Removed motion.button */}
+        {/* ✅ Fixed Button - Removed motion.button
         <div className="flex items-center justify-center">
           <Button link="/registration" text={buttonText} />
-        </div>
+        </div> */}
 
         {/* Venue and Date */}
         <motion.div

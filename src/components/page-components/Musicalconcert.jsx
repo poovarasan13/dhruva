@@ -87,7 +87,7 @@ const MusicalConcert = () => {
             >
               Get ready to groove to the beats of our dynamic DJ at the concert.
             </motion.p>
-            <Button link="/registration" text="Register" />
+            {/* <Button link="/registration" text="Register" /> */}
           </motion.div>
         </div>
       </div>
