@@ -166,7 +166,7 @@ const it = {
         "The Participated Candidates needs to solve the given logic with in the language.",
         "Team Size :   1 Member",
       ],
-      eventVenue: "IT PROJECT LAB",
+      eventVenue: "IT LAB",
       eventRounds: ["Round 1", "Final Round"],
       eventPrize: [
         "Winner will get prize worth of Rs. 1000 and runner will get the prize worth of Rs.750.",
@@ -233,12 +233,14 @@ const it = {
         "1. All coding must be done on-site; pre-written code is not allowed.",
         "2. Solutions must be original and developed during the hackathon.",
         "3. Teams must adhere to the event timings strictly.",
-        "4. Judges' decisions will be final and binding.",
+        "4. Judge's decisions will be final and binding.",
+        "5.Team Size Must be 2 Members"
       ],
       eventVenue: "IT PROJECT LAB",
       eventRounds: ["Round 1: 4 Questions", "Round 2: 2 Questions"],
       eventPrize: [
-        "As per the norms all the candidates will be given participation certificates",
+        "The Winner will receive a price of Rs . 5,000",
+        "All the candidates will be given participation certificates.",
       ],
       eventStaffCoordinator: {
         name: "Dr. V. Jothi Prakash, AP / IT",
