@@ -15,13 +15,13 @@ const cd = {
     {
       posterUrl: "",
       eventThumbnail: "",
-      eventName: "Workshop on UI/UX Design",
+      eventName: "Workshop on Generative AI",
       eventType: "One day Workshop  ",
       eventTime: "10:00 AM to 12:00 PM ",
       eventSubType: "WorkShop",
 
       eventDescription:
-        "A UI/UX Design Workshop provides hands-on training in creating intuitive and engaging digital experiences. It covers user research, wireframing, prototyping, visual design, and usability testing using tools like Figma and Adobe XD. Participants learn to develop user personas, analyze usability, and enhance interaction design. The session includes case studies and real-world projects to build practical skills. Ideal for students, designers, and professionals, this workshop helps create user friendly digital products and strong design portfolios.",
+        "Generative AI Is Not Just A Tool ; It's A Canvas For Our Imagination , Transforming Ideas Into Reality And Shaping The Boundaries Of Creativity",
       eventRules: [],
       eventVenue: "Oracle",
       eventStaffCoordinator: {

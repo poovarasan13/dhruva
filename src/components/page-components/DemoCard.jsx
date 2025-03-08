@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 // import Swal from "sweetalert2";
 
-export function DemoCard({ title, description, imageUrl, link }) {
+export function DemoCard({ title, description, imageUrl, link ,descLink}) {
   const navigate = useNavigate();
 
   const handleNavigation = () => {
@@ -23,6 +23,9 @@ export function DemoCard({ title, description, imageUrl, link }) {
       navigate(link);
     }
   };
+  const handleNavigationDesc = () => {
+    navigate(descLink);
+  }
 
   return (
     <div className="flex justify-center">
@@ -40,8 +43,15 @@ export function DemoCard({ title, description, imageUrl, link }) {
                 {title}
               </h1>
             </div>
+              
 
             <div className="mt-auto relative z-10">
+              <button
+                  onClick={handleNavigationDesc}
+                  className="h-12 w-full animate-shimmer mb-1 items-center justify-center rounded-full border border-sky-800 bg-[linear-gradient(110deg,#0284c7,45%,#0ea5e9,55%,#0284c7)] bg-[length:200%_100%] px-2 font-medium text-white transition-colors focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2 focus:ring-offset-sky-50"
+                >
+                  View Details
+              </button>
               <button
                 onClick={handleNavigation}
                 className="h-12 w-full animate-shimmer items-center justify-center rounded-full border border-sky-800 bg-[linear-gradient(110deg,#0284c7,45%,#0ea5e9,55%,#0284c7)] bg-[length:200%_100%] px-2 font-medium text-white transition-colors focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2 focus:ring-offset-sky-50"
