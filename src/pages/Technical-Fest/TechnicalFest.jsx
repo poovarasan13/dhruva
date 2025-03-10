@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import DepartmentShowOff from "./DepartmentShowOff";
 import { motion } from "framer-motion";
 import "../../assets/fonts/powergrotesk.css";
+import Sponsors from "../home/section/Sponsors";
+import Banners from "@/components/page-components/Banners";
 // import GlobeBackground from "@/components/page-components/GlobeBackground";
 function TechnicalFest() {
   useEffect(() => {
@@ -31,6 +33,8 @@ function TechnicalFest() {
         </p>
       </motion.div>
       <DepartmentShowOff />
+      <Sponsors/>
+      <Banners/>
     </div>
   );
 }

@@ -7,6 +7,8 @@ import "../../assets/fonts/powergrotesk.css";
 import "../../assets/fonts/dmsans.css";
 import AnimatedCard from "@/components/page-components/AnimatedCard";
 import passes from "@/data/passCardData";
+import Sponsors from "../home/section/Sponsors";
+import Banners from "@/components/page-components/Banners";
 
 const PassPage = () => {
   useEffect(() => {
@@ -36,6 +38,10 @@ const PassPage = () => {
         </div>
       </div>
       {/* <RegistrationPage /> */}
+
+
+      <Sponsors/>
+      <Banners/>
     </div>
   );
 };

@@ -12,8 +12,6 @@ import "../../assets/fonts/dmserif.css";
 // import ClubAssets from "@/assets/images/HomePage/ClubAssets";
 import Home from "@/assets/visualassets/Home";
 
-
-
 const images = Object.values(Home.Clubs);
 // const images = [one,two];
 
@@ -29,7 +27,9 @@ export default function Banners() {
 
   return (
     <div className="container mx-auto my-8 ">
-      <h4 className="text-center text-5xl my-4 powergrok tracking-wider">Our Clubs</h4>
+      <h4 className="text-center text-5xl my-4 powergrok tracking-wider">
+        Our Clubs
+      </h4>
       <div className="">
         <div className="relative bg-transparent rounded-2xl">
           <Carousel

@@ -228,18 +228,19 @@ const it = {
       eventSubType: "Technical",
       eventTime: "10:00 AM - 12:00 PM",
       eventDescription:
-        "Join us for an exhilarating journey of coding and innovation at our Hackathon. This event challenges participants to think outside the box and develop solutions to complex problems within a limited timeframe. It's an opportunity to showcase your coding prowess, learn new technologies, and develop practical solutions that could make a difference. Whether you're a seasoned coder or a novice enthusiast, this hackathon is the perfect arena to test your skills, learn from your peers, and push the boundaries of what's possible in technology.",
+        "Join us for an exciting Web Hackathon where creativity meets code! This event challenges participants to build innovative web solutions within a limited timeframe, pushing the boundaries of web development. Whether you're a seasoned developer or just starting your journey, this hackathon is the perfect platform to showcase your skills, learn new web technologies, and collaborate with like-minded enthusiasts. Solve real-world challenges, enhance your problem-solving abilities, and bring your web ideas to life. Don't miss this opportunity to innovate, compete, and make an impact in the world of web development!",
       eventRules: [
-        "1. All coding must be done on-site; pre-written code is not allowed.",
-        "2. Solutions must be original and developed during the hackathon.",
-        "3. Teams must adhere to the event timings strictly.",
-        "4. Judge's decisions will be final and binding.",
-        "5.Team Size Must be 2 Members"
+        "1. All coding must be done on-site; pre-written code is not allowed",
+        "2. Solutions must be original and developed during the hackathon",
+        "3. The question will be given on the spot, and teams must develop their solutions within the given timeframe.",
+        "4. Teams must strictly adhere to the event schedule.",
+        "5. Each team must consist of exactly 2 members.",
+        "6. The judges' decisions will be final and binding."
       ],
       eventVenue: "IT PROJECT LAB",
-      eventRounds: ["Round 1: 4 Questions", "Round 2: 2 Questions"],
+      eventRounds: ["Round 1 : Web Developement (Responsive Web Page)"],
       eventPrize: [
-        "The Winner will receive a price of Rs . 5,000",
+        "Winner Will Get Prize Reward",
         "All the candidates will be given participation certificates.",
       ],
       eventStaffCoordinator: {
@@ -310,7 +311,7 @@ const it = {
           contact: "9600672506",
         },
         {
-          name: "Sarumathi G",
+          name: "Charumathi G",
           contact: "6381235404",
         },
       ],

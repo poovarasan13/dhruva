@@ -2,6 +2,9 @@ import React, { useEffect } from "react";
 import "../../assets/fonts/dmsans.css";
 import Registration from '../../assets/visualassets/Registration.js';
 import { DemoCard } from "@/components/page-components/DemoCard";
+import Sponors from "@/components/page-components/Sponsors";
+import Sponsors from "../home/section/Sponsors";
+import Banners from "@/components/page-components/Banners";
 
 const cards = [
   {
