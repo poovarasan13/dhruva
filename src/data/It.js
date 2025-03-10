@@ -238,7 +238,7 @@ const it = {
         "6. The judges' decisions will be final and binding."
       ],
       eventVenue: "IT PROJECT LAB",
-      eventRounds: ["Round 1 : Web Developement"],
+      eventRounds: ["Round 1 : Web Developement (Responsive Web Page)"],
       eventPrize: [
         "Winner Will Get Prize Reward",
         "All the candidates will be given participation certificates.",
