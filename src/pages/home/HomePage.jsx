@@ -8,6 +8,7 @@ import VideoParallax from "./section/VideoParallax";
 import Sponors from "@/components/page-components/Sponsors";
 import PassPage from "@/components/page-components/PassCard";
 import Countdown from "@/components/page-components/Countdown";
+import Sponsers from "./section/Sponsors";
 
 function HomePage() {
   useEffect(() => {
@@ -21,6 +22,7 @@ function HomePage() {
       <DhurvaFest /> 
       <Gallery />
       <PassPage />
+      <Sponsers/>
       <Banners />
       {/* <Sponors/> */}
     </div>
