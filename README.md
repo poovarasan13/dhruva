@@ -18,8 +18,6 @@ Our platform ensures a seamless and interactive experience for all participants.
 
 ## 💡 Tech Stack
 - **Frontend:** React.js, Tailwind CSS
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
 - **Hosting:** Hostinger
 - **Domain Provider:** GoDaddy
 
