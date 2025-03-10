@@ -18,6 +18,8 @@ Our platform ensures a seamless and interactive experience for all participants.
 
 ## 💡 Tech Stack
 - **Frontend:** React.js, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
 - **Hosting:** Hostinger
 - **Domain Provider:** GoDaddy
 
@@ -40,20 +42,16 @@ Go to **[kcedhruva.in](https://kcedhruva.in)** and explore the event details.
 - Click on the **Register** button.
 - Fill in the required details and submit.
 
-
+### 3️⃣ Get Updates
+Stay tuned for event schedules, announcements, and results.
 
 ---
 
 ## 👥 Contributors
-This project was initially developed with contributions from:
 
-| Name             | GitHub Profile |
-|-----------------|---------------|
-| **Deepakkumar** | [Deepak5556](https://github.com/Deepak5556/kcedhruva) |
-| **Karthik Kiran** | [karthik-kiran-29](https://github.com/karthik-kiran-29) |
-| **Poovarasan**  | [poovarasan13](https://github.com/poovarasan13/dhruva) |
-| **Siranjeevi**  | [Siranjeevi619](https://github.com/Siranjeevi619/dhruva) |
-| **Vignesh** | [imvignesh003](https://github.com/imvignesh003/dhruva) |
+<a href="https://github.com/Deepak5556/kcedhruva/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Deepak5556/kcedhruva" />
+</a>
 
 ---
 
