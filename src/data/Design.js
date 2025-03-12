@@ -3,46 +3,70 @@ const cd = {
   shortName: "CD",
   technicalEventCount: 3,
   nonTechnicalEventCount: 1,
-  workshop: 1,
+  workshop: 2,
   departmentName: "Department Of Computer Science and Design",
   cardName: "Computer Science and Design",
   departmentDescription:
     "The Department of Computer Science and Design is excited to announce its upcoming lineup of events for the upcoming academic year. We will be conducting 2 technical events, 1 non-technical event, and 1 workshops and 1 Hackathon that are sure to be informative and get hands-on experience with various tools and technologies that are widely used in the industry",
   coordinatorName: "M A Mohammed Ansar Ali / Assistant Professor ",
-  coordinatorContactPhone: "90034727522",
+  coordinatorContactPhone: "9003472752",
   coordinatorEmail: "mohammedansarali.ma@kce.ac.in",
   events: [
     {
       posterUrl: "",
       eventThumbnail: "",
-      eventName:
-        "Workshop on Cyber Security Essentials: Protecting Your Digital World",
-      eventType: "One-day Workshop",
-      eventTime: "10:00 AM to 1:00 PM",
+      eventName: "Workshop on Generative AI",
+      eventType: "One day Workshop  ",
+      eventTime: "10:00 AM to 12:00 PM ",
       eventSubType: "WorkShop",
+
       eventDescription:
-        "In this one-day workshop on Cyber Security Essentials: Protecting Your Digital World, you will gain foundational knowledge and practical skills required to understand and implement effective cybersecurity measures. The goal is to empower individuals to protect their personal and organizational digital environments from cyber threats.",
+        "Generative AI Is Not Just A Tool ; It's A Canvas For Our Imagination , Transforming Ideas Into Reality And Shaping The Boundaries Of Creativity",
       eventRules: [],
-      eventVenue: "EMC2 Lab",
+      eventVenue: "Oracle",
       eventStaffCoordinator: {
-        name: "M A Mohammed Ansar Ali / AP",
-        contact: "9003472752",
-      },
-      eventCoordinator: {
-        name: "Mr. G. Sivaji Rao / AP",
-        contact: "9043784314",
+        name: "  Mr G.Sivaji Rao /AP",
+        contact: " 9043784314",
       },
       studentCoordinator: [
         {
-          name: "Naveen Kumar G (3rd Year)",
-          contact: "8489952154",
+          name: "Rathish M /2nd Year",
+          contact: "8637464623",
         },
         {
-          name: "Kishor Kanna S (2nd Year)",
+          name: "Kishor Kanna S /2nd Year",
           contact: "8438207146",
         },
       ],
     },
+    {
+      posterUrl: "",
+      eventThumbnail: "",
+      eventName: "Workshop on 3D Modelling",
+      eventType: "One day Workshop",
+      eventTime: "02:00 PM to 04:00 PM",
+      eventSubType: "WorkShop",
+
+      eventDescription:
+        "A 3D Modeling Workshop provides hands-on training in creating 3D objects, characters, and environments using software like Blender, Maya, or 3ds Max. It covers essential techniques such as texturing, lighting, and rendering, with real-world applications in animation, gaming, and 3D printing. Participants gain practical experience through interactive exercises and projects. Ideal for students, designers, and professionals, this workshop enhances creative and technical skills in 3D modeling.",
+      eventRules: [],
+      eventVenue: "Oracle",
+      eventStaffCoordinator: {
+        name: " Dr.Jaiganesh Prof/Head",
+        contact: "9894025367",
+      },
+      studentCoordinator: [
+        {
+          name: "HariHaran K /2nd Year",
+          contact: "9585168861",
+        },
+        {
+          name: "Bhavan S/2nd Year",
+          contact: "9043884262",
+        },
+      ],
+    },
+
     {
       posterUrl: "",
       eventThumbnail: "",
@@ -52,7 +76,7 @@ const cd = {
       eventSubType: "Technical",
       eventDescription:
         "Students can deliver their ideas, the results of their research activities, and innovations in the field of Computer Science and Technology using a PowerPoint presentation.",
-      eventRules: "2 to 4 members per team",
+      eventRules: ["2 to 4 members per team"],
       eventVenue: "D Block - D304",
       eventRounds: ["One Round"],
       eventPrize: [
@@ -60,11 +84,8 @@ const cd = {
         " while the runner-up will receive a prize of Rs. 1000. ",
         "All participants will receive a participation certificate.",
       ],
+
       eventStaffCoordinator: {
-        name: "M A Mohammed Ansar Ali / AP",
-        contact: "9003472752",
-      },
-      eventCoordinator: {
         name: "Ms. P. Dhivya",
         contact: "9715571117",
       },
@@ -79,6 +100,7 @@ const cd = {
         },
       ],
     },
+
     {
       posterUrl: "",
       eventThumbnail: "",
@@ -98,14 +120,11 @@ const cd = {
         "Submissions must comply with provided guidelines (color scheme, fonts, etc.).",
         "Late submissions will not be accepted; ensure timely submission.",
       ],
-      eventVenue: "D Block - D304",
+      eventVenue: "MAC LAB",
       eventRounds: ["1 Round"],
       eventPrize: [" Rs. 1500", "Rs. 1000"],
+
       eventStaffCoordinator: {
-        name: "M A Mohammed Ansar Ali / AP",
-        contact: "9003472752",
-      },
-      eventCoordinator: {
         name: "Ms. P. Dhivya",
         contact: "9715571117",
       },
@@ -146,21 +165,18 @@ const cd = {
         " Third Place: Rs. 1000",
         " All participants will receive a participation certificate.",
       ],
+
       eventStaffCoordinator: {
-        name: "M A Mohammed Ansar Ali / AP",
-        contact: "9003472752",
-      },
-      eventCoordinator: {
         name: "Dr. Jaiganesh Prof/Head",
         contact: "9894025367",
       },
       studentCoordinator: [
         {
-          name: "Ilakkiyan J (3rd Year)",
-          contact: "9003723837",
+          name: "Sukumar Parida S/2nd Year",
+          contact: "6382944619",
         },
         {
-          name: "Gowsika A (2nd Year)",
+          name: " Gowsika A/2nd Year ",
           contact: "8870027551",
         },
       ],
@@ -180,7 +196,7 @@ const cd = {
         "Tournament Store Will Be Given (Desert Eagle,UMP,M1887,M59,Woodpecker,AWM)",
         "Emulators Blocked",
         "Loadouts Will Be Turned Off (*No Rules Applied In Game On Behalf Of Unlimited Ammo) ",
-        
+
         "Internet Stability Is Players Issue (We Suggest VI , Airtel For Better Stability)",
         "Every Team Entries Should Be Confirmed By Department Co-Ordinators On List",
         "Unregistered Team Cannot Participate in This Event",
@@ -190,30 +206,28 @@ const cd = {
 
         "Matches Will Be Streamed Live On DJ HARSH GAMERS",
 
-        "For Official Rules Check Garena Official Free Fire WS Site & CS Unlimited Rules Applied By RULEBREAKERZ & DON JUSTICE ESPORTS",
+        "For Official Rules Check Garena Official Free Fire WS Site & CS Unlimited Rules Applied By RULEBREAKERZ & DON JUSTICE ESPORTS",
       ],
       eventVenue: "D Block - D408",
       eventRounds: ["3 Rounds"],
       eventPrize: ["Winner: Rs. 1500", "Runner-up: Rs. 1000"],
+
       eventStaffCoordinator: {
-        name: "M A Mohammed Ansar Ali / AP",
-        contact: "9003472752",
-      },
-      eventCoordinator: {
         name: "Mr. G. Sivaji Rao / AP",
         contact: "9043784314",
       },
       studentCoordinator: [
         {
-          name: "Bharani Raj M (3rd Year)",
-          contact: "6379795076",
+          name: "Mohamed Tareef I/2nd year",
+          contact: "6382853957",
         },
         {
-          name: "Akhilan S (2nd Year)",
-          contact: "9962606255",
+          name: "Karthikeyan  S/2nd Year",
+          contact: "7639273091",
         },
       ],
     },
+  
   ],
 };
 

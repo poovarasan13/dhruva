@@ -9,7 +9,7 @@ const ExploreEvents = (props) => {
     if (eventCard) {
       const offsetTop = eventCard.offsetTop;
       window.scrollTo({
-        top: offsetTop + 480, // Adjust this value based on your header height or any top spacing
+        top: offsetTop + 480,
         behavior: "smooth",
       });
     }
@@ -29,8 +29,8 @@ const ExploreEvents = (props) => {
             <div
               key={event.id}
               data-aos="fade-up"
-              className="h-full cursor-pointer" // Added cursor-pointer for better UX
-              onClick={() => scrollToEvent(index)} // Add click handler
+              className="h-full cursor-pointer powergrok"
+              onClick={() => scrollToEvent(index)}
             >
               <EventCard {...event} />
             </div>

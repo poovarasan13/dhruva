@@ -1,5 +1,6 @@
 const cse = {
   id: 1,
+
   departmentName: "Department of Computer Science and Engineering",
   cardName: "Computer Science and Engineering",
   shortName: "CSE",
@@ -18,26 +19,23 @@ const cse = {
       eventType: "Hackathon",
       eventSubType: "Technical",
       eventTime: "1:00 PM – 4:30 PM",
-      eventDescription: "Join us for the AI-Powered Web Hackathon, where participants showcase innovation, problem-solving, and technical skills. 1.  App Development: Build a web application using Full Stack with API integration, with AI tools for code, design, and content. 2.  Presentation: Create a PPT showcasing the idea, API integration, challenges, and final outcomes. Unleash creativity, enhance skills, and showcase AI-driven innovation! ",
+      eventDescription:
+        "Join us for the AI-Powered Web Hackathon, where participants showcase innovation, problem-solving, and technical skills. 1.  App Development: Build a web application using Full Stack with API integration, with AI tools for code, design, and content. 2.  Presentation: Create a PPT showcasing the idea, API integration, challenges, and final outcomes. Unleash creativity, enhance skills, and showcase AI-driven innovation! ",
       eventRules: [
-          	"Team Size: Maximum 2 members",
-            "	Offline Development: All coding must be done within the given duration. No pre-built solutions.",
-  	        "Resources Allowed: Open-source libraries and APIs are permitted but must be disclosed.",
-            "Requirement: Laptop, Charger and necessary accessories. ",
-  	        "Submission & Judging: Projects must be submitted before the deadline and judged on innovation, implementation, impact, functionality, theme adherence, and code quality.",
-   	        "Live Demo: Teams must present a live demo of their project to the judges.",    
-   	        "Professional Conduct: Respect all participants, mentors, and organizers. Projects must be unique. Judges’ decisions are final."
+        "Team Size: Maximum 2 members",
+        "	Offline Development: All coding must be done within the given duration. No pre-built solutions.",
+        "Resources Allowed: Open-source libraries and APIs are permitted but must be disclosed.",
+        "Requirement: Laptop, Charger and necessary accessories. ",
+        "Submission & Judging: Projects must be submitted before the deadline and judged on innovation, implementation, impact, functionality, theme adherence, and code quality.",
+        "Live Demo: Teams must present a live demo of their project to the judges.",
+        "Professional Conduct: Respect all participants, mentors, and organizers. Projects must be unique. Judges’ decisions are final.",
       ],
       eventVenue: "Academic Hall 2",
       eventRounds: [
-        "Round 1: Preliminary Round : Participants will answer 25 multiple-choice questions (MCQs) covering C, Java, and Python.Only the top performers will advance to the next round.",
-        "Round 2: Technical & Puzzle Solving : Shortlisted participants will face 15 questions, including: Technical Image Interpretation : Puzzle Solving Challenges Only the best problem-solvers will move to the final round.",
-        "Round 3: The Ultimate Challenge : The final round consists of 10 high-level MCQs, including: 5 Output-Based Questions 5 Hard-Level Conceptual MCQs",
-
+        "A Single Round Event",
       ],
       eventPrize: [
         "The winner will receive a prize of Rs. 3000, while the runner will receive a prize of Rs.2000.",
-        
       ],
       eventStaffCoordinator: {
         name: "Ms.Mariyammal C",
@@ -69,7 +67,6 @@ const cse = {
       eventStaffCoordinator: {
         name: "Mr.Venkatesh",
         contact: "9976730649",
-        
       },
       studentCoordinator: [
         {
@@ -183,20 +180,19 @@ const cse = {
       eventVenue: "Academic Hall(A1,A2)",
       eventRules: [
         "Team Size: 4 members per team.",
-"Presentation Time: Each team will be given a specific time slot.",
-"Evaluation Criteria: Clarity, Innovation, Research Depth, and Presentation Skills.",
-"Paper Presentation Titles: Participants can choose their own topics.",
+        "Presentation Time: Each team will be given a specific time slot.",
+        "Evaluation Criteria: Clarity, Innovation, Research Depth, and Presentation Skills.",
+        "Paper Presentation Titles: Participants can choose their own topics.",
       ],
       eventRounds: [],
       eventPrize: [
         "The winner will receive a prize of Rs. 1000",
         " while the runner-up will receive a prize of Rs. 750. ",
       ],
-      eventStaffCoordinator:
-        {
-          name: "Dr.Muthanantha Murugavel, Dr.Kala R  ",
-          contact: "9894839142",
-        },
+      eventStaffCoordinator: {
+        name: "Dr.Muthanantha Murugavel, Dr.Kala R  ",
+        contact: "9894839142",
+      },
       studentCoordinator: [
         {
           name: "Ms. Shakthi R ",
@@ -219,13 +215,12 @@ const cse = {
       eventRules: [
         "Team Size: 1-4 members per team.",
         "Presentation Time: Each team will be allotted 5-10 minutes for the live demonstration.",
-        "Evaluation Criteria: Project Explanation, Innovation, Practical Implementation, and Responses to Queries."
+        "Evaluation Criteria: Project Explanation, Innovation, Practical Implementation, and Responses to Queries.",
       ],
       eventVenue: "C-block / Room No. : C- 203, C 202",
       eventRounds: [],
       eventPrize: [
         "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
-        
       ],
       eventStaffCoordinator: {
         name: "Dr.S.Sangeetha, Dr. J Jasmine",
@@ -239,7 +234,7 @@ const cse = {
         {
           name: "Ajmal Khan",
           contact: "8807125196",
-        }
+        },
       ],
     },
     {
@@ -253,17 +248,13 @@ const cse = {
       eventRules: [
         "Team Size: 2 members per team.",
         "No external help, online resources, or AI assistance allowed.",
-      "Code should be clean, structured, and efficient.",
-      "Any form of plagiarism or rule violation will result in disqualification",
+        "Code should be clean, structured, and efficient.",
+        "Any form of plagiarism or rule violation will result in disqualification",
       ],
       eventVenue: "C-block / Communication Lab",
-      eventRounds: [
-        "Round 1: The Code Kickoff Showdown",
-        
-      ],
+      eventRounds: ["Round 1: The Code Kickoff Showdown"],
       eventPrize: [
         "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
-        
       ],
       eventStaffCoordinator: {
         name: "Mr. Venkatesh R /AP",
@@ -277,7 +268,7 @@ const cse = {
         {
           name: "Jaivant S B",
           contact: "7904055151",
-        }
+        },
       ],
     },
     {
@@ -287,18 +278,24 @@ const cse = {
       eventType: "Technical",
       eventSubType: "Technical",
       eventTime: "02:00 PM – 03:00 PM",
-      eventDescription: "Join us for an exciting Tech Quiz, where participants will test their programming knowledge, problem-solving skills, and logical reasoning. This event challenges aspiring tech enthusiasts with multiple rounds of MCQs, puzzles, and output-based questions, providing a platform to showcase their technical expertise and analytical thinking.",
-      eventRules: [],
+      eventDescription:
+        "Join us for an exciting Tech Quiz, where participants will test their programming knowledge, problem-solving skills, and logical reasoning. This event challenges aspiring tech enthusiasts with multiple rounds of MCQs, puzzles, and output-based questions, providing a platform to showcase their technical expertise and analytical thinking.",
+      eventRules: [
+          "Minimum 1 member, Maximum 3 members per team.",
+          "Participants can compete individually or form a team of up to 3 members.",
+          "All participants must adhere to the time limits for each round.",
+          "Use of external resources (internet, books, or help from others) is strictly prohibited.",
+          "Any form of malpractice will result in immediate disqualification.",
+          "Decisions made by the judges and organizers are final"
+      ],
       eventVenue: "C-block / Room No: C204",
       eventRounds: [
         "Round 1: Preliminary Round : Participants will answer 25 multiple-choice questions (MCQs) covering C, Java, and Python.Only the top performers will advance to the next round.",
         "Round 2: Technical & Puzzle Solving : Shortlisted participants will face 15 questions, including: Technical Image Interpretation : Puzzle Solving Challenges Only the best problem-solvers will move to the final round.",
         "Round 3: The Ultimate Challenge : The final round consists of 10 high-level MCQs, including: 5 Output-Based Questions 5 Hard-Level Conceptual MCQs",
-
       ],
       eventPrize: [
         "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
-        
       ],
       eventStaffCoordinator: {
         name: "Ms.Vidya Prabha C V / AP",
@@ -315,21 +312,23 @@ const cse = {
         },
       ],
     },
-    
+
     {
       posterUrl: "",
       eventName: "Anime IQ",
       eventType: "Non-Technical",
       eventSubType: "NonTechnical",
       eventTime: "1:30 PM – 3:00PM",
-      eventDescription: " Join us for Anime IQ, the ultimate quiz challenge for anime enthusiasts! Test your knowledge across different anime series in a thrilling competition that will push your memory and expertise to the limit and prove you're the ultimate anime expert!",
-      eventRules: ["Solo participation only (Maximum of 1 member per team)",
-                "Accuracy and speed matter—think fast and answer wisely!"],
+      eventDescription:
+        " Join us for Anime IQ, the ultimate quiz challenge for anime enthusiasts! Test your knowledge across different anime series in a thrilling competition that will push your memory and expertise to the limit and prove you're the ultimate anime expert!",
+      eventRules: [
+        "Solo participation only (Maximum of 1 member per team)",
+        "Accuracy and speed matter—think fast and answer wisely!",
+      ],
       eventVenue: "C-block/Room No.C108",
       eventRounds: ["Round 1 : Sort listing", "Round 2 : Final round."],
       eventPrize: [
         "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
-        
       ],
       eventStaffCoordinator: {
         name: "Ms.Nalini AP/CS",
@@ -352,18 +351,20 @@ const cse = {
       eventType: "Non-Technical",
       eventSubType: "NonTechnical",
       eventTime: "1:30 PM - 03:00 PM",
-      eventDescription: " Join our Content Creation Photography & Filmmaking and compete in the, where creativity meets storytelling! Learn to capture and edit stunning photos and videos, then put your skills to the test in a team-based competition. With a set time limit, showcase originality and editing talent for a chance to win cash prizes!",
+      eventDescription:
+        " Join our Content Creation Photography & Filmmaking and compete in the, where creativity meets storytelling! Learn to capture and edit stunning photos and videos, then put your skills to the test in a team-based competition. With a set time limit, showcase originality and editing talent for a chance to win cash prizes!",
       eventRules: [
-       "On-Spot Capture & Editing:Teams must capture and edit photos/videos within the college premises within the given time.",
-      "Capture & Editing: 1 hour for photography, videography, and editing.",
-      "Rules & Submission:Use only smartphones or cameras.Editing must be done on-spot using mobile/laptop software (no pre-edited content).All submissions must be original; plagiarism leads to disqualification.",
-      "Each team submits:One best photo (JPEG/PNG).One best video (35-45 sec, MP4)."
+        "On-Spot Capture & Editing:Teams must capture and edit photos/videos within the college premises within the given time.",
+        "Capture & Editing: 1 hour for photography, videography, and editing.",
+        "Rules & Submission:Use only smartphones or cameras.Editing must be done on-spot using mobile/laptop software (no pre-edited content).All submissions must be original; plagiarism leads to disqualification.",
+        "Each team submits:One best photo (JPEG/PNG).One best video (35-45 sec, MP4).",
       ],
       eventVenue: "C-Block / Room No:C103",
-      eventRounds: ["All teams participate within the given time frame.Judges evaluate entries based on creativity, composition, storytelling, and editing quality."],
+      eventRounds: [
+        "All teams participate within the given time frame.Judges evaluate entries based on creativity, composition, storytelling, and editing quality.",
+      ],
       eventPrize: [
         "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
-        
       ],
       eventStaffCoordinator: {
         name: "Mr. Antony Vijay",
@@ -386,22 +387,23 @@ const cse = {
       eventType: "Non-Technical",
       eventSubType: "NonTechnical",
       eventTime: "10:00 AM - 04:30 PM",
-      eventDescription: " Join us for the exciting Mr. and Miss Aura event, where participants will showcase their confidence, creativity, expression, and spontaneity. This event provides a platform for individuals to express their true selves and boost their confidence.",
+      eventDescription:
+        " Join us for the exciting Mr. and Miss Aura event, where participants will showcase their confidence, creativity, expression, and spontaneity. This event provides a platform for individuals to express their true selves and boost their confidence.",
       eventRules: [
         "Team Size: An Individual",
         "Rounds: 4 engaging rounds with eliminations.",
-        "Evaluation Criteria: Confidence, Creativity, Expression, and Spontaneity.",    
+        "Evaluation Criteria: Confidence, Creativity, Expression, and Spontaneity.",
       ],
       eventVenue: "C104,C102, Academic Hall(A1)",
       eventRounds: [
         "Round 1: ACT IT OUT- Participants will pick a random scenario or emotion.They must act it out using expressions and gestures.",
         "Round 2: THE CRAZY QUESTION ROUND-Participants get a random, funny question and must respond in 10 seconds with full confidence.",
         "Round 3: DARE TO BE BOLD-Participants spin a wheel and must complete the dare with full confidence.",
-        "Round  4:  THE HILARIOUS PITCH-Participants are given a random, absurd object.They must pitch it like a real salesperson and make the judges want to \"buy\" it.",
+        'Round  4:  THE HILARIOUS PITCH-Participants are given a random, absurd object.They must pitch it like a real salesperson and make the judges want to "buy" it.',
       ],
       eventPrize: [
-        "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
-        
+        "The Mr. Aura winner will receive a prize of 850 Rs.",
+  	    "The Ms. Aura will receive a prize 850 Rs ",
       ],
       eventStaffCoordinator: {
         name: "Dr.Muthanantha Murugavel, Dr.Sangeetha",
@@ -424,15 +426,19 @@ const cse = {
       eventType: "Technical",
       eventSubType: "Technical",
       eventTime: "10.30 AM -12.00PM",
-      eventDescription: "Hunt the Bugs, Fix the Code! Join us for Bug Smash, an electrifying debugging challenge where precision, logic, and coding expertise will set you apart! If you have keen eye for spotting errors and a knack for fixing broken code, this is your moment to shine!",
-      eventRules: ["Team Size: Maximum of 2 members per team.",
-"Think logically, debug efficiently, and compete to be the best!"],
+      eventDescription:
+        "Hunt the Bugs, Fix the Code! Join us for Bug Smash, an electrifying debugging challenge where precision, logic, and coding expertise will set you apart! If you have keen eye for spotting errors and a knack for fixing broken code, this is your moment to shine!",
+      eventRules: [
+        "Team Size: Maximum of 2 members per team.",
+        "Think logically, debug efficiently, and compete to be the best!",
+      ],
       eventVenue: "C-block/AT lab",
-      eventRounds: ["Round 1: Preliminary Round : Teams will tackle 15 multiple-choice questions on C and Java, testing their knowledge of programming concepts and debugging techniques.",
-                    "Final Round: Shortlisted teams will advance to face more complex challenges, where precision and problem-solving speed will determine the winners!"],
+      eventRounds: [
+        "Round 1: Preliminary Round : Teams will tackle 15 multiple-choice questions on C and Java, testing their knowledge of programming concepts and debugging techniques.",
+        "Final Round: Shortlisted teams will advance to face more complex challenges, where precision and problem-solving speed will determine the winners!",
+      ],
       eventPrize: [
         "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
-        
       ],
       eventStaffCoordinator: {
         name: "MS.Rajapriya D",
@@ -455,24 +461,23 @@ const cse = {
       eventType: "Technical",
       eventSubType: "Technical",
       eventTime: "11.30 AM – 01.00 PM",
-      eventDescription: "Join the Ultimate AI Prompting Challenge – Prompt X! Are you ready to put your creativity and precision to the test? Prompt X invites you to an electrifying competition where your skill in crafting the perfect prompts will determine your success!",
+      eventDescription:
+        "Join the Ultimate AI Prompting Challenge – Prompt X! Are you ready to put your creativity and precision to the test? Prompt X invites you to an electrifying competition where your skill in crafting the perfect prompts will determine your success!",
       eventRules: [
-       " Each team must have exactly 2 members",
+        " Each team must have exactly 2 members",
         "Prompts should be original and adhere to the given themes.",
         "Teams will be evaluated based on accuracy, creativity, and efficiency of the prompts.",
         "Any form of plagiarism or external assistance will lead to immediate disqualification.",
-        "Judges’ decisions will be final and binding"
-
+        "Judges’ decisions will be final and binding",
       ],
       eventVenue: "C-block / Communication Lab",
       eventRounds: [
         "Preliminary Round: Unleash your imagination! Participants will be given a theme and must generate an image within 10 minutes.",
-      "Elimination Round: Challenge your prompt engineering skills! Generate a specific text output within 3 prompts to advance.",
-      " Final Showdown: The ultimate test of mastery! Contestants must achieve the desired text output in a single prompt—all within just one minute"
+        "Elimination Round: Challenge your prompt engineering skills! Generate a specific text output within 3 prompts to advance.",
+        " Final Showdown: The ultimate test of mastery! Contestants must achieve the desired text output in a single prompt—all within just one minute",
       ],
       eventPrize: [
         "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
-        
       ],
       eventStaffCoordinator: {
         name: "Ms. Sharmila",
@@ -495,14 +500,18 @@ const cse = {
       eventType: "Technical",
       eventSubType: "Technical",
       eventTime: "10.30 AM to 12.00 PM",
-      eventDescription: "The Frontend Development Challenge is a one-round, final competition where participants must design and develop a webpage within the given time. With no additional rounds, this is the ultimate test of creativity, responsiveness, and coding skills. The best submission wins!",
-      eventRules: ["Team Size: Maximum of 2 members per team.","No frameworks—only HTML, CSS, and JavaScript allowed.","Focus on design, responsiveness, and functionality to impress the judges.",
-"The best-designed and most efficient webpage wins the competition!"],
+      eventDescription:
+        "The Frontend Development Challenge is a one-round, final competition where participants must design and develop a webpage within the given time. With no additional rounds, this is the ultimate test of creativity, responsiveness, and coding skills. The best submission wins!",
+      eventRules: [
+        "Team Size: Maximum of 2 members per team.",
+        "No frameworks—only HTML, CSS, and JavaScript allowed.",
+        "Focus on design, responsiveness, and functionality to impress the judges.",
+        "The best-designed and most efficient webpage wins the competition!",
+      ],
       eventVenue: "IBM Lab - C block",
       eventRounds: ["Round 1: Rapid Frontend Development - The Final Showdown"],
       eventPrize: [
         "The winner will receive a prize of Rs. 1000, while the runner will receive a prize of Rs.750.",
-        
       ],
       eventStaffCoordinator: {
         name: "Mr.Ramaraj S /AP",

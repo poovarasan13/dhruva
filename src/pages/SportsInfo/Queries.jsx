@@ -1,6 +1,4 @@
 import TestCard from "@/components/page-components/TestCard";
-// import department from "@/data/Departments";
-// import React from "react";
 
 const Queries = () => {
   const coordinators = [

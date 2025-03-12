@@ -14,6 +14,9 @@ import SportsInfo from "@/pages/SportsInfo/SportsInfo";
 import TechnicalFest from "@/pages/Technical-Fest/TechnicalFest";
 
 import { Route, Routes } from "react-router-dom";
+import Error from "./ErrorPage";
+import TermsOfServiceCard from "@/pages/TermsAndCondition/TermsAndConditionCard";
+import PrivacyPolicy from "@/pages/TermsAndCondition/PrivacyPolicy";
 
 function AppNavigation() {
   return (
@@ -24,6 +27,7 @@ function AppNavigation() {
         <Route path="/dhurva" element={<HomePage />}></Route>
         <Route path="/culturalFest" element={<CulturalFestPage />} />
         <Route path="/technicalFest/*" element={<TechnicalFest />}></Route>
+        <Route path="/technicalFest/:departmentName" element={<EventPage />} />
         <Route path="/departmentInfo" element={<EventPage />}></Route>
         <Route path="/eventInfo" element={<EventShowPage />}></Route>
         <Route path="/sports" element={<SportsPage />}></Route>
@@ -33,6 +37,9 @@ function AppNavigation() {
         <Route path="/onstage" element={<OnStagePage />}></Route>
         <Route path="/offstage" element={<OffStagePage />}></Route>
         <Route path="/registration" element={<RegistrationPage />}></Route>
+        <Route path="*" element={<Error />}></Route>
+        <Route path="/terms" element={<TermsOfServiceCard />}></Route>
+        <Route path="/privacy" element={<PrivacyPolicy />}></Route>
       </Routes>
       <FooterSection />
     </div>

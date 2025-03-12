@@ -39,13 +39,13 @@ const passes = [
     price: 400,
     benefits: [
       "For Individual",
-      "Day 1 on 15/03/2025",
+      "For Day 2 on 14/03/2025",
       "Unlimited Technical Events + One Workshop / Hackathon / Ideathon",
       "Get Certificates",
       "Win Prizes upto 1 Million",
       "Get real time insights from resource person",
     ],
-    date: "15/03/2024",
+    date: "14/03/2024",
   },
 
   {
@@ -55,7 +55,7 @@ const passes = [
     color: "#44BD32",
     cardColor: "#44BD32",
     benefits: [
-      "Day 1(14/03/2025) & Day 2(15/03/2025)",
+      "Day 2(14/03/2025) & Day 3(15/03/2025)",
       "Unlimited Technical Events + One Workshop/ Hackathon/Ideathon + Unlimited Cultural Events",
       "Get Certificates",
       "Win Prizes upto 1 Million",
@@ -70,7 +70,7 @@ const passes = [
     color: "#F30779",
     price: 200,
     benefits: [
-      "Day 2 on 15/03/2025",
+      "Day 3 on 15/03/2025",
       "Unlimited Cultural Events",
       "Get Certificates",
       "Win Prizes upto 1 Million",
@@ -85,10 +85,10 @@ const passes = [
     color: "#FC8A02",
     benefits: [
       "Entry fee depends upon the Game. Checkout kcedhruva.in/sports for more details",
-      "Strats on 13/03/2025 and match goes on based on knock out",
+      "Starts on 13/03/2025 and match goes on based on knock out",
       "Any one sport event",
       "Get Certificates",
-      "Win Prizes upto 1 Million",
+      "Win attractive cash prizes",
     ],
     date: "13/03/2025",
   },

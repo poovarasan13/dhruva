@@ -5,6 +5,9 @@ import "../../assets/fonts/pacifico.css";
 import "../../assets/fonts/righteous.css";
 import Musicalconcert from "@/components/page-components/Musicalconcert";
 import "../../assets/fonts/madimi.css";
+import Sponors from "@/components/page-components/Sponsors";
+import Banners from "@/components/page-components/Banners";
+import Sponsors from "../home/section/Sponsors";
 const LiveinConcert = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -13,6 +16,8 @@ const LiveinConcert = () => {
     <div className="mt-20">
       <ConcertEvent />
       <Musicalconcert />
+      <Sponsors/>
+      <Banners/>
     </div>
   );
 };

@@ -27,17 +27,16 @@ const ExploreEvents = (props) => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {EventData.map((event, index) => (
             <div
-              key={event.id}
+              key={index}
               data-aos="fade-up"
-              className="h-full cursor-pointer" // Added cursor-pointer for better UX
-              onClick={() => scrollToEvent(index)} // Add click handler
+              className="h-full cursor-pointer" 
+              onClick={() => scrollToEvent(index)} 
             >
               <EventCard {...event} />
             </div>
           ))}
         </div>
       </div>
-      {/* Include EventsDisplay and pass scrollToEvent */}
       <EventsDisplay scrollToEvent={scrollToEvent} />
     </div>
   );

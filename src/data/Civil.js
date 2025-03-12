@@ -1,6 +1,6 @@
 const civil = {
   id: 12,
-  shortName: "CE",
+  shortName: "Civil",
   technicalEventCount: 4,
   nonTechnicalEventCount: 1,
   workshop: 2,
@@ -161,7 +161,7 @@ const civil = {
       ],
       eventStaffCoordinator: {
         name: "Mr. C. Pradeep Kumar, AP/Civil",
-        contact: "77083508265",
+        contact: "7708350825",
       },
       studentCoordinator: [
         {

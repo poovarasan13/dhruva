@@ -21,13 +21,13 @@ function TestCard({ deptDetails }) {
           <h5 className="font-bold text-lg powergrok sm:text-xl mb-2 text-gray-900 dm-serif">
             {/* {deptDetails.departmentName} */}  Department  Coordinator
           </h5>
-          <p className="text-gray-700 text-sm sm:text-base">
+          <p className="text-gray-700 text-sm  work-sans sm:text-base">
             {deptDetails.coordinatorName}
           </p>
         </div>
 
         {/* Buttons Section */}
-        <div className="flex flex-col sm:flex-row justify-center gap-3 mt-5 sm:mt-4">
+        <div className="flex flex-col sm:flex-row work-sans justify-center gap-3 mt-5 sm:mt-4">
           {deptDetails.coordinatorContactPhone}
         </div>
         <div className="flex flex-col sm:flex-row justify-center gap-3 mt-2 sm:mt-3">
@@ -40,7 +40,7 @@ function TestCard({ deptDetails }) {
             </a>
           </Button>
           {deptDetails.coordinatorEmail && (
-            <Button className="dm-sans w-full sm:w-auto rounded-full px-5 sm:px-6 bg-sky-400 hover:bg-white hover:outline-sky-400 hover:outline-2 hover:border-2 hover:border-sky-400 hover:text-sky-400">
+            <Button className="dm-sans w-full sm:w-auto rounded-full px-5 sm:px-6 bg-sky-400 hover:bg-white hover:outline-sky-400 work-sans hover:outline-2 hover:border-2 hover:border-sky-400 hover:text-sky-400">
               <a
                 href={`mailto:${deptDetails.coordinatorEmail}`}
                 className="flex items-center gap-2"
